@@ -9,18 +9,11 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-
-#STARTUP
-exec --no-startup-id mpd
-
-
-
-
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:Envy Code R 12
+font pango:Iosevka 12
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -31,40 +24,27 @@ font pango:Envy Code R 12
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-#exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
-# Use pactl to adjust volume in PulseAudio.
-set $refresh_i3status killall -SIGUSR1 i3status
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% && $refresh_i3status
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% && $refresh_i3status
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
-bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
-
-bindsym XF86AudioPlay exec --no-startup-id mpc toggle
-bindsym XF86AudioPause exec --no-startup-id mpc toggle
-bindsym XF86AudioNext exec --no-startup-id mpc next
-bindsym XF86AudioPrev exec --no-startup-id mpc prev
-bindsym XF86AudioStop exec --no-startup-id mpc stop
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec termite
 
 # kill focused window
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec rofi -show drun -rnow -run-command "bash -i -c '{cmd}'"
-# There also is the (new) i3-dmenu-desktop which only displays applications
-# shipping a .desktop file. It is a wrapper around dmenu, so you need that
-# installed.
-# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+bindsym $mod+d exec --no-startup-id "rofi -show combi -combi-modi drun,run"
+# A more modern dmenu replacement is rofi:
+# bindcode $mod+40 exec rofi -modi drun,run -show drun
+# There also is i3-dmenu-desktop which only displays applications shipping a
 
 # change focus
 bindsym $mod+j focus left
@@ -86,60 +66,6 @@ bindsym $mod+Shift+semicolon move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
-
-# Set inner/outer gaps
-gaps inner 10
-gaps outer 15
-
-# Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
-# gaps inner|outer current|all set|plus|minus <px>
-# gaps inner all set 10
-# gaps outer all plus 5
-
-# Smart gaps (gaps used if only more than one container on the workspace)
-# smart_gaps on
-
-# Smart borders (draw borders around container only if it is not the only container on this workspace)
-# on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
-smart_borders on
-
-# Press $mod+Shift+g to enter the gap mode. Choose o or i for modifying outer/inner gaps. Press one of + / - (in-/decrement for current workspace) or 0 (remove gaps for current workspace). If you also press Shift with these keys, the change will be global for all workspaces.
-set $mode_gaps Gaps: (o) outer, (i) inner
-set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
-set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
-bindsym $mod+Shift+g mode "$mode_gaps"
-
-mode "$mode_gaps" {
-        bindsym o      mode "$mode_gaps_outer"
-        bindsym i      mode "$mode_gaps_inner"
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-}
-
-mode "$mode_gaps_inner" {
-        bindsym plus  gaps inner current plus 5
-        bindsym minus gaps inner current minus 5
-        bindsym 0     gaps inner current set 0
-
-        bindsym Shift+plus  gaps inner all plus 5
-        bindsym Shift+minus gaps inner all minus 5
-        bindsym Shift+0     gaps inner all set 0
-
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-}
-mode "$mode_gaps_outer" {
-        bindsym plus  gaps outer current plus 5
-        bindsym minus gaps outer current minus 5
-        bindsym 0     gaps outer current set 0
-
-        bindsym Shift+plus  gaps outer all plus 5
-        bindsym Shift+minus gaps outer all minus 5
-        bindsym Shift+0     gaps outer all set 0
-
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-}
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
@@ -182,6 +108,21 @@ set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
+
+
+# bind workspaces 1-5 to DP-2
+workspace $ws1 output DP-2
+workspace $ws2 output DP-2
+workspace $ws3 output DP-2
+workspace $ws4 output DP-2
+workspace $ws5 output DP-2
+
+# bind workspace 6-10 to HDMI-0
+workspace $ws6 output HDMI-1
+workspace $ws7 output HDMI-1
+workspace $ws8 output HDMI-1
+workspace $ws9 output HDMI-1
+workspace $ws10 output HDMI-1
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -253,68 +194,123 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# set the colors
-set $bg-color           #999999
-set $inactive-bg-color  #000000
-set $text-color         #f3f4f5
-set $urgent-bg-color    #e53935  
+set $mode_gaps Gaps: (o) outer, (i) inner
+set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
+set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
 
-# window colors
-#                       border                  background              text                    indicator
-client.focused          $bg-color               $bg-color               $text-color             #00ff00
-client.unfocused        $iancative-bg-color     $inactive-bg-color      $inactive-text-color    #00ff00
-client.focused_inactive $iancative-bg-color     $inactive-bg-color      $inactive-text-color    #00ff00
-client.urgent           $urgent-bg-color        $urgent-bg-color        $text-color             #00ff00
+mode "$mode_gaps" {
+        bindsym o      mode "$mode_gaps_outer"
+        bindsym i      mode "$mode_gaps_inner"
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
 
+mode "$mode_gaps_inner" {
+        bindsym plus  gaps inner current plus 5
+        bindsym minus gaps inner current minus 5
+        bindsym 0     gaps inner current set 0
+
+        bindsym Shift+plus  gaps inner all plus 5
+        bindsym Shift+minus gaps inner all minus 5
+        bindsym Shift+0     gaps inner all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+mode "$mode_gaps_outer" {
+        bindsym plus  gaps outer current plus 5
+        bindsym minus gaps outer current minus 5
+        bindsym 0     gaps outer current set 0
+
+        bindsym Shift+plus  gaps outer all plus 5
+        bindsym Shift+minus gaps outer all minus 5
+        bindsym Shift+0     gaps outer all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+bindsym $mod+Shift+g mode "$mode_gaps"
+
+set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
+mode "$mode_system" {
+    bindsym l exec --no-startup-id i3lock, mode "default"
+    bindsym e exec --no-startup-id i3-msg exit, mode "default"
+    bindsym s exec --no-startup-id systemctl suspend, mode "default"
+    bindsym h exec --no-startup-id systemctl hibernate, mode "default"
+    bindsym r exec --no-startup-id systemctl reboot, mode "default"
+    bindsym Shift+s exec --no-startup-id systemctl poweroff -i, mode "default"  
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+bindsym $mod+Escape mode "$mode_system"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-#bar {
-#        status_command i3status
-#}
 
-#Polybar
-exec_always --no-startup-id ~/.config/polybar/launch.sh &
+bar {
+    tray_output "primary"
+    position top
+    separator_symbol " | "
+    status_command i3status
+    font pango:Iosevka 12
+}
 
-# Add gaps
-
-# Set inner/outer gaps
-gaps inner 20
+### RICING
+# Inner/outer gaps
+gaps inner 10
 gaps outer 0
+gaps top 0
+gaps bottom 0
 
-# Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
-# gaps inner|outer current|all set|plus|minus <px>
-# gaps inner all set 10
-# gaps outer all plus 5
+### CUSTOM KEYBINDS
+# Screenshot
+bindsym $mod+Control+S exec --no-startup-id flameshot gui
 
-# Start Feh
-exec_always --no-startup-id feh --no-fehbg --bg-scale ~/Pictures/gruvbox-city.png &
+# Multimedia keys
+bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause && sleep 0.1 && dunstify -h string:x-dunst-stack-tag:play-pause "$(playerctl status)" "$(playerctl metadata artist) - $(playerctl metadata title)"
+bindsym XF86AudioPause exec --no-startup-id playerctl play-pause && sleep 0.1 && dunstify -h string:x-dunst-stack-tag:play-pause "$(playerctl status)" "$(playerctl metadata artist) - $(playerctl metadata title)" 
+bindsym XF86AudioNext exec --no-startup-id playerctl next && sleep 0.1 && dunstify -h string:x-dunst-stack-tag:play-pause "$(playerctl status)" "$(playerctl metadata artist) - $(playerctl metadata title)" 
+bindsym XF86AudioPrev exec --no-startup-id playerctl previous && sleep 0.1 && dunstify -h string:x-dunst-stack-tag:play-pause "$(playerctl status)" "$(playerctl metadata artist) - $(playerctl metadata title)" 
+bindsym XF86AudioStop exec --no-startup-id playerctl stop && dunstify -h string:x-dunst-stack-tag:play-pause "$(playerctl status)" "$(playerctl metadata artist) - $(playerctl metadata title)"
+
+# Volume keys
+set $refresh_i3status killall -SIGUSR1 i3status
+bindsym XF86AudioRaiseVolume exec --no-startup-id ./.config/i3/scripts/volume.sh up &
+bindsym XF86AudioLowerVolume exec --no-startup-id ./.config/i3/scripts/volume.sh down &
+bindsym XF86AudioMute exec --no-startup-id ./.config/i3/scripts/volume.sh mute &
+bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+
+### STARTUP APPLICATIONS
+# Applets for managing shit
+exec --no-startup-id nm-applet &
+exec --no-startup-id pasystray &
+
+# Dunst
+exec --no-startup-id dunst --config ~/.config/dunst/dunstrc &
+
+# Wallpaper
+exec --no-startup-id nitrogen --restore &
 for_window [class=".*"] border pixel 5
 hide_edge_borders both
 
-# Change screensaver times and stuff
-exec_always --no-startup-id xset s off &
-exec_always --no-startup-id xset dpms 0 0 900 &
+# Picom
+exec --no-startup-id picom --config ~/.config/picom/config --experimental-backends --backend glx &
 
-# Kill all running instances of and run Compton
-exec_always --no-startup-id  compton --blur-background --blur-method kawase --blur-strength 12 --opacity-rule 100:'class_g="Termite"'  --backend glx --daemon --config ~/.config/compton/config &
+# Keyboard Changer
+bindsym $mod+F1 exec setxkbmap us &
+bindsym $mod+F2 exec setxkbmap es &
 
-# Disable Mouse Acceleration for all input devices
-exec_always --no-startup-id for id in $(xinput list | grep "pointer" | cut -d '=' -f 2 | cut -f 1); do xinput --set-prop $id 'libinput Accel Profile Enabled' 0, 1; done &
+# Polkit
+exec --no-startup-id lxpolkit &
 
-# Spectacle Screenshot
-bindsym $mod+Control+S exec spectacle -cbr &
+### STARTUP COMMANDS
+## Set devices the way I want them
+# Wacom
+exec_always --no-startup-id xsetwacom set "Wacom Intuos Pro L Pen stylus" MapToOutput HEAD-0 &
+exec_always --no-startup-id xsetwacom set "Wacom Intuos Pro L Pen eraser" MapToOutput HEAD-0 &
+exec_always --no-startup-id xsetwacom set "Wacom Intuos Pro L Pen cursor" MapToOutput HEAD-0 &
 
-# Lock screen
-bindsym $mod+Control+L exec betterlockscreen --lock -r 2560x1440 &
-
-# Map wacom tablet and other wacom devices to main monitor
-exec_always --no-startup-id xsetwacom set "Wacom Intuos Pro L Pen stylus" MapToOutput HEAD-0
-exec_always --no-startup-id xsetwacom set "Wacom Intuos Pro L Pen eraser" MapToOutput HEAD-0
-exec_always --no-startup-id xsetwacom set "Wacom Intuos Pro L Pen cursor" MapToOutput HEAD-0
-
-# Start xpad
-exec_always --no-startup-id xpad -s &
-
-# Start keyboard changer
-exec_always --no-startup-id setxkbmap -option 'grp:alt_shift_toggle' -layout us,es -variant qwerty &
+# 
