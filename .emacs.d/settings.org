@@ -1,0 +1,860 @@
+#+PROPERTY: header-args :tangle yes
+* Use-package configuration
+:PROPERTIES:
+:ID:       b8b9f305-49e7-4844-bdac-fc3e870ca7f8
+:END:
+#+begin_src elisp
+(require 'use-package)
+(setq use-package-always-ensure t)
+#+end_src
+
+* Global utilities and programs
+** Helm
+:PROPERTIES:
+:ID:       c5b772ea-117a-4e9f-883d-81fdd6c21756
+:END:
+#+begin_src elisp
+  (use-package helm
+    :demand t
+    :bind ("M-x" . helm-M-x)
+    ("C-x C-f" . helm-find-files)
+    ;("<tab>" . helm-execute-persistent-action)
+    :init
+    (helm-mode 1))
+#+end_src
+
+#+RESULTS:
+: helm-execute-persistent-action
+** Visual-line-mode
+:PROPERTIES:
+:ID:       00e38652-7f52-4efe-ad7b-7436f3172e20
+:END:
+#+begin_src elisp
+(use-package visual-line-mode
+    :ensure nil
+    :init
+    (global-visual-line-mode t)
+    :hook ((org-mode . visual-line-mode)
+           (prog-mode . visual-line-mode)))
+#+end_src
+
+** Evil-mode
+:PROPERTIES:
+:ID:       d7417cdf-b545-45f1-98b6-251c90fb224d
+:END:
+#+begin_src elisp
+(use-package evil
+:demand t
+:init
+(evil-mode t))
+#+end_src
+
+#+RESULTS:
+
+** Evil-org-mode
+:PROPERTIES:
+:ID:       329255d5-c564-46c8-b7f2-f714c0615cb1
+:END:
+ #+begin_src elisp
+ (use-package evil-org
+  :ensure t
+  :after org
+  :hook (org-mode . evil-org-mode)
+  :config
+  (require 'evil-org-agenda)
+  (evil-org-agenda-set-keys)
+  (evil-define-key nil evil-normal-state-map
+  "j" 'evil-next-visual-line
+  "k" 'evil-previous-visual-line))
+ #+end_src
+
+ #+RESULTS:
+ | evil-org-mode | org-ref-org-menu | org-superstar-mode | org-variable-pitch-minor-mode | org-indent-mode | #[0 \301\211\207 [imenu-create-index-function org-imenu-get-tree] 2] | flyspell-mode | visual-line-mode | #[0 \300\301\302\303\304$\207 [add-hook change-major-mode-hook org-show-all append local] 5] | #[0 \300\301\302\303\304$\207 [add-hook change-major-mode-hook org-babel-show-result-all append local] 5] | org-babel-result-hide-spec | org-babel-hide-all-hashes | org-ref-setup-label-finders |
+
+** Undo tree
+:PROPERTIES:
+:ID:       b0b02143-47e7-49f6-9813-5c19a8f5e285
+:END:
+#+begin_src elisp
+(use-package undo-tree
+:demand t
+:config
+(setq undo-tree-auto-save-history t)
+(global-undo-tree-mode t))
+#+end_src
+shit test blah blah blah
+* Themes, startup, and ricing
+** Page-break-lines stuff
+:PROPERTIES:
+:ID:       f8a98f04-4b9a-464a-9a0f-c439669f08a0
+:END:
+#+begin_src elisp
+  (use-package page-break-lines
+    :ensure t)
+#+end_src
+
+** Powerline
+:PROPERTIES:
+:ID:       b7e0f6b1-a419-4650-9c82-a95c2053e04d
+:END:
+#+begin_src elisp
+  (setq-default mode-line-buffer-identification (list -80 (propertized-buffer-identification "%12b")))
+  (setq mode-line-buffer-identification (list -80 (propertized-buffer-identification "%12b")))
+  (use-package powerline-evil
+    :ensure t
+    :demand t
+    :config
+    (setq powerline-height 26)
+    (setq powerline-display-hud t))
+  (powerline-evil-center-color-theme)
+#+end_src
+
+#+RESULTS:
+| %e | (:eval (let* ((active (powerline-selected-window-active)) (mode-line (if active 'mode-line 'mode-line-inactive)) (face1 (if active 'powerline-active1 'powerline-inactive1)) (face2 (if active 'powerline-active2 'powerline-inactive2)) (separator-left (intern (format powerline-%s-%s (powerline-current-separator) (car powerline-default-separator-dir)))) (separator-right (intern (format powerline-%s-%s (powerline-current-separator) (cdr powerline-default-separator-dir)))) (lhs (list (powerline-raw %* nil 'l) (powerline-buffer-size nil 'l) (powerline-buffer-id nil 'l) (powerline-raw  ) (funcall separator-left mode-line face1) (powerline-narrow face1 'l) (powerline-vc face1))) (rhs (list (powerline-raw global-mode-string face1 'r) (powerline-raw %4l face1 'r) (powerline-raw : face1) (powerline-raw %3c face1 'r) (funcall separator-right face1 mode-line) (powerline-raw  ) (powerline-raw %6p nil 'r) (powerline-hud face2 face1))) (center (append (list (powerline-raw   face1) (funcall separator-left face1 face2) (when (boundp 'erc-modified-channels-object) (powerline-raw erc-modified-channels-object face2 'l)) (powerline-major-mode face2 'l) (powerline-process face2) (powerline-raw   face2)) (let ((evil-face (powerline-evil-face))) (if (split-string (format-mode-line minor-mode-alist)) (append (if evil-mode (list (funcall separator-right face2 evil-face) (powerline-raw (powerline-evil-tag) evil-face 'l) (powerline-raw   evil-face) (funcall separator-left evil-face face2))) (list (powerline-minor-modes face2 'l) (powerline-raw   face2) (funcall separator-right face2 face1))) (list (powerline-raw (powerline-evil-tag) evil-face) (funcall separator-right evil-face face1))))))) (concat (powerline-render lhs) (powerline-fill-center face1 (/ (powerline-width center) 2.0)) (powerline-render center) (powerline-fill face1 (powerline-width rhs)) (powerline-render rhs)))) |
+
+** Load theme
+:PROPERTIES:
+:ID:       b56326ad-0713-4091-b60e-94df3810177d
+:END:
+#+begin_src elisp
+(load-theme 'doom-gruvbox t)
+#+end_src
+
+#+RESULTS:
+: t
+
+** Dashboard
+:PROPERTIES:
+:ID:       e51457fa-700b-4765-aa36-2506db3af7f1
+:END:
+#+begin_src elisp
+    (use-package dashboard
+      :ensure t
+      :config
+      (setq dashboard-banner-logo-title "Welcome back, Jaden"
+            dashboard-startup-banner 'logo
+            dashboard-center-content t
+            dashboard-set-init-info t
+            dashboard-set-file-icons t
+            dashboard-set-heading-icons t
+            dashboard-set-navigator t
+            )
+      (dashboard-setup-startup-hook))
+    (setq initial-buffer-choice (lambda () (get-buffer "*dashboard*")))
+#+end_src
+
+** Ligatures
+:PROPERTIES:
+:ID:       adaa80bb-05c5-4848-93df-eb4c0506f1c2
+:END:
+#+begin_src elisp :tangle yes
+(add-to-list 'load-path "~/.emacs.d/lisp/")
+
+(require 'ligature)
+;; Enable the www ligature in every possible major mode
+(ligature-set-ligatures 't '("www"))
+
+;; Enable ligatures in programming modes                                                           
+(ligature-set-ligatures 'prog-mode '("www" "**" "***" "**/" "*>" "*/" "\\\\" "\\\\\\" "{-" "::"
+                                     ":::" ":=" "!!" "!=" "!==" "-}" "----" "-->" "->" "->>"
+                                     "-<" "-<<" "-~" "#{" "#[" "##" "###" "####" "#(" "#?" "#_"
+                                     "#_(" ".-" ".=" ".." "..<" "..." "?=" "??" ";;" "/*" "/**"
+                                     "/=" "/==" "/>" "//" "///" "&&" "||" "||=" "|=" "|>" "^=" "$>"
+                                     "++" "+++" "+>" "=:=" "==" "===" "==>" "=>" "=>>" "<="
+                                     "<*>" "<|" "<|>" "<$" "<$>" "<!--" "<-" "<--" "<->" "<+"
+                                     "<+>" "<=" "<==" ">=" ">==" "<=>" "<=<" "<>" "<<" "<<-" "<<=" "<<<"
+                                     "<~" "<~~" "</" "</>" "~@" "~-" "~>" "~~" "~~>" "%%"))
+
+(global-ligature-mode 't)
+#+end_src
+
+** Highlight indent guides
+:PROPERTIES:
+:ID:       f334eb32-bc02-4879-8f67-ff337c28ee09
+:END:
+#+begin_src elisp
+(use-package highlight-indent-guides
+:hook
+(prog-mode . highlight-indent-guides-mode))
+#+end_src
+
+** Tildes on empty lines
+:PROPERTIES:
+:ID:       695da9cc-f747-4d25-8757-e37196d0bb7e
+:END:
+ #+begin_src elisp
+(setq-default indicate-empty-lines t)
+(define-fringe-bitmap 'tilde [0 0 0 113 219 142 0 0] nil nil 'center)
+(setcdr (assq 'empty-line fringe-indicator-alist) 'tilde)
+(set-fringe-bitmap-face 'tilde 'font-lock-function-name-face)
+
+ #+end_src
+
+** Highlight numbers
+#+begin_src elisp
+(use-package highlight-numbers
+:hook (prog-mode . highlight-numbers-mode))
+#+end_src
+
+#+RESULTS:
+| highlight-numbers-mode | hl-line-mode | linum-mode | company-mode | highlight-indent-guides-mode | visual-line-mode |
+
+* Prog-mode settings
+** LSP
+:PROPERTIES:
+:ID:       83b996c0-05d9-4522-803a-ac9d39aafd97
+:END:
+#+begin_src elisp
+  (use-package lsp-mode
+    :ensure t
+    :init
+    (setq lsp-keymap-prefix "C-c l")
+    :commands lsp lsp-deferred
+    :hook ((lsp-after-open . lsp-enable-imenu)
+           (lsp-after-open . lsp-toggle-symbol-highlight)
+           (lsp-mode . lsp-enable-which-key-integration)
+           (lsp-after-open . (lambda ()
+                               (setq-local company-minimum-prefix-length 1
+                                           company-idle-delay 0.0) ;; default is 0.2
+                               )))
+    :bind (:map lsp-mode-map
+                ("C-c l t" . lsp-describe-thing-at-point)
+                ("C-c l d" . lsp-ui-doc-show))
+    :config
+    (setq lsp-prefer-flymake nil)
+    (setq lsp-auto-guess-root t ; Detect project root
+          lsp-keep-workspace-alive nil ; Auto-kill LSP server
+          lsp-prefer-capf t
+          lsp-enable-indentation nil
+          lsp-enable-symbol-highlighting nil
+          lsp-enable-on-type-formatting nil)
+    :hook ((c-mode . lsp)
+           (python-mode . lsp)))
+
+  ;; lsp-ui: This contains all the higher level UI modules of lsp-mode, like flycheck support and code lenses.
+  ;; https://github.com/emacs-lsp/lsp-ui
+  (use-package lsp-ui
+    :ensure t
+    :config
+    (define-key lsp-ui-mode-map [remap xref-find-definitions] #'lsp-ui-peek-find-definitions)
+    (define-key lsp-ui-mode-map [remap xref-find-references] #'lsp-ui-peek-find-references)
+    (setq lsp-ui-sideline-enable nil
+          lsp-ui-sideline-update-mode 'line
+          lsp-ui-sideline-show-code-actions t
+          lsp-ui-sideline-show-hover t
+          lsp-ui-doc-enable t
+          lsp-ui-doc-delay 1.0
+          lsp-ui-doc-position 'bottom
+          lsp-ui-doc-alignment 'frame
+          lsp-ui-doc-include-signature t
+          lsp-ui-doc-use-childframe t
+          lsp-ui-doc-include-signature t
+          lsp-eldoc-enable-hover nil ; Disable eldoc displays in minibuffer
+          lsp-ui-doc-position 'at-point
+          lsp-ui-imenu-enable t
+          lsp-ui-sideline-ignore-duplicate t)
+    :hook ((python-mode . lsp-ui-mode)
+           (c-mode . lsp-ui-mode)))
+
+    ;; debugger adapter protocol support for emacs
+    ;; https://github.com/emacs-lsp/dap-mode/
+    (use-package dap-mode
+      :ensure t
+      :defer 4
+      :config
+      ;; call dap-hydra when going to the next breakpoint
+      (add-hook 'dap-stopped-hook
+                (lambda (arg) (call-interactively #'dap-hydra)))
+      (add-hook 'dap-mode-hook #'dap-ui-mode) ; use a hook so users can remove it
+      (dap-mode 1))
+#+end_src
+#+begin_src elisp :tangle no
+  (use-package lsp-mode
+    :init
+    (setq lsp-keymap-prefix "C-c l")
+    :config
+    (setq lsp-auto-guess-root t
+          lsp-keep-workspace-alive nil
+          lsp-prefer-capf t
+          lsp-enable-indentation nil)
+    :hook ((python-mode . lsp)
+           (c-mode . lsp))
+    :commands lsp)
+
+  (use-package lsp-ui 
+    :config
+    (define-key lsp-ui-mode-map [remap xref-find-definitions] #'lsp-ui-peek-find-definitions)
+    (define-key lsp-ui-mode-map [remap xref-find-references] #'lsp-ui-peek-find-references)
+    (setq lsp-ui-sideline-enable nil
+          lsp-ui-sideline-update-mode 'line
+          lsp-ui-sideline-show-code-actions t
+          lsp-ui-sideline-show-hover t
+          lsp-ui-doc-enable nil
+          lsp-ui-doc-include-signature t
+          lsp-eldoc-enable-hover nil ; Disable eldoc displays in minibuffer
+          lsp-ui-doc-position 'at-point
+          lsp-ui-imenu-enable t
+          lsp-ui-sideline-ignore-duplicate t)
+    :commands lsp-ui-mode)
+
+  (use-package helm-lsp :commands helm-lsp-workspace-symbol)
+#+end_src
+#+begin_src elisp :tangle no
+    (use-package lsp-ui
+      :config (setq lsp-ui-sideline-show-hover t
+                    lsp-ui-sideline-delay 0.5
+                    lsp-ui-sideline-show-diagnostics t
+                    lsp-ui-sideline-show-code-actions t
+
+                    lsp-enable-links nil
+                        lsp-document-highlight-delay nil
+                  
+
+                    lsp-ui-doc-delay 2.5
+                    lsp-ui-doc-position 'bottom
+                    lsp-ui-doc-alignment 'frame
+                    lsp-ui-doc-header nil
+                    lsp-ui-doc-include-signature t
+                    lsp-ui-doc-use-childframe t)
+      :hook ((prog-mode . lsp)
+             (prog-mode . lsp-ui-mode)
+             (prog-mode . lsp--cur-workspace-check)))
+    (add-hook 'lsp-on-idle-hook #'lsp--document-highlight nil t)
+#+end_src
+
+** Company for autocompletion
+:PROPERTIES:
+:ID:       07cbb73c-8027-4e69-b0f0-1fc175a867ad
+:END:
+#+begin_src elisp
+  (use-package company
+    :ensure t
+    :hook
+    (prog-mode . company-mode))
+#+end_src
+
+** Linum-mode
+:PROPERTIES:
+:ID:       c2e1f36c-9294-4f5a-a1a7-676c94d94d8e
+:END:
+#+begin_src elisp
+(use-package linum-mode
+:ensure nil
+:hook
+(prog-mode . linum-mode))
+#+end_src
+
+** hl-line mode
+:PROPERTIES:
+:ID:       de12079b-083c-484b-b8d7-6061cb40353c
+:END:
+#+begin_src elisp
+(add-hook 'prog-mode-hook 'hl-line-mode)
+#+end_src
+
+* Org-mode
+** TODO Org-mode
+:PROPERTIES:
+:ID:       feba8f0d-3670-4310-ae78-7f53a9e950c5
+:END:
+#+begin_src emacs-lisp
+  (use-package org
+    :config
+    (setq org-columns-default-format "%50ITEM %TODO %3PRIORITY %6Effort{:} %6CLOCKSUM(Clock) %TAGS ")
+    :bind (("C-c w" . powerthesaurus-lookup-word-at-point)))
+#+end_src
+
+#+RESULTS:
+: powerthesaurus-lookup-word-at-point
+
+*** Org version 9.5 fontification fix--run as a hook for now
+#+begin_src elisp
+#+end_src
+
+#+RESULTS:
+
+** Org-todo keywords and stuff
+:PROPERTIES:
+:ID:       c8bb328a-7b93-45e9-a44e-5b67e91ad3c7
+:END:
+#+begin_src elisp
+ (setq org-todo-keywords
+   '((sequence "TODO(t)" "NEXT(n)" "STARTED(s)" "ET(e!)" "POSTPONED(p@!/@!)" "SOMEDAY" "|" "CANCELLED(c@!/@!)" "DONE(d!)")))
+#+end_src
+
+#+RESULTS:
+| sequence | TODO(t) | NEXT(n) | STARTED(s) | ET(e!) | POSTPONED(p@!/@!) | SOMEDAY |   |   | CANCELLED(c@!/@!) | DONE(d!) |
+
+** Org-capture
+:PROPERTIES:
+:ID:       2698de88-4357-4b92-b7b7-e252794cae20
+:END:
+#+begin_src elisp
+(global-set-key (kbd "C-c c") 'org-capture)
+(setq org-capture-templates
+     '(("p" "Personal TODO" entry
+        (file+headline "~/Documents/personal.org" "Personal TODO list")
+        "* TODO %^{Headline} :personal:%^{Tags}:
+SCHEDULED: %^{Scheduled}t DEADLINE: %^{Deadline}t
+:PROPERTIES:
+:EFFORT: %^{Effort}
+:END:
+")
+       ("H" "Habit" entry
+        (file+headline "~/Documents/personal.org" "Personal TODO list")
+        "* TODO %^{Headline} :personal:habit:%^{Tags}:
+SCHEDULED: %^{Scheduled}t
+:PROPERTIES:
+:EFFORT: %^{Effort}
+:STYLE: habit
+:END:
+")
+       ("n" "Quick note" entry
+        (file+headline "~/Documents/personal.org" "Quick Notes")
+        "* %^{Headline}
+    ENTERED: %U
+  " :prepend t)
+       ("a" "Test/Assessment/Quiz " entry
+        (file "~/org/todo.org")
+        "* %^{Test Name} :school:%^{Tags}:
+    DEADLINE: %^{Deadline}t ENTERED: %U" :prepend t :time-prompt t)
+       ("P" "Project TODO" entry
+        (file "~/org/todo.org")
+        "* TODO %^{Project name} [/] :project:%^{Tags}:
+     SCHEDULED: %^{Scheduled}t DEADLINE: %^{Deadline}t ENTERED: %U" :prepend t :time-prompt t)
+       ("e" "Email TODO" entry
+        (file "~/org/todo.org")
+        "* TODO %^{Task} :email:%^{Tags}:
+    DEADLINE: %^{Deadline}t ENTERED: %U" :prepend t :time-prompt t)
+       ("m" "Meeting entry" entry
+        (file "~/org/todo.org")
+        "* %^{prompt} :meeting:%^{tags}:
+    DEADLINE: %^{Deadline}T ENTERED: %U" :prepend t :time-prompt t)
+       ("h" "Homework entry" entry
+        (file "~/org/todo.org")
+        "* TODO %^{prompt}    :school:homework:
+    SCHEDULED: %^{Scheduled}t DEADLINE: %^{Deadline}t ENTERED %U
+    :PROPERTIES:
+    :EFFORT: %^{Effort}
+    :END:
+" :prepend t :time-prompt t)))
+#+end_src
+
+#+RESULTS:
+| p | Personal TODO | entry | (file+headline ~/Documents/personal.org Personal TODO list) | * TODO %^{Headline} :personal:%^{Tags}: |
+
+** Flyspell
+:PROPERTIES:
+:ID:       9eed08c8-9578-43d9-a5a8-1ba8d534a047
+:END:
+#+begin_src elisp
+(add-hook 'org-mode-hook 'flyspell-mode)
+#+end_src
+
+** Thesaurus
+:PROPERTIES:
+:ID:       191ec399-20aa-474d-9887-899b0d29cc12
+:END:
+#+begin_src elisp
+(use-package powerthesaurus)
+;; Keybinds for powerthesaurus are in the (use-package org) block (under the first org-mode settings header, org-mode)
+#+end_src
+
+#+RESULTS:
+
+** Org-agenda
+:PROPERTIES:
+:ID:       2d0c099f-ae7f-44ba-a9ed-0f5d8ae915eb
+:END:
+
+*** Org-agenda
+:PROPERTIES:
+:ID:       9d26e9b9-ce6e-4fc8-8666-01306ca89dd1
+:END:
+The agenda files are maintained by customize-variable, and are not defined or managed here.
+#+begin_src elisp
+   (use-package org-agenda
+     :ensure nil
+     :bind ("C-c a" . org-agenda)
+     :config
+     (setq org-agenda-columns-add-appointments-to-effort-sum t
+       org-agenda-entry-text-maxlines 20
+       org-agenda-include-diary t
+       org-agenda-prefix-format
+       '((agenda . " %i %-12:c%?-8t% s %-6e")
+         (todo . " %i %-12:c %-6e ")
+         (tags . " %i %-12:c %-6e"))
+       org-agenda-skip-scheduled-if-deadline-is-shown t
+       org-agenda-skip-scheduled-if-done t
+       org-agenda-span 'day)
+     org-agenda-sorting-strategy '((agenda deadline-down priority-down category-keep)
+  (todo priority-down category-keep)
+  (tags priority-down category-keep)
+  (search category-keep)))
+   (setq org-agenda-custom-commands
+     '(("g" "Good agenda"
+        ((agenda ""
+             ((org-agenda-overriding-header "Agenda and Tonight's Homework")
+                (org-agenda-sorting-strategy '(time-up deadline-up priority-down effort-down scheduled-down))
+              (org-super-agenda-groups
+               `((:time-grid t)
+             (:name "OVERDUE" :discard
+                    (:todo "SOMEDAY")
+                    :deadline past :order 1)
+             (:name "School Habits" :and (:tag "school" :tag "habit") :order 4)
+             (:name "Meetings" :tag "meeting" :order 2)
+             (:name "Today's Schedule" :time-grid t :order 2)
+             (:name "Tests and Quizzes" :tag
+                    ("test" "quiz" "assessment" "conference")
+                    :order 3)
+             (:name "Homework"
+                    :and (:tag "school" :tag "homework" :deadline (before ,(org-read-date nil nil "+8d")))
+                          :order 5 )
+             (:name "Upcoming Schoolwork/Homework" 
+                          :and (:tag ("school" "homework") :deadline future)
+                    :order 6)
+             (:name "Personal Habits"
+                          :and (:tag "personal" :habit t)
+                          :order 8)
+             (:name "Personal TODO list"
+                          :tag ("personal")
+                          :order 7)
+             (:name "Emails" :tag "email" :order 8)
+                   (:name "Scheduled work"
+                          :scheduled t 
+                          :order 10)
+             (:discard (:tag "drill"))))))
+         (alltodo ""
+             ((org-agenda-overriding-header "PROJECTS")
+              (org-super-agenda-groups
+               '((:discard (:todo "SOMEDAY" :not (:tag "PROJECT")))
+                   (:auto-outline-path t)
+             (:discard
+              (:anything))))))
+         (alltodo ""
+              ((org-agenda-overriding-header "Other")
+               (org-super-agenda-groups
+                '((:name "Bucket List" :and
+                 (:todo "SOMEDAY" :tag "PERSONAL")
+                 :order 1)
+              (:name "Someday Maybe" :todo "SOMEDAY" :order 10)
+              (:name "Everything Else" :anything t :order 20))))))
+        nil nil)
+       ("n" "Agenda and all TODOs"
+        ((agenda "" nil)
+         (alltodo "" nil))
+        nil)))
+#+end_src
+
+#+RESULTS:
+| g | Good agenda          | ((agenda  ((org-agenda-overriding-header Agenda and Tonight's Homework) (org-agenda-sorting-strategy '(time-up deadline-up priority-down effort-down scheduled-down)) (org-super-agenda-groups `((:time-grid t) (:name OVERDUE :discard (:todo SOMEDAY) :deadline past :order 1) (:name School Habits :and (:tag school :tag habit) :order 4) (:name Meetings :tag meeting :order 2) (:name Today's Schedule :time-grid t :order 2) (:name Tests and Quizzes :tag (test quiz assessment conference) :order 3) (:name Homework :and (:tag school :tag homework :deadline (before ,(org-read-date nil nil +8d))) :order 5) (:name Upcoming Schoolwork/Homework :and (:tag (school homework) :deadline future) :order 6) (:name Personal Habits :and (:tag personal :habit t) :order 8) (:name Personal TODO list :tag (personal) :order 7) (:name Emails :tag email :order 8) (:name Scheduled work :scheduled t :order 10) (:discard (:tag drill)))))) (alltodo  ((org-agenda-overriding-header PROJECTS) (org-super-agenda-groups '((:discard (:todo SOMEDAY :not (:tag PROJECT))) (:auto-outline-path t) (:discard (:anything)))))) (alltodo  ((org-agenda-overriding-header Other) (org-super-agenda-groups '((:name Bucket List :and (:todo SOMEDAY :tag PERSONAL) :order 1) (:name Someday Maybe :todo SOMEDAY :order 10) (:name Everything Else :anything t :order 20)))))) | nil | nil |
+| n | Agenda and all TODOs | ((agenda  nil) (alltodo  nil))                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | nil |     |
+
+*** Org-mobile
+:PROPERTIES:
+:ID:       81bf30cd-8137-4f6a-aa76-7f79eaa72e63
+:END:
+#+begin_src elisp
+  (setq org-mobile-directory "~/Dropbox/Apps/MobileOrg")
+#+end_src
+
+*** Org-super-agenda
+:PROPERTIES:
+:ID:       bc78f029-dfd6-48d3-a8c0-2ff8eaf10674
+:END:
+#+begin_src emacs-lisp
+  (use-package org-super-agenda
+    :ensure t
+    :config
+    (setq org-super-agenda-header-map (make-sparse-keymap))
+    (setq org-super-agenda-groups
+                          '((:time-grid t)
+                            (:name "OVERDUE" :discard
+                                   (:todo "SOMEDAY")
+                                   :deadline past :order 1)
+                            (:name "Today's Schedule" :time-grid t :order 2)
+                            (:name "Meetings" :tag "meeting" :order 2)
+                            (:name "Tests and Quizzes" :tag
+                                   ("test" "quiz" "assessment" "conference")
+                                   :order 3)
+                            (:name "Ongoing Futuredue Homework" 
+                                   :and
+                                   (:tag "school" :tag "homework" :deadline future :scheduled today :not (:tag "project"))
+                                   :and
+                                   (:tag "school" :tag "homework" :deadline future :scheduled past :not (:tag "project"))
+                                   :order 4)
+                            (:name "Tonight's Homework"
+                                   :and
+                                   (:tag "school" :tag "homework" :deadline today)
+                                   :and
+                                   (:tag "school" :tag "project" :deadline today)
+                                   :and
+                                   (:tag "school" :tag "homework" :scheduled (today past) :not (:tag "project"))
+                                   :order 5)
+                            (:name "Upcoming Homework" 
+                                   :and (:not (:tag "project") :tag "school" :tag "homework" :deadline future)
+                                   :order 6)
+                            (:name "Emails" :tag "email" :order 7)
+                            (:discard (:tag "drill"))))
+    :hook
+    (org-agenda-before-finalize . org-super-agenda-mode))
+#+end_src
+
+#+RESULTS:
+| org-super-agenda-mode |
+
+** Org-noter stuff
+:PROPERTIES:
+:ID:       cabacb17-121f-436c-a539-2cca134e03cc
+:END:
+
+*** A bunch of requires that IDK why they make it work
+:PROPERTIES:
+:ID:       33196297-4c02-4b29-b0a7-cb9677a64f98
+:END:
+#+begin_src elisp
+  (require 'org-noter-pdftools)
+  (require 'org-pdftools)
+  (require 'pdf-history)
+  (require 'pdf-links)
+  (require 'pdf-sync)
+  (require 'pdf-outline)
+#+end_src
+
+*** Pdf-tools
+:PROPERTIES:
+:ID:       101b700e-cb09-42ec-a8d3-c7978370c2f2
+:END:
+#+begin_src emacs-lisp
+  (use-package pdf-tools
+    :ensure t
+    :pin manual
+    :config
+    ;;initialize
+    (pdf-tools-install)
+    ;; use normal isearch
+    (define-key pdf-view-mode-map (kbd "C-s") 'isearch-forward))
+#+end_src
+
+**** DONE fix pdf-tools (pdf-tools-install)
+:PROPERTIES:
+:ID:       52cfd178-e782-45d0-ad0a-75cd219ee454
+:END:
+
+*** Org-noter
+:PROPERTIES:
+:ID:       0b7394c6-cba5-4258-a064-e3648ecade1e
+:END:
+#+begin_src emacs-lisp
+  (use-package org-noter
+    :ensure t
+    :config
+    (require 'org-noter-pdftools))
+#+end_src
+
+** Org-indent-mode
+:PROPERTIES:
+:ID:       11ebf78e-cd30-4fcb-ba47-bf90d6c96cf2
+:END:
+#+begin_src elisp
+(add-hook 'org-mode-hook 'org-indent-mode)
+#+end_src
+
+** Org-variable-pitch                                             :disabled:
+:PROPERTIES:
+:ID:       caae4a05-17aa-4265-98e4-a5340b9a1f20
+:END:
+#+begin_src elisp
+
+  (use-package org-variable-pitch
+  :config
+  (setq org-variable-pitch-fixed-faces '(org-block
+                                         org-block-begin-line
+                                         org-block-end-line
+                                         org-code
+                                         org-document-info-keyword
+                                         org-done
+                                         org-formula
+                                         org-indent
+                                         org-meta-line
+                                         org-special-keyword
+                                         org-table
+                                         org-todo
+                                         org-verbatim
+                                         org-date
+                                         org-drawer
+                                         org-link
+                                         link
+                                         centaur-tabs-default
+                                         org-property-value
+                                         org-priority
+                                         org-level-1
+                                         org-level-2
+                                         org-level-3
+                                         org-level-4
+                                         org-level-5
+                                         org-level-6
+                                         org-level-7
+                                         org-level-8
+                                         org-hide
+                                         org-superstar-leading
+                                         org-superstar-bullet
+                                         org-target
+                                         org-headline-done
+                                         org-done))
+  :hook ((org-mode) . org-variable-pitch-minor-mode))
+#+end_src
+
+#+RESULTS:
+| org-ref-org-menu | org-superstar-mode | org-variable-pitch-minor-mode | org-indent-mode | #[0 \301\211\207 [imenu-create-index-function org-imenu-get-tree] 2] | flyspell-mode | evil-org-mode | visual-line-mode | #[0 \300\301\302\303\304$\207 [add-hook change-major-mode-hook org-show-all append local] 5] | #[0 \300\301\302\303\304$\207 [add-hook change-major-mode-hook org-babel-show-result-all append local] 5] | org-babel-result-hide-spec | org-babel-hide-all-hashes | org-ref-setup-label-finders |
+
+** Notifications and reminders
+:PROPERTIES:
+:ID:       06a9d01f-8b3f-4ee4-902d-cd340f6d1c8e
+:END:
+#+begin_src elisp
+  (require 'calendar)
+  (setq appt-display-interval 3
+        appt-message-warning-time 15
+        org-show-notification-handler "notify-send")
+
+  (require 'notifications)
+
+  (defcustom appt-notification-bus :session
+    "D-bus bus to use for notification."
+    :group 'appt-notification
+    :type '(choice (const :tag "Session bus" :session) string))
+  (defun appt-display (min-to-appt new-time msg)
+    "Send notification."
+    (notifications-notify :bus appt-notification-bus
+                          :title (format "Appointment in %s minutes" min-to-appt)
+                          :body (format "%s" msg)
+                          :replaces-id nil
+                          :app-icon nil
+                          :timeout 5000
+                          :desktop-entry "emacs"))
+  (setq appt-disp-window-function 'appt-display)
+  (add-hook 'org-agenda-finalize-hook 'org-agenda-to-appt)
+  (appt-activate)
+#+end_src
+
+#+RESULTS:
+: Appointment reminders enabled
+
+** Ox-pandoc
+:PROPERTIES:
+:ID:       e88ba805-fd6d-4ebe-b9cb-5e9a7b406487
+:END:
+#+begin_src elisp
+(use-package ox-pandoc)
+#+end_src
+
+** Org-notebook
+:PROPERTIES:
+:ID:       12b58aff-1c85-467f-990e-3646fa3a8a0c
+:END:
+#+begin_src elisp :results quiet
+  (use-package org-notebook
+  :config
+  (setq org-notebook-drawing-program "kolourpaint"))
+#+end_src
+
+#+RESULTS:
+: t
+
+** Org-superstar-mode
+:PROPERTIES:
+:ID:       bcbf7dc5-5ba2-4543-a380-b6928f4bda82
+:END:
+:BACKLINKS:
+[2021-03-15 Mon 10:00] <- [[*Super links][Super links]]
+:END:
+#+begin_src elisp
+(use-package org-superstar
+:hook
+(org-mode . org-superstar-mode))
+#+end_src
+
+** Super links 
+:PROPERTIES:
+:ID:       c60f1f32-e63e-4be9-a386-e784124a5d2f
+:END:
+#+begin_src elisp
+(use-package org-super-links
+  :bind (("C-c s l" . sl-link))
+  :config
+  (setq org-id-link-to-org-use-id 'create-if-interactive-and-no-custom-id))
+#+end_src
+
+** Org-download
+:PROPERTIES:
+:ID:       c53fe1c3-fa53-4266-b8c3-82cb32978475
+:END:
+Provides image download functionality and stuff.
+#+begin_src elisp
+(use-package org-download)
+#+end_src
+
+#+RESULTS:
+
+** Org-ref
+:PROPERTIES:
+:ID:       402f2292-d0d8-4a56-9608-d9bd69798465
+:END:
+#+begin_src elisp
+(use-package org-ref)
+#+end_src
+
+#+RESULTS:
+
+** Calfw
+:PROPERTIES:
+:ID:       f857e22e-4113-4b27-a539-0a2217ac7b67
+:END:
+#+begin_src elisp
+(use-package calfw)
+(use-package calfw-org)
+#+end_src
+
+* Centaur Tabs
+:PROPERTIES:
+:ID:       bfe02ca7-adf3-46fd-8db2-f5a7c0e119a4
+:END:
+#+begin_src elisp 
+  (use-package centaur-tabs
+    :ensure t
+    :demand t
+    :config
+    (setq centaur-tabs-style "wave"
+          centaur-tabs-set-bar nil
+          centaur-tabs-set-icons t
+          centaur-tabs-gray-out-icons 'buffer
+          centaur-tabs-height 26
+          centaur-tabs-set-modified-marker t
+          centaur-tabs-modifier-marker "*")
+    (centaur-tabs-headline-match)
+    (centaur-tabs-mode t)
+    :bind
+    ("C-<prior>" . centaur-tabs-backward)
+    ("C-<next>" . centaur-tabs-forward))
+#+end_src
+
+#+RESULTS:
+: centaur-tabs-forward
+
+* Diminish
+#+begin_src elisp
+    (use-package diminish
+    :demand t
+  :init
+  (diminish 'evil-org-mode "EVLORG")
+  (diminish 'buffer-face-mode)
+  (diminish 'org-indent-mode)
+  (diminish 'helm-mode)
+  (diminish 'visual-line-mode "WRP")
+  (diminish 'flyspell-mode "SPL")
+  (diminish 'undo-tree-mode))
+#+end_src
+
+#+RESULTS:
+
