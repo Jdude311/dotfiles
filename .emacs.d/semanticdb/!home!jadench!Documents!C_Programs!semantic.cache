@@ -1,0 +1,30 @@
+;; Object semanticdb-project-database-file-1560aa204d14
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1560aa204d14"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1560aa204cf4"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("time.h" include (:system-flag t) nil [20 37])
+            ("string.h" include (:system-flag t) nil [38 57])
+            ("stdlib.h" include (:system-flag t) nil [58 77])
+            ("shortBeep" function (:type "void") nil [79 185])
+            ("longBeep" function (:type "void") nil [186 291])
+            ("letterToBinary" function
+               (:pointer 1
+                :constant-flag t
+                :arguments 
+                  ( ("letter" variable (:type "char") (reparse-symbol arg-sub-list) [361 373]))                  
+                :type "char")
+                nil [334 1690])
+            ("main" function (:type "int") nil [1691 2184]))          
+      :file "beeper.c"
+      :pointmax 2185
+      :fsize 2184
+      :lastmodtime '(24563 25253 411741 231000)
+      :unmatched-syntax nil))
+  :file "!home!jadench!Documents!C_Programs!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

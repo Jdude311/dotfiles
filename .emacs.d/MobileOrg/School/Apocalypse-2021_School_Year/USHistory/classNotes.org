@@ -1,0 +1,1566 @@
+#+TITLE: HISTORY NOTES ABOUT HISTORY
+* History Timeline
+  :PROPERTIES:
+  :ID:       86754559-7aee-4546-b019-a4bfb69e61c6
+  :END:
+  - 1811 :: First contracts of [[id:2de5d434-1b9e-4710-9c9d-84541f03bdab][national road]]. Went 10 miles west from Cumberland, Maryland.
+  - November 7, 1811 :: Native Americans led by [[id:00780c78-b9d5-4e79-8d88-73064e2d5e24][Tecumseh]] lose a major battle against White settlement.
+  - August 24, 1814 :: [[id:d72731c8-6b05-4294-b98e-5c42a4573d1e][British burn DC]]
+  - July 15, 1815 :: Napoleon Bonaparte surrenders at Waterloo, end of Napoleonic Wars
+  - December 23, 1814--January 8, 1815 :: [[id:bdbcf494-e9ff-4a98-9bc4-84254055715a][Andrew Jackson and the battle of New Orleans]]
+  - March 3, 1820 :: [[id:48f4a63e-017e-47d6-89e8-2c3fcad8735c][Missouri Compromise]]
+  - 1793 :: [[id:003e20eb-ad5f-4b79-807b-cbf4c8b40b17][Cotton Gin]] invented
+* OLD STUFF
+** War of 1812
+  :PROPERTIES:
+  :ID:       36752ccc-879d-4b42-a41c-301ece2789be
+  :END:
+*** Causes
+   :PROPERTIES:
+   :ID:       49807c88-01c3-47b5-8f9c-f213f9588468
+   :END:
+**** British impressment
+    :PROPERTIES:
+    :ID:       7638633d-9a3a-48e5-86b6-2cf09abb9c34
+    :END:
+***** Why?
+     :PROPERTIES:
+     :ID:       e85948d8-ff51-47af-b3b8-55f459c9f9a4
+     :END:
+****** Britain was in a lot of wars
+      :PROPERTIES:
+      :ID:       369f21f0-cd09-4d0f-8bb7-583102a99427
+      :END:
+      - they needed soldiers
+      - needed people for their navy
+****** British navy had a lot of deserters
+      :PROPERTIES:
+      :ID:       315ff6e4-72d4-4696-893a-2c9e85445c51
+      :END:
+      - navy was absolutely brutal
+      - people would desert to become American
+***** What was it?
+     :PROPERTIES:
+     :ID:       16880750-39a6-44c9-a6f2-72f7a66fe2ec
+     :END:
+     - British would take people and make them be in the navy
+     - some people taken were actual deserters
+     - other people were just americans
+     - they would use *press gangs* (people hired to take people)
+***** Outrage to Americans
+     :PROPERTIES:
+     :ID:       b7b851c2-febe-416b-85db-6c679b5603e1
+     :END:
+****** Felt that Britain wasn't respecting them
+      :PROPERTIES:
+      :ID:       c0c3f3ce-a2e0-4ebc-9154-4d0c5bd92035
+      :END:
+      - it was a violation of their rights
+      - people were mad about it
+****** They couldn't do anything about it
+      :PROPERTIES:
+      :ID:       d6189f76-1b0b-4c5e-bb54-2b767779dde4
+      :END:
+****** People were being taken
+      :PROPERTIES:
+      :ID:       85ad0e70-75c9-4b51-9859-5947919362fa
+      :END:
+**** Britain didn't give up its forts 
+    :PROPERTIES:
+    :ID:       aa1cd2cb-291d-4417-9c68-aa2dfd1f2ec9
+    :END:
+***** Britain had forts all over America during the rev war
+     :PROPERTIES:
+     :ID:       9d424f73-8f19-409d-8728-50adac17a8cb
+     :END:
+***** Britain didn't vacate the forts, violating the agreement
+     :PROPERTIES:
+     :ID:       a8ca7342-e04e-444f-9769-32c66a220ac0
+     :END:
+     - Britain stayed in the forts
+***** Nothing could be done except go to war, forcing them to vacate them
+     :PROPERTIES:
+     :ID:       76c6ff29-a40c-4d1e-8536-744f06e7beb7
+     :END:
+**** Britain armed the native americans
+    :PROPERTIES:
+    :ID:       98aba1fe-96b5-4339-8e52-b802e5ba8e1d
+    :END:
+***** Native Americans would attack settlers armed by the british- basically a proxy war
+     :PROPERTIES:
+     :ID:       32316aaa-c2c8-43bd-a9df-3feeaa6f6585
+     :END:
+     - scared the shit out of people
+     - didn't want to settle out west
+     - also made people angry
+***** Americans wanted to settle out west, couldn't because of armed NA's
+     :PROPERTIES:
+     :ID:       4903362c-f7f5-45f4-afd8-1ef5e2a5a3ff
+     :END:
+     - made people really mad
+**** War hawks pushed war
+    :PROPERTIES:
+    :ID:       bd8dbd52-1602-4930-ae0e-dde643454e1a
+    :END:
+***** Wanted war with Britain
+     :PROPERTIES:
+     :ID:       1fa840b0-bc84-404c-a086-84f83b938552
+     :END:
+     - angry over [[British impressment][impressment]], among other things
+     - thought they could get the jump on them by [[brain:b774b21e-9ab5-42e5-9166-6585fe5b411f][attacking Canada]]
+***** People
+     :PROPERTIES:
+     :ID:       359bb939-092b-413c-b743-b445555ee416
+     :END:
+     - Henry Clay :: Pretty famous war hawk, was on the senate for like 60 years or something
+     - John C. Calhoun :: From South Carolina
+**** Britain doesn't respect treaties
+    :PROPERTIES:
+    :ID:       6e78a4e0-1fdf-424e-8e51-328152a2cc71
+    :END:
+***** Blow up a ship, or something
+     :PROPERTIES:
+     :ID:       579e6442-e98e-4e06-9888-721593f5c2ad
+     :END:
+*** The war
+   :PROPERTIES:
+   :ID:       9de65e69-8e78-40bd-9f4c-ce8e368fca34
+   :END:
+**** Congress was split on declaration of war
+    :PROPERTIES:
+    :ID:       ead83117-f0af-46bb-bb1c-ab3506807344
+    :END:
+    - some people wanted it, others didn't
+**** America loses in the beginning
+    :PROPERTIES:
+    :ID:       978be65c-36d9-4e65-83ea-54c14d8d0723
+    :END:
+***** British were superior military
+     :PROPERTIES:
+     :ID:       eb42fc8a-7b80-418a-a39b-21a439f09765
+     :END:
+     - naval superiority
+     - land usperiority
+     - more people
+***** British burn DC
+     :PROPERTIES:
+     :ID:       d72731c8-6b05-4294-b98e-5c42a4573d1e
+     :END:
+     :BACKLINKS:
+     [2020-11-16 Mon 20:03] <- [[id:86754559-7aee-4546-b019-a4bfb69e61c6][Timeline]]
+     :END:
+     - land and set fire to the capital
+     - Dolly madison makes off with important documents and portraits
+***** America tries to get the jump on Britain by attacking canada, they fail
+     :PROPERTIES:
+     :ID:       b774b21e-9ab5-42e5-9166-6585fe5b411f
+     :END:
+     - they don't get anything done
+     - lost detroit
+       # can't have shit in detroit!
+     - basically lose 
+**** America starts to hold its own a little
+    :PROPERTIES:
+    :ID:       2c38bf2d-eeff-44c5-9b11-2e3980810c1a
+    :END:
+***** British attack McHenry, McHenry wins
+     :PROPERTIES:
+     :ID:       f34eb84b-526d-4483-8eb4-c0869f6c2b41
+     :END:
+     - In baltimore
+     - Fort McHenry repels the attack
+     - inspiriation for FSK's poem star spangled banner
+***** America has a few small victories
+     :PROPERTIES:
+     :ID:       b73663bf-a959-41a9-9a73-4eab107d05d9
+     :END:
+**** Political stuff that happens during the war
+    :PROPERTIES:
+    :ID:       c831c3a5-bb66-4ef6-98e7-2ef7eb979099
+    :END:
+***** Hartford Convention- federalist meeting
+     :PROPERTIES:
+     :ID:       d9127c42-b49a-47bc-a4b4-7f3ff50af47e
+     :END:
+     - about how to stop the party from losing support
+     - Controversial
+***** New England wanted to secede because the war is expensive
+     :PROPERTIES:
+     :ID:       7880e442-629a-4c96-9ee9-4890d0e3e2f6
+     :END:
+     :BACKLINKS:
+     [2020-11-16 Mon 20:31] <- [[id:2b4e266b-bb13-4582-8b86-648757e2e580][The people want to stop having the war]]
+     :END:
+
+     - treaty was signed at the end of the war
+     - if they hadn't stopped the war then they could have seceded
+**** Native Americans rebel with Tecumseh
+    :PROPERTIES:
+    :ID:       00780c78-b9d5-4e79-8d88-73064e2d5e24
+    :END:
+    :BACKLINKS:
+    [2020-11-16 Mon 20:04] <- [[id:86754559-7aee-4546-b019-a4bfb69e61c6][Timeline]]
+    :END:
+***** Tecumseh gets the tribes together to fight America
+     :PROPERTIES:
+     :ID:       195d0a03-9f1d-4863-8d26-3b0d915086d1
+     :END:
+     :BACKLINKS:
+     [2020-12-07 Mon 12:00] <- [[id:fb86408c-9e8a-40e5-99b8-cd91d1945eb5][classNotes.org]]
+     :END:
+     - they fight for their lives and livelihood
+     - Shawnee Native American cheif
+     - organized a confederation of tribes to resist white settlement
+     - joined the british
+***** Tecumseh gets killed in action
+     :PROPERTIES:
+     :ID:       0ab7844b-0a26-4022-9353-877d4663352a
+     :END:
+     - oof
+**** The end of the war and Treaty of Ghent
+    :PROPERTIES:
+    :ID:       e08a77cd-5195-4f9e-a0e1-c93bfdb6f959
+    :END:
+***** The people want to stop having the war
+     :PROPERTIES:
+     :ID:       2b4e266b-bb13-4582-8b86-648757e2e580
+     :END:
+     - too expensive
+     - see [[id:7880e442-629a-4c96-9ee9-4890d0e3e2f6][New England wanted to secede because the war is expensive]]
+***** America holds its own a little
+     :PROPERTIES:
+     :ID:       765242be-1f3e-445a-a53a-a68a5e96a12b
+     :END:
+     - We win a little bit
+***** England gets tired of having war
+     :PROPERTIES:
+     :ID:       53fdac96-7039-474f-ad09-0507f840f1cd
+     :END:
+     - too expensive
+     - people are kinda mad about it
+     - they stop warring
+***** The treaty of Ghent
+     :PROPERTIES:
+     :ID:       96e78ecc-fd55-4ca6-a59b-6264dbf0a1a9
+     :END:
+     - treaty signed in a place called Ghent somewhere in Denmark
+**** The end of the war after the end of the war
+    :PROPERTIES:
+    :ID:       e8971e44-2919-44c8-a592-dced63419aee
+    :END:
+***** Andrew Jackson and the battle of New Orleans
+     :PROPERTIES:
+     :ID:       bdbcf494-e9ff-4a98-9bc4-84254055715a
+     :END:
+     :BACKLINKS:
+     [2020-11-16 Mon 20:03] <- [[id:86754559-7aee-4546-b019-a4bfb69e61c6][Timeline]]
+     :END:
+     - 
+     - happened after the end of the war
+     - something like 2,000 British dead and only like 20 Americans dead
+     - British attack New Orleans, lose big time
+*** Outcome
+   :PROPERTIES:
+   :ID:       d696930a-f200-4632-9589-6f54d4be03ad
+   :END:
+**** Nothing decisive: America didn't win or lose
+    :PROPERTIES:
+    :ID:       366532fa-b9c7-4e86-883a-6c8b97a6a8af
+    :END:
+    - it was basically a tie
+    - America thinks it won
+*** Consequences
+   :PROPERTIES:
+   :ID:       51c39313-6f60-4edb-b8d8-fd8885ddd6b4
+   :END:
+**** Native Americans lose a lot
+    :PROPERTIES:
+    :ID:       d05ca4e8-8afe-4fef-99fd-de341ca538f3
+    :END:
+***** Native Americans lose a lot of land
+     :PROPERTIES:
+     :ID:       03d9385e-8f81-4a49-8b67-44072a961185
+     :END:
+     - they are no longer able to resist Americans
+***** Native Americans never have tribal unity again
+     :PROPERTIES:
+     :ID:       0630623e-6b87-4a68-a8f9-1dae21debaf6
+     :END:
+     - they never have much military power again
+**** Americans win a lot
+    :PROPERTIES:
+    :ID:       e63bdb29-a54d-4abd-b6f5-a1e6e6182a63
+    :END:
+***** Lots of nationalism
+     :PROPERTIES:
+     :ID:       245cb2f4-5591-44a7-b44e-4540d3b441bc
+     :END:
+     - people feel like they won
+     - they are happy because they could hold their own against Britain's [[British were superior military][superior military]]
+     - Andrew Jackson's [[Andrew Jackson and the battle of New Orleans][battle]] was such a huge victory that they were really happy about it
+***** NA's can't resist them and have no more power
+     :PROPERTIES:
+     :ID:       39dc73fd-7498-461b-9407-91ed97d9e076
+     :END:
+     - The NA's [[Native Americans lose a lot of land][lose land]] which becomes Americans'
+     - The NA's cannot resist American military because they [[Native Americans never have tribal unity again][don't have tribal unity or power]]
+**** British lose some stuff in America
+    :PROPERTIES:
+    :ID:       b1ceadc0-843e-494e-8bcf-f72cd6f8e9ce
+    :END:
+***** No more [[Britain didn't give up its forts after the rev war][forts]]
+     :PROPERTIES:
+     :ID:       2179e1db-1555-497e-a6da-5b492bb97657
+     :END:
+***** No more [[British impressment][impressment]]
+     :PROPERTIES:
+     :ID:       e947ec12-efd7-454b-ad5b-8e9403287c97
+     :END:
+** Westward Expansion
+  :PROPERTIES:
+  :ID:       71c2eb44-615f-4d11-a13d-4e6d41f4d323
+  :END:
+*** Why?
+   :PROPERTIES:
+   :ID:       38b66a7a-bef1-40fd-8898-7f3681b7dc97
+   :END:
+**** More people
+    :PROPERTIES:
+    :ID:       349b8e1a-f52a-4b47-9d68-bab5a36f0110
+    :END:
+    - population swelled
+    - people needed somewhere to go
+    - people went west
+*** Effects
+   :PROPERTIES:
+   :ID:       ed1841a5-448c-4dab-9792-6c3b6a1f36e6
+   :END:
+**** National road
+    :PROPERTIES:
+    :ID:       2de5d434-1b9e-4710-9c9d-84541f03bdab
+    :END:
+    :BACKLINKS:
+    [2020-11-16 Mon 20:06] <- [[id:86754559-7aee-4546-b019-a4bfb69e61c6][Timeline]]
+    :END:
+    - people needed an easier route to the west
+    - created the national road
+** Republicanism
+  :PROPERTIES:
+  :ID:       ea2f9f11-7c05-4f4f-a9c8-c66da1e2a17c
+  :END:
+*** Deeply fears anarchy from too much equality
+   :PROPERTIES:
+   :ID:       dcce1c14-ac63-4a71-bb48-8f3d0bb460df
+   :END:
+   - fears decline of hierarchy and traditional values
+   - believes that it will lead to anarchy
+** The era of good feelings
+  :PROPERTIES:
+  :ID:       2823e125-7228-44a3-aa0f-3fb1e6904e5b
+  :END:
+*** After the war of 1812
+   :PROPERTIES:
+   :ID:       26868dd0-7631-42d9-85f1-e26d58129c86
+   :END:
+   - federalists fall out of favor
+*** Only one party
+   :PROPERTIES:
+   :ID:       50125841-8d80-4de9-8c97-1edd4a1fbcc6
+   :END:
+   - [[brain:d5bbd87a-1736-4354-8596-0622d383b35e][Democratic-Republicans]]
+*** Ended in 1825ish with formation of the Democratic party
+   :PROPERTIES:
+   :ID:       5bdf44e4-2043-4e63-adce-8488a7ccc122
+   :END:
+** Democratic party
+  :PROPERTIES:
+  :ID:       d010926d-48ad-43bf-8a4b-bf00373aae58
+  :END:
+*** Likes democracy more
+   :PROPERTIES:
+   :ID:       77181289-1294-4106-9bc9-1ca16a25a870
+   :END:
+*** Founded by Martin
+   :PROPERTIES:
+   :ID:       289c5580-5bae-4174-87c1-5abd226b5e17
+   :END:
+*** Listens to mass opinion of the people
+   :PROPERTIES:
+   :ID:       22981682-b6a9-4df5-bfd2-98d4df1e30d6
+   :END:
+   - democracy!
+** Martin Van Buren
+  :PROPERTIES:
+  :ID:       3c14a217-abe5-4931-bbf8-9d62b17122d9
+  :END:
+*** A leader of the Democratic party
+   :PROPERTIES:
+   :ID:       a8671a0a-646b-4cb5-b392-9f39b4bfcd6b
+   :END:
+*** Used newspapers to spread word about his party
+   :PROPERTIES:
+   :ID:       6828ab73-47b2-476a-9b62-f1b70fee2261
+   :END:
+** Democratic-Republicans
+  :PROPERTIES:
+  :ID:       d5bbd87a-1736-4354-8596-0622d383b35e
+  :END:
+*** Ended up implementing Federalist economic policies
+   :PROPERTIES:
+   :ID:       7b0ed276-5f99-491c-8f09-422ab967689d
+   :END:
+   - [[brain:ba1368d4-7e89-4307-b266-d7dd73d5e376][James Monroe]] incorporated a national bank, tarriffs, and federally-funded improvements
+** James Monroe
+  :PROPERTIES:
+  :ID:       ba1368d4-7e89-4307-b266-d7dd73d5e376
+  :END:
+*** Party
+   :PROPERTIES:
+   :ID:       a48ed6b5-8bab-4e1f-a392-d0a4b60ad47f
+   :END:
+   - [[brain:d5bbd87a-1736-4354-8596-0622d383b35e][Democratic-Republican]]
+** Federalists
+  :PROPERTIES:
+  :ID:       76465c88-5fa0-47ae-aebb-d67a4e98b1c0
+  :END:
+*** Favor a stronger government
+   :PROPERTIES:
+   :ID:       9108a099-3732-4d9c-a943-83692bd2834f
+   :END:
+*** Fall out of favor after the war of 1812
+   :PROPERTIES:
+   :ID:       14ca74c0-4458-4c89-9b12-ff1c27e8fa97
+   :END:
+   - some get called traitors
+   - [[brain:d9127c42-b49a-47bc-a4b4-7f3ff50af47e][Hartford Convention]] is one reason
+** Andrew Jackson
+  :PROPERTIES:
+  :ID:       374b1977-631f-4318-9cee-f7e76c0667b1
+  :BRAIN_FRIENDS: 6a866920-0d1e-4eb3-836a-05800456a6ff
+  :END:
+*** Battles
+   :PROPERTIES:
+   :ID:       de7c94bf-6b08-47d6-9405-3e21eee6e1fd
+   :END:
+   - [[brain:bdbcf494-e9ff-4a98-9bc4-84254055715a][Battle of New Orleans]]
+*** Background
+   :PROPERTIES:
+   :ID:       06418849-7335-4190-b937-41a226275322
+   :END:
+   - Orphan
+   - Poor
+   - Born in a log cabin
+*** Champion of the common (white) man
+   :PROPERTIES:
+   :ID:       d6bb53b6-6e80-4f54-800d-68ab638ac0be
+   :END:
+   - they liked him a lot because of his stances and background
+*** Jacksonian Democracy
+   :PROPERTIES:
+   :ID:       556635b6-14dc-406f-bfbd-06080d294338
+   :END:
+**** Benefits the common white man
+    :PROPERTIES:
+    :ID:       1a415941-7640-470d-80f7-d3b4fc700772
+    :END:
+    - doesn't benefit other people
+    - [[id:56c284c6-2e5a-4779-b862-471e9a1809b3][White Man's Suffrage]]
+*** Presidential term
+   :PROPERTIES:
+   :ID:       7f66ce51-8dec-41c3-811d-8e6c299f109b
+   :END:
+**** Called himself 'champion of the common man'
+    :PROPERTIES:
+    :ID:       52d6e579-f967-45be-8702-897a2017aaac
+    :END:
+*** Jackson, Good Evil and the Presidency notes                   :nobrain:
+   :PROPERTIES:
+   :ID:       2ee1eb05-ba5b-4134-b6fd-51ae553a5292
+   :END:
+**** Why was he loved?
+    :PROPERTIES:
+    :ID:       2b1e7eee-19ac-462e-ba22-21187e141550
+    :END:
+    - Appealed to the common man
+      - They identified with him
+	- Allowed working-class people to come to his inauguration
+	  - Lots of people fought and broke stuff
+	- His story was like theirs
+      - He was one of them for a while
+      - Acted kind of like one of them
+    - they liked this about him
+**** Controversial
+    :PROPERTIES:
+    :ID:       50b78627-e292-43db-b1c4-8eda43733316
+    :END:
+    - Killed people in duels
+      - Had certain thoughts about honor
+      - Dueling was kind of controversial
+    - Owned a lot of slaves
+    - Got rid of the banks
+      - Crippled the economy
+    - [[id:c7b58297-d344-46b4-be18-ec44f3c53900][The Trail of Tears]] and [[id:6b4fa298-3c2f-494e-8142-a69ffea61d22][Indian Removal Act]] and fought native americans and stuff
+      - The cherokee fought in court and won: Supreme court ruled that it was unconstitutional
+	- Jackson didn't care
+	- He went ahead with it anyway
+    - People worried that Jackson would take away the democracy of America
+      - Called the first imperial president
+***** Nullification
+     :PROPERTIES:
+     :ID:       755e3e79-a25c-491c-8315-d7633526e49a
+     :END:
+     - Tried to stop states from disputing federal laws
+     - After South Carolina disputed a tax law
+**** Slave owning
+    :PROPERTIES:
+    :ID:       a71dded6-6e39-4c68-a185-8ad9a56acdc2
+    :END:
+    - Owned a lot of slaves and a big plantation
+**** Bank war
+    :PROPERTIES:
+    :ID:       80ff47f9-3f6a-46dc-b732-fcf83865d036
+    :END:
+    - Removed a lot of banks
+    - Crashed economy
+** Whig Party
+  :PROPERTIES:
+  :ID:       8a96826f-e146-4f40-bc4f-5623750cd8f0
+  :END:
+*** Created to oppose Andrew Jackson and the Democrats
+   :PROPERTIES:
+   :ID:       e3c9a797-964c-4969-94a2-614be5143428
+   :END:
+*** Stances
+   :PROPERTIES:
+   :ID:       9810d358-346c-4072-b35f-5b5deba85c82
+   :END:
+   - Active government support for economic improvement
+** White Man's Suffrage
+  :PROPERTIES:
+  :ID:       56c284c6-2e5a-4779-b862-471e9a1809b3
+  :END:
+  :BACKLINKS:
+  [2020-12-07 Mon 10:46] <- [[id:1a415941-7640-470d-80f7-d3b4fc700772][Benefits the common white man]]
+  :END:
+*** Removed [[brain:891a8167-bd00-4a23-88fb-b528005ef862][Voting Property Requirements]]
+   :PROPERTIES:
+   :ID:       6bf759ea-e0e7-4df0-97ad-33c99f3151e7
+   :END:
+   - Happened because there were more poor people during the industrial revolution
+   - Created a lot of people who had no say in their government
+   - 
+*** Opened voting to all white men
+   :PROPERTIES:
+   :ID:       3803d1bd-431b-485b-9d74-5637c61c587e
+   :END:
+*** Stopped anyone who wasn't a white man from voting
+   :PROPERTIES:
+   :ID:       481b74f3-0a59-4086-88f2-54050709d317
+   :END:
+   - women could vote until the white man's suffrage
+**** 1807 in NJ abolished [[brain:891a8167-bd00-4a23-88fb-b528005ef862][Voting Property Requirements]] but stopped women from voting
+    :PROPERTIES:
+    :ID:       4eeab987-fabc-4e24-ae2d-ce3899c73dd9
+    :END:
+**** 1825 in New York allowed all white men, but created high property requirements for black people
+    :PROPERTIES:
+    :ID:       6364ea3c-470f-4a0b-af0e-bbcf0b883f7d
+    :END:
+    - only 68 out of 13,000 free black men could vote in NY
+** Voting Property Requirements
+  :PROPERTIES:
+  :ID:       891a8167-bd00-4a23-88fb-b528005ef862
+  :END:
+*** So that poorer people can't vote
+   :PROPERTIES:
+   :ID:       cc9edfbf-437a-4d14-8fc0-a5b0674386a8
+   :END:
+   - wanted to prevent people from voting
+*** Because of the federalist/republican view
+   :PROPERTIES:
+   :ID:       29d87da5-e25c-4ec8-a885-6398dbc1263d
+   :END:
+   - distrust of the poorer people
+** Denmark Vesey
+  :PROPERTIES:
+  :ID:       50bd9baf-33b8-4a29-a76c-18053869a589
+  :END:
+  - free slave in Charleston, South Carolina
+*** Involvement in [[brain:bef51a5f-30bf-4583-8c51-fb02b347ed36][Slave rebellion of 1822]]
+   :PROPERTIES:
+   :ID:       47c0ffb5-e50e-494a-8753-98f20b4a33eb
+   :END:
+  - Used position as lay minister of African Methodist Episcopal Church to spread the word
+  - Was betrayed
+*** Death
+   :PROPERTIES:
+   :ID:       dd0dbfc4-cd47-4c78-a8d4-897daebc5cd1
+   :END:
+   - executed along with 34 others for involvement in [[brain:bef51a5f-30bf-4583-8c51-fb02b347ed36][slave rebellion of 1822]]
+** Election of 1824
+  :PROPERTIES:
+  :ID:       c63ca2e4-4f15-48c8-8814-2e1c3ff67346
+  :END:
+*** Candidates
+   :PROPERTIES:
+   :ID:       b1d5330d-c82f-4a94-95da-11518b31dd34
+   :END:
+   - [[brain:6bf8c198-6167-4679-9bf2-bcf68f61b05f][William H. Crawford]] :: official candidate of the [[brain:d5bbd87a-1736-4354-8596-0622d383b35e][Democratic-Republicans]]
+   - [[brain:374b1977-631f-4318-9cee-f7e76c0667b1][Andrew Jackson]] :: [[brain:d5bbd87a-1736-4354-8596-0622d383b35e][Democratic-Republican]] candidate
+   - [[brain:9fd9f4c7-b549-45d0-8b5d-7b634f9f7553][John Quincy Adams]] :: [[brain:d5bbd87a-1736-4354-8596-0622d383b35e][Democratic-Republican]] and winner
+*** 'Corrupt Bargain'
+   :PROPERTIES:
+   :ID:       83a11978-7f2a-4077-8d9f-283ebd34db77
+   :END:
+   - Nobody won majority in the electoral college (jackson had more votes though)
+   - House of Representatives had to choose from the top two
+   - Henry Clay struck a deal: Henry Clay endorses Adams, and Adams makes him the secretary of state
+   - Went over badly with [[brain:374b1977-631f-4318-9cee-f7e76c0667b1][Andrew Jackson]]'s supporters
+   - Adams still won, but the "corrupt bargain" highly influenced the [[brain:69f7a969-868b-4056-a7d0-a5568266034b][election of 1828]]
+** Election of 1828
+  :PROPERTIES:
+  :ID:       69f7a969-868b-4056-a7d0-a5568266034b
+  :END:
+*** Candidates
+   :PROPERTIES:
+   :ID:       2d1c0fa1-5b93-4caa-bc17-71ddc261b178
+   :END:
+   - [[brain:9fd9f4c7-b549-45d0-8b5d-7b634f9f7553][John Quincy Adams]] :: [[brain:d5bbd87a-1736-4354-8596-0622d383b35e][Democratic-Republican]] candidate, hurt by [[brain:83a11978-7f2a-4077-8d9f-283ebd34db77]["corrupt bargain"]] of 1824
+   - [[brain:374b1977-631f-4318-9cee-f7e76c0667b1][Andrew Jackson]] :: [[brain:d5bbd87a-1736-4354-8596-0622d383b35e][Democratic-Republican]] candidate and winner
+*** Race
+   :PROPERTIES:
+   :ID:       a2573356-658f-46db-832c-ed1c56754a9a
+   :END:
+   - highly influenced by the [[brain:c63ca2e4-4f15-48c8-8814-2e1c3ff67346][election of 1824]]'s [[brain:83a11978-7f2a-4077-8d9f-283ebd34db77]["corrupt bargain"]], which hurt Adams greatly
+   - Jackson wins in like a landslide
+** William H. Crawford
+  :PROPERTIES:
+  :ID:       6bf8c198-6167-4679-9bf2-bcf68f61b05f
+  :END:
+*** Ran in the [[brain:c63ca2e4-4f15-48c8-8814-2e1c3ff67346][election of 1824]]
+   :PROPERTIES:
+   :ID:       cde50f61-4882-4992-a2fa-039621040adc
+   :END:
+   - Was the official candidate for the [[brain:d5bbd87a-1736-4354-8596-0622d383b35e][Democratic-Republicans]]
+** John Quincy Adams
+  :PROPERTIES:
+  :ID:       9fd9f4c7-b549-45d0-8b5d-7b634f9f7553
+  :END:
+*** Son of John Adams
+   :PROPERTIES:
+   :ID:       e5e736f5-3e39-4226-8792-cdf3de4a5446
+   :END:
+   - helped him become the president
+*** Presidency
+   :PROPERTIES:
+   :ID:       e42a820b-f5d9-4881-a822-46048b46cb73
+   :END:
+   - served one term in 1824-1828
+*** Was a genius, but not good with people
+   :PROPERTIES:
+   :ID:       3081b3e8-fbd4-4955-bbb6-281185b272f0
+   :END:
+   - Possibly the smartest president ever
+   - not good with people
+*** Stances
+   :PROPERTIES:
+   :ID:       ffa3e213-359b-466f-a62e-46576a3ea31f
+   :END:
+   - Wanted a publicly-funded national university
+   - Wanted the government to invest in science and research
+   - Believed in potential dangers of democracy
+     - One thing that hurt his presidency
+   - Overturned treaty from Creek Nation in 1825
+     - Believed that the land ceded was unfairly gotten through coercion
+   - Removed rules that prevented anti-slavery petitions being presented to congress
+   - Defended enslaved Africans in the Amistad case
+
+** The Trail of Tears
+  :PROPERTIES:
+  :ID:       c7b58297-d344-46b4-be18-ec44f3c53900
+  :END:
+  :BACKLINKS:
+  [2020-12-07 Mon 21:35] <- [[id:50b78627-e292-43db-b1c4-8eda43733316][Controversial]]
+  :END:
+*** Description
+   :PROPERTIES:
+   :ID:       ceaef0e9-eaa3-425b-ac6e-e361d2f337d2
+   :END:
+   Removal of Native American tribes from their ancestral lands to make room for settlers.
+*** Jackson's involvement
+   :PROPERTIES:
+   :ID:       c6235cca-2c9e-43f2-bb60-60b3ebeebc5f
+   :END:
+**** He and his supporters supported it
+    :PROPERTIES:
+    :ID:       55ae4938-d24a-447c-9588-f9e7648d6711
+    :END:
+    - Most of his supporters were south and western
+      - They wanted the Native Americans gone
+**** Was his idea
+    :PROPERTIES:
+    :ID:       39ae287b-d42d-4ef4-a65b-b6941a75a58f
+    :END:
+    - He started the whole thing
+*** Native American's reactions
+   :PROPERTIES:
+   :ID:       1e13a3e8-02a7-4730-b28a-039d30a684af
+   :END:
+**** Cherokee fought in the courts and won
+    :PROPERTIES:
+    :ID:       9e168f73-48ac-4f8f-9db2-8657c3965d30
+    :END:
+    - /Cherokee Nation v Georgia/
+      - Went to the supreme court
+      - John Marshall's opinion was that they win
+      - They win the case
+    - Georgia's officials and Jackson refuse to enforce it, and ignore the ruling
+*** What happened
+   :PROPERTIES:
+   :ID:       a1d42d58-9724-49e6-968b-15895ed04f2a
+   :END:
+   The Cherokee [[brain:9e168f73-48ac-4f8f-9db2-8657c3965d30][fought in the courts and won]], but Jackson refused to recognize this.
+   Jackson sent federal troops to remove them in 1831 and send them west, which was part of the [[brain:b4c3b966-838e-4853-9e9d-c144ab3b380f][Treaty of New Echota]].
+   It was called the Trail of Tears.
+   20,000 Cherokee were marched at gunpoint.
+   A quarter of them died along the way, and the survivors had to survive in a foreign land. 
+*** Treaty of New Echota
+   :PROPERTIES:
+   :ID:       b4c3b966-838e-4853-9e9d-c144ab3b380f
+   :END:
+   Native Americans accepted payment to be sent westward. 
+*** Indian Removal Act
+   :PROPERTIES:
+   :ID:       6b4fa298-3c2f-494e-8142-a69ffea61d22
+   :END:
+   :BACKLINKS:
+   [2020-12-07 Mon 21:36] <- [[id:50b78627-e292-43db-b1c4-8eda43733316][Controversial]]
+   :END:
+**** Description
+    :PROPERTIES:
+    :ID:       0645a4dc-c498-4cc2-a18e-b5b7129e510d
+    :END:
+    The act that removes the Native Americans from their homeland.
+    - They move them west to like Oklahoma
+** Speculator
+  :PROPERTIES:
+  :ID:       f393fad2-7732-40a4-95f2-4a7630093a58
+  :END:
+*** Description
+   :PROPERTIES:
+   :ID:       5ebce4d6-ac83-4750-be4a-6675612525ce
+   :END:
+   People who made large profits from purchasing and selling land.
+   - Buy the land super cheap
+   - Sell it for a lot of money
+   - A lot of the land they sell is used for slavery
+*** Involvement in the [[brain:6b4fa298-3c2f-494e-8142-a69ffea61d22][Indian Removal Act]]
+   :PROPERTIES:
+   :ID:       c8b74921-807c-4f01-80be-1be46f7eb769
+   :END:
+   They pressure the government to remove the Native Americans, so that they have more land to buy and sell.
+** Slavery
+  :PROPERTIES:
+  :ID:       6a866920-0d1e-4eb3-836a-05800456a6ff
+  :BRAIN_FRIENDS: 374b1977-631f-4318-9cee-f7e76c0667b1
+  :END:
+*** Slave rebellion of 1822
+   :PROPERTIES:
+   :ID:       bef51a5f-30bf-4583-8c51-fb02b347ed36
+   :END:
+**** Led by [[brain:50bd9baf-33b8-4a29-a76c-18053869a589][Denmark Vesey]] and Gullah Jack
+    :PROPERTIES:
+    :ID:       40779a4e-17ca-4ee3-b764-954019eb2781
+    :END:
+**** Goals
+    :PROPERTIES:
+    :ID:       d694b115-0d80-40f7-bcec-a108e05eb488
+    :END:
+    - Capture the arsenal of South Carolina
+    - Hold the city long enough to escape to Haiti
+    - Allow the black population to escape America
+**** Failed
+    :PROPERTIES:
+    :ID:       e4c8e11d-c3ec-443d-80cb-3a7de6d04d9d
+    :END:
+    - was betrayed
+*** Slave life
+   :PROPERTIES:
+   :ID:       6a2d9b39-9c54-48bd-b36c-290cea9354bb
+   :END:
+**** Roles
+    :PROPERTIES:
+    :ID:       777db4d4-bb3b-4fdf-8192-c5b231702585
+    :END:
+    - Overseer :: Paid to get the most work out of slaves. Not a slave.
+    - Driver :: A slave who did the work of an overseer. Often hated by the rest of the slaves.
+    - Domestic slaves :: Had better life than other slaves. Were basically servants.
+    - Plantation slaves :: The worst living conditions. Harsh. 
+**** Slave codes
+    :PROPERTIES:
+    :ID:       8cda9232-80fb-40c5-aa79-33f30b7b3846
+    :END:
+    - Outlined slaves' rights
+      - How they could be treated
+    - Examples of the codes
+      - Person cannot do business with slave without consent of the owner
+      - Could be awarded as a prize in gambling/raffle
+      - Could be traded like currency
+      - Not allowed to carry a gun
+	- If found with one, 39 lashings and gun is taken.
+      - Not allowed to be educated
+      - Not allowed to assemble without a white person
+      - Slaves have no personal rights
+	- Marriages are not legally binding
+	- Being raped is not punishable
+*** Chivalry and the plantation
+   :PROPERTIES:
+   :ID:       9661e9c7-71ea-4e31-985c-00852c3e6b52
+   :END:
+**** Chivalry
+    :PROPERTIES:
+    :ID:       9352611e-9832-4b97-b29c-b1bc7dbfbe99
+    :END:
+    - Southern code :: gentlemen must be courteous, truthful, and honorable. Broad understanding of the humanities. Southern woman is gracious.
+*** Balancing slave and free states
+   :PROPERTIES:
+   :ID:       2f4a5f3b-fa7d-47f1-a106-fee0baadd7eb
+   :END:
+**** Reason to balance them: politics in the senate and house
+    :PROPERTIES:
+    :ID:       ec55d276-835f-4e3f-9c74-fc16b4adaf28
+    :END:
+    - they didn't want the house or senate to be all slave states or all free states
+    - wanted it to be equal or at least balanced so that the senate would be more neutral
+**** Attempts
+    :PROPERTIES:
+    :ID:       73e5ddcb-88fb-4b1d-8c14-12edc250e504
+    :END:
+***** [[brain:e8f9b41e-fe16-49d3-bdeb-677025ec05d9][Missouri Compromise]] was the first attempt
+     :PROPERTIES:
+     :ID:       3f673e0d-9288-4923-8b10-363d30b2533b
+     :END:
+**** Missouri Compromise
+    :PROPERTIES:
+    :ID:       e8f9b41e-fe16-49d3-bdeb-677025ec05d9
+    :END:
+***** Missouri was added as a slave state, Maine as free
+     :PROPERTIES:
+     :ID:       4f08f1f5-09a0-4e93-9cd6-3b504172dd12
+     :END:
+     - happened so they could balance slave 
+*** Cotton Gin
+   :PROPERTIES:
+   :ID:       003e20eb-ad5f-4b79-807b-cbf4c8b40b17
+   :END:
+   :BACKLINKS:
+   [2020-11-16 Mon 20:03] <- [[id:86754559-7aee-4546-b019-a4bfb69e61c6][Timeline]]
+   :END:
+**** Created by Eli Whitney (or, as some sources say, his wife)
+    :PROPERTIES:
+    :ID:       9dacfcc2-8fb0-4c68-8e22-f0231c3f6fdd
+    :END:
+    - he was an inventor who went to yale
+      - Son of a massachusetts farmer
+    - Never made money off of it
+      - Was copied before he could get a patent
+**** Caused higher demand of slavery
+    :PROPERTIES:
+    :ID:       b95847a5-0b1e-40af-8a08-0abbc7b5b81a
+    :END:
+    - they could process more cotton
+    - More slaves needed to pick cotton
+**** Made cotton the 'king' of production and money in the south, continued slavery
+    :PROPERTIES:
+    :ID:       bdd32d17-6b93-4252-b59e-20fc12ae8c57
+    :END:
+    - 1000% rise in cotton production after its invention
+    - Before the gin, people thought slavery might disappear
+      - It didn't because of the gin
+*** The great evil
+   :PROPERTIES:
+   :ID:       cd5824a3-e664-4e74-b69a-b351d0b45e18
+   :END:
+**** Description
+    :PROPERTIES:
+    :ID:       ff8e13ae-aec0-4839-acb3-cac840afe91b
+    :END:
+    - slavery
+*** The Peculiar Institution
+   :PROPERTIES:
+   :ID:       be0c8598-69d4-4aac-9659-1c1fc8cc70de
+   :END:
+   - Slavery is the peculiar institution
+*** History of slavery in america
+   :PROPERTIES:
+   :ID:       349ba5fb-71b9-41c5-845f-65a6b30bc880
+   :END:
+   - Jamestown had slaves
+     - Slaves had been brought to America since the colonies
+*** Mason-Dixon Line
+   :PROPERTIES:
+   :ID:       ab899c25-eb1f-4adf-b73a-fa8b032e81cf
+   :END:
+   - Anything below it allowed slavery
+   - Anything above it disallowed slavery
+   - Compromise for the senate/house/etc
+*** Growing opposition to slavery
+   :PROPERTIES:
+   :ID:       d9a41f7e-31f1-494e-ba84-c11c11e618e9
+   :END:
+**** [[id:6442d325-d3e6-4b6b-88ed-e6e7fb9df573][Second Great Awakening]] on slavery
+    :PROPERTIES:
+    :ID:       467071a2-8cda-4f48-9f6d-7c3d17e6ee83
+    :BRAIN_FRIENDS: 4d1efbd9-088e-4268-83e8-a3e23bf608f1
+    :END:
+    :BACKLINKS:
+    [2021-01-25 Mon 20:02] <- [[id:cc59ea3c-40a9-4782-8754-daa88890d0a1][Religion is split over what to think]]
+    [2020-12-08 Tue 21:34] <- [[id:58b3a124-5537-416d-b96d-8236daaa5079][Start of utopias]]
+    :END:
+    - The second great awakening was anti-slavery
+**** Anti-Slavery Societies
+    :PROPERTIES:
+    :ID:       edaaccd6-cb95-4e30-aa14-803135828dce
+    :END:
+***** More radical
+     :PROPERTIES:
+     :ID:       6e827258-3d8b-4965-b6c9-10150a7f4686
+     :END:
+     - Didn't want a gradual change or compensation for slave owners
+       - Didn't want to buy their freedom
+***** Caused a Gag Rule
+     :PROPERTIES:
+     :ID:       e5a2136a-18a9-429b-ab18-5de29b3ff9eb
+     :END:
+     - No anti-slavery bills in the house of representatives
+     - Prevented the discussion of such bills
+*** Effects on the civil war
+   :PROPERTIES:
+   :ID:       b07688e7-4b2e-4523-8a29-8ea99a7b2e4b
+   :END:
+   - Helped cause it
+** Civil War
+  :PROPERTIES:
+  :ID:       4d7aee30-a821-4431-95c3-70ddae199976
+  :BRAIN_FRIENDS: 8c866fdd-c232-4c7d-852c-3be823217211
+  :END:
+*** Causes
+   :PROPERTIES:
+   :ID:       d92432e5-742f-4497-a784-c556f449cf1f
+   :END:
+   - [[brain:8c866fdd-c232-4c7d-852c-3be823217211][Sectionalism]] :: South vs. North
+** Second Great Awakening
+  :PROPERTIES:
+  :ID:       6442d325-d3e6-4b6b-88ed-e6e7fb9df573
+  :BRAIN_FRIENDS:
+  :END:
+  :BACKLINKS:
+  [2020-12-14 Mon 19:58] <- [[id:1754bd73-68a1-4c2b-8c55-23d1060b3a0b][Motives]]
+  [2020-12-08 Tue 21:38] <- [[id:58b3a124-5537-416d-b96d-8236daaa5079][Start of utopias]]
+  [2020-12-08 Tue 21:38] <- [[id:467071a2-8cda-4f48-9f6d-7c3d17e6ee83][***]]
+  :END:
+*** Description
+   :PROPERTIES:
+   :ID:       8dff6607-7551-4d96-b5f3-959dbeac8581
+   :END:
+   - Series of religious revivals among protestants
+   - Emphasized:
+     - Righteous living
+     - Personal restraint
+     - Strong moral rectitude
+   - The emphasized points would lead a person to salvation
+*** Charles G. Finney
+   :PROPERTIES:
+   :ID:       0a92e291-937b-40fd-b585-1db0fd832c1c
+   :END:
+   - Headed it
+**** Views
+    :PROPERTIES:
+    :ID:       14a10317-1c33-4419-ad18-cb19f3502d5e
+    :END:
+    - Salvation :: =the beginning of a life of good works here on earth! Man can, therefore, achieve his own salvation.=
+    - No predestination :: You can change whether you go to heaven depending on what you do.
+    - Slavery :: A great evil, something that's bad. Didn't like it
+*** Evangelists on a =divine mission=
+   :PROPERTIES:
+   :ID:       1d0dfd12-1c97-4aeb-b382-12c02ac1be72
+   :END:
+   - Believed churches were the right way to change things
+*** Anti-slavery
+   :PROPERTIES:
+   :ID:       be11c868-63bb-4e8f-881c-1913f6ce6381
+   :END:
+   - It's anti-slavery
+   - People start deciding to fight slavery
+** Sectionalism
+  :PROPERTIES:
+  :ID:       8c866fdd-c232-4c7d-852c-3be823217211
+  :BRAIN_FRIENDS: 4d7aee30-a821-4431-95c3-70ddae199976
+  :END:
+  - Tragic flaw in the American experiment
+    - People were divided
+    - Those divisions also had sections of the country who believed different things
+*** Description
+   :PROPERTIES:
+   :ID:       73437092-c8bf-4636-bd56-3df4a5194f16
+   :END:
+   - When you identify more with your place/state than your country
+** Utopia Experiments
+  :PROPERTIES:
+  :ID:       4d1efbd9-088e-4268-83e8-a3e23bf608f1
+  :BRAIN_FRIENDS: 467071a2-8cda-4f48-9f6d-7c3d17e6ee83 fabdadfd-daa0-49dc-8b6c-567439fb2d65
+  :END:
+*** Utopia Project                                                :nobrain:
+   :PROPERTIES:
+   :ID:       608a5ec8-5765-41b8-b104-98dffc0a0edd
+   :END:
+**** Premise
+    :PROPERTIES:
+    :ID:       3c21de71-ff14-4f85-9d77-7082cf8f524d
+    :END:
+*** Start of utopias
+   :PROPERTIES:
+   :ID:       58b3a124-5537-416d-b96d-8236daaa5079
+   :BRAIN_FRIENDS:
+   :END:
+   - Started in the 19th century
+     - Was a pivotal time for America
+     - Lots of change and thoughts about the end of the world, etc
+   - Happened around the [[id:6442d325-d3e6-4b6b-88ed-e6e7fb9df573][Second Great Awakening]]
+     - This is because it brought ideas about how people are naturally good, so a community of people themselves should flourish
+*** Goal of utopias
+   :PROPERTIES:
+   :ID:       7c141aae-adb6-4591-9901-a680c4237afe
+   :END:
+   - A perfect society
+     - Name comes from a greek word for a place where everyone and everything is perfect
+   - People thought they could get a utopia by reorganizing society
+*** Failed utopia examples
+   :PROPERTIES:
+   :ID:       f846bc05-08be-4b0a-9dad-f68fa95c2e26
+   :END:
+**** Rappites
+    :PROPERTIES:
+    :ID:       aca2de65-276c-4ceb-ae73-0750f34cb401
+    :END:
+    :BACKLINKS:
+    [2020-12-08 Tue 21:46] <- [[id:5819b2ed-984c-4d5a-a5b0-c367cbfd6f5e][George Rapp]]
+    :END:
+    - Nicknames :: n/a
+    - Founder :: [[id:5819b2ed-984c-4d5a-a5b0-c367cbfd6f5e][George Rapp]], kind of crazy
+    - Based on :: Religion
+    - Location :: Pennsylvania
+    - Population :: 600
+    - Beliefs :: Celibacy (very strict about this), common property, equal labor
+    - Goals :: Spread the word and gain converts
+    - Failures :: Didn't gain converts due to strict rules 
+***** George Rapp
+     :PROPERTIES:
+     :ID:       5819b2ed-984c-4d5a-a5b0-c367cbfd6f5e
+     :END:
+     :BACKLINKS:
+     [2020-12-08 Tue 21:46] <- [[id:aca2de65-276c-4ceb-ae73-0750f34cb401][Rappites]]
+     :END:
+     - German religious zealot
+     - Kind of crazy
+     - Started the [[id:aca2de65-276c-4ceb-ae73-0750f34cb401][Rappites]]
+**** Oneida Community
+    :PROPERTIES:
+    :ID:       5385955c-0300-4bff-bc59-0c0c544d7710
+    :END:
+    - Nicknames :: n/a
+    - Founder :: John Humphrey Noyes
+    - Based on :: Social perfectability
+    - Location :: Upstate New York
+    - Population :: ?
+    - Beliefs :: Group marriage (everyone group married can have sex), maybe eugenics, group punishment, maybe pedophiles? unsure
+    - Goals :: ?
+    - Failures :: fire burns down their stuff.
+**** Fruitlands
+:PROPERTIES:
+:ID:       982b592f-b966-4611-acb6-56136a154f22
+:END:
+    - Beliefs :: Veganism (no planting food, it will disturb the worms)
+    - Failures :: Everyone starved.
+**** Mormons
+    :PROPERTIES:
+    :ID:       bd7780e4-c0e1-4f53-8e73-5d3729012e44
+    :END:
+    - Based on :: religion, escaping persecution
+    - Goals :: Escape persecution
+    - Successes :: longest-lasting
+    - Failures :: n/a, still here
+**** Brook Farm
+    :PROPERTIES:
+    :ID:       b91a742c-879d-45f6-bb70-55f40e7853f4
+    :END:
+    - Nicknames :: n/a
+    - Founder :: George Ripley
+    - Based on :: Social perfectability
+    - Location :: Roxbury, Massachusetts
+    - Population :: ?
+    - Beliefs :: Leaving people free of government and allow them to govern themselves.
+    - Goals :: Give everyone a happy intellectual life
+    - Failures :: People weren't happy there
+**** The Transcendentalist Club
+    :PROPERTIES:
+    :ID:       a48200b7-3823-434f-b282-f098c454e9e9
+    :END:
+    - Beliefs :: [[id:8dcf1f71-5aff-4a7c-aa76-46a7cee8aaa0][Transcendentalism]], progressiveness (anti-slavery, women's rights), education
+    - Based on :: Religious? belief
+    - Location :: ?
+    - Notable people :: Nathaniel Hawthorne, [[id:82ada0ea-333e-453b-932d-5027f04674f5][Henry David Throreau]]
+***** Transcendentalism
+     :PROPERTIES:
+     :ID:       8dcf1f71-5aff-4a7c-aa76-46a7cee8aaa0
+     :END:
+     :BACKLINKS:
+     [2020-12-08 Tue 22:13] <- [[id:a48200b7-3823-434f-b282-f098c454e9e9][The Transcendentalist Club]]
+     :END:
+     - The belief that people have knowledge about themselves and the world around them that "transcends" the senses
+***** Henry David Throreau
+     :PROPERTIES:
+     :ID:       82ada0ea-333e-453b-932d-5027f04674f5
+     :END:
+     :BACKLINKS:
+     [2020-12-08 Tue 22:21] <- [[id:a48200b7-3823-434f-b282-f098c454e9e9][The Transcendentalist Club]]
+     :END:
+     - Went to the middle of the woods to learn simplicity
+** Manifest Destiny
+  :PROPERTIES:
+  :ID:       fabdadfd-daa0-49dc-8b6c-567439fb2d65
+  :BRAIN_FRIENDS: 4d1efbd9-088e-4268-83e8-a3e23bf608f1
+  :END:
+  :BACKLINKS:
+  [2020-12-16 Wed 10:22] <- [[id:2c3ff32c-5876-47aa-a722-55e9044d66d0][John L. O'Sullivan]]
+  :END:
+*** Definition
+   :PROPERTIES:
+   :ID:       7d87c3ea-775d-4f18-9ff0-0f15e6ec01ab
+   :END:
+   - The "God given right to expand across the continent and spread the American institutions, like capitalism, slavery, democracy, and public education."
+   - Coined by [[id:2c3ff32c-5876-47aa-a722-55e9044d66d0][John L. O'Sullivan]] in 1845
+   - People wanted to spread west 
+*** Motives of the Manifest Destiny
+   :PROPERTIES:
+   :ID:       1754bd73-68a1-4c2b-8c55-23d1060b3a0b
+   :END:
+   - Economic :: There was money out west, with fur, gold, and land.
+   - Religious :: Influenced by the [[id:6442d325-d3e6-4b6b-88ed-e6e7fb9df573][Second Great Awakening]], people thought they could save the native americans' souls by converting them. Missionaries tried this.
+   - American Exceptionalism/Belief in superiority :: Many Americans viewed the natives as savages or inferior, and wanted to try to "civilize" them.
+   - Expanding the boundaries of the US :: America wanted to expand. More people were there, so there had to be somewhere for them to go.
+*** John L. O'Sullivan
+   :PROPERTIES:
+   :ID:       2c3ff32c-5876-47aa-a722-55e9044d66d0
+   :END:
+   :BACKLINKS:
+   [2020-12-16 Wed 10:23] <- [[id:7d87c3ea-775d-4f18-9ff0-0f15e6ec01ab][Definition]]
+   :END:
+   - Coined the term [[id:fabdadfd-daa0-49dc-8b6c-567439fb2d65][Manifest Destiny]] in 1845
+*** <<<Santa Anna>>>
+   - Dictator of Mexico during the mexican-american wars
+*** The Lone Star Republic (manifest destiny)
+   :PROPERTIES:
+   :ID:       67c4fcc3-1c5c-4910-b611-0450a013045b
+   :END:
+**** Mexico allows American settlers into Texas (which was a part of Mexico)
+    :PROPERTIES:
+    :ID:       2a35b722-d1bc-4bfc-8c3e-07460ec82e50
+    :END:
+***** Mexico's rules about settlers
+     :PROPERTIES:
+     :ID:       17ab8b30-7ec8-40ca-9913-f29679f4fdad
+     :END:
+     :BACKLINKS:
+     [2020-12-21 Mon 11:31] <- [[id:8d225729-f67f-434e-b479-4fbf83bdfd23][Issues between  the Texans and the Mexicans]]
+     :END:
+     - Settlers had to become Catholic
+     - They were expected to become Mexican
+       - They were expected to follow the Mexican laws and stuff
+       - No slavery, etc etc
+       - They were supposed to learn Spanish
+***** Reasons for allowing American settlers into Texas
+     :PROPERTIES:
+     :ID:       b97bf4c5-db6a-4f0d-a920-ea0e0397bcd7
+     :END:
+     - Creating a buffer :: They wanted to create a buffer land between the Comanche tribe and the homeland
+       - Figured that if the Texans were raided, they would either fight for them or die for them
+       - That way the Mexican homeland would not be 
+     - Texas didn't have a lot of people :: They wanted more people in Texas
+       - It was extremely sparsely populated
+     - Economy :: A lot of the americans are hard working or smart, so they can make them more money
+       - Thought that they might be able to also set up trade with America
+       - Figured that the Americans were going to help 
+****** <<<Comanche Tribe>>>
+      :PROPERTIES:
+      :ID:       b6b14473-5b02-4e73-bf33-6c67c759fbaa
+      :END:
+      - Called brutal
+      - Unstoppable
+      - Masters of horses
+***** Issues between  the Texans and the Mexicans
+     :PROPERTIES:
+     :ID:       8d225729-f67f-434e-b479-4fbf83bdfd23
+     :END:
+     - The Texans didn't abide by the [[id:17ab8b30-7ec8-40ca-9913-f29679f4fdad][Mexican rules about settlers]]
+       - They bring slaves
+       - They don't become catholic
+       - They speak english
+     - There's too many of them coming
+***** Reasons to go to Texas (manifest destiny)
+     :PROPERTIES:
+     :ID:       66813f93-b958-43ee-b348-477d2bea0b9a
+     :END:
+     - Cheap land :: The land Mexico offered them was cheap
+     - Money :: People thought that they could make money there.
+     - No taxes :: There aren't any taxes for the American settlers
+***** Colony established (Lone Star Republic)
+     :PROPERTIES:
+     :ID:       31234ec4-a604-44d6-bd1a-2f57c534a36a
+     :END:
+     - Formed by [[id:7fd7ea84-7585-4c5c-a298-6e8832ef1b99][Stephen F. Austin]]
+     - 
+***** Stephen F. Austin
+     :PROPERTIES:
+     :ID:       7fd7ea84-7585-4c5c-a298-6e8832ef1b99
+     :END:
+     :BACKLINKS:
+     [2020-12-16 Wed 10:26] <- [[id:31234ec4-a604-44d6-bd1a-2f57c534a36a][Colony established (Lone Star Republic)]]
+     [2020-12-15 Tue 21:25] <- [[id:b212cdd4-e48a-4202-bd81-cf5973640295][War between Texas and Mexico]]
+     :END:
+     - Led the American settlers to Texas
+     - Was jailed in Mexico City
+       - Made a lot of people angry
+**** War between Texas-Mexico War
+    :PROPERTIES:
+    :ID:       b212cdd4-e48a-4202-bd81-cf5973640295
+    :END:
+    - One cause was that [[id:7fd7ea84-7585-4c5c-a298-6e8832ef1b99][Stephen F. Austin]] tried to go to Mexico City, but was jailed
+      - Everyone got mad
+    - Started in 1835
+    - Texas declared independence on March 2, 1836
+***** <<<Battle of the Alamo>>>
+     :PROPERTIES:
+     :ID:       16ec0987-4293-49dd-a820-d4c980d08538
+     :END:
+     - Was once a mission
+     - Was besieged by dictator Santa Anna's forces
+     - 13-day holdout, by 187 people, but eventually overrun and lost
+       - everyone died
+     - Happened in the 1830s
+***** DONE notes on American-Mexican War: 29 a, b, c    :homework:school:
+     DEADLINE: <2021-01-05 Tue>
+     :PROPERTIES:
+     :Effort:   0:45
+     :END:
+     :LOGBOOK:
+     CLOCK: [2021-01-05 Tue 19:24]--[2021-01-05 Tue 20:00] =>  0:36
+     CLOCK: [2021-01-04 Mon 18:43]--[2021-01-04 Mon 20:48] =>  2:05
+     :END:
+****** Texas was freed after forces led by sam houston beat santa anna and captured him 
+- They took him and basically forced him to recognize Texas as a new country
+- Sam Houston led American troops in and destroyed them
+****** Texas was its own country for nine years
+- The US didn't want to annex them so they could avoid problems with adding another slave 
+****** Issues with Oregon
+******* Issues with who owned Oregon
+- It was a disputed territory
+  - Great Britain and America claimed it at the same time 
+******** Treaty of 1818
+- Allowed for joint occupation of the territory
+- Both Americans and British people could go there
+- Only worked as a temporary solution
+******* Americans flock to Oregon, creating tensions
+:PROPERTIES:
+:ID:       d925064a-f4de-4898-9348-53b660e5f88a
+:END:
+:BACKLINKS:
+[2021-01-05 Tue 19:37] <- [[id:43a593bf-333b-4c28-89f2-997f032242ba][<<<James Polk>>> wins the election of 1844]]
+:END:
+- The Americans flocked to Oregon
+- It creates tension between the british and the americans
+- The Americans start to outnumber them
+******* James Polk compromises with the British
+- He didn't want to have to fight Mexico and Britain at once
+  - America was too new and didn't have the strength
+- Boldly declared that Britain leaves in one year
+  - They were outnumbered 6-1 by that time
+- Compromises, splitting Oregon down the 49^th parallel
+****** <<<James Polk>>> 
+******* How Polk wins the election of 1844
+:PROPERTIES:
+:ID:       43a593bf-333b-4c28-89f2-997f032242ba
+:END:
+- Taps in to the manifest destiny and [[id:d925064a-f4de-4898-9348-53b660e5f88a][the Oregon fever]] to beat Henry Clay
+- Was just a really good strategist
+****** <<<American-Mexican war>>>
+    :PROPERTIES:
+    :ID:       fb972b0e-abc6-472b-b24f-9aac13e08aaa
+    :END:
+- Happened over a border dispute about Texas
+- Mexico loses a lot
+  - Loses a lot
+  - Mexico loses to inferior numbers
+- America brings in 1mil sq. mi of land, including texas
+******* Reasons behind the American-Mexican war
+- James Polk wants to take California so he could trade with the East
+  - Finds Monterey and San Francisco important
+  - Great Britain also had ideas about taking it so he had to do something quickly
+  - Has to take it from Mexico
+- Mexico is mad because if America annexes Texas, then they have no chance of getting it back
+******* James Polk tries to buy NM, CA, and TX above Rio Grande
+- Polk sends John Slidell to offer them $30,000,000 for the territory
+- Mexico is really really mad about this
+- They don't want to sell the territory
+******* James Polk antagonizes Mexico
+- He sends General Zachary Taylor to cross the Nueces River
+  - Taylor has 4,000 troops with him
+- Polk orders Taylor to move his troops to the Rio Grande after the Mexicans refuse the money he offered them to buy the territories
+  - the Mexican army fires on the troops because they believed that the territory was theirs
+  - Polk uses this as a reason to go to war with Mexico
+******* Treaty of <<<Guadalupe-Hidalgo>>>
+     :PROPERTIES:
+     :ID:       b88d9f6d-a4a3-4b25-8401-dbd2278a7af5
+     :END:
+- End of the war
+- Sets the borders of Texas
+- Mexico gives up claims to places above the Rio Grande and stuff
+***** Effects on America
+** Prospectors
+  :PROPERTIES:
+  :ID:       9f2aa073-a853-42ee-8511-de7aff6f38b1
+  :END:
+  :BACKLINKS:
+  [2020-12-14 Mon 11:14] <- [[id:6a311506-c1b2-4986-aea9-cdd74ede30c0][Makes people go west]]
+  :END:
+  - Go west to the Rockies to find gold
+
+* Notes
+** Civil War
+*** Leading up to the civil war
+**** Popular sovereignty
+***** Problem: nobody could figure out what to do about slave and free states
++ It was a heated debate
+  - People were almost ready to go to war over it (lol)
++ Nobody could come up with a solution
+  - Missouri Compromise is having problems
++ Debate was heating up
+***** Solution: Popular Sovereignty
++ Allows the people of the territories to decide what to do about slavery
+  - People would get to choose if their territory would allow slavery
+  - Took the debate off the federal government
++ Had a lot of good things
+  - Championed democracy
+  - Took the heat of the government
+  - Seems like a great idea
+***** Problems with popular sovereignty
++ People couldn't figure out how to implement it
+  - If you already owned slaves, could you keep them?
+  - How would you vote?
+    - What would you do about voter fraud?
+    - Should it be direct or indirect voting?
++ It was a great way to avoid the problem, but didn't make it go away
+  - Stephen Douglas discussed it a lot
+    - As long as popular sovereignty was theoretical, he and the idea had supporters
+  - People basically avoided working out the issues and actually implementing it
++ Nobody wanted to face the issues
+  - Zachary Taylor completely ignores slavery in his campaign in 1848
+    - Wins and becomes president
+**** Clay, Calhoun, and Webster
+***** They were all important senators
++ Never would become president, but had a huge impact
+  - They were really really really good at compromising
+    - Came up with important compromises about slavery
+  - Kept the peace
+***** Issues with slavery
++ California becomes the 31st state
+  - Could become a free or slave state
+  - The south doesn't want it to be free because it would give them an edge in the Senate
+    - They also recognize it doesn't have that many slaves to start
+    - The free states already have an edge in the house of reps, so this would mean free domination of congress
++ Texas was claiming land that's part of NM
+  - If Texas gets the land, then there's more slavery land
+    - North doesn't want that
+  - South likes it
+    - They like slavery
+***** Clay, Calhoun, and Webster work together to compromise on Slavery
++ Clay sets up eight proposals
+  - Hopes they would "muster with his colleagues" (not sure what that means?)
++ Calhoun says that the compromises would betray the south
+  - Says that north needs to agree to protection of slavery
+    - Says that for the south to feel comfortable staying in 'murica, they would have to
++ Webster says to accept Clay's proposals for the sake of the union
+  - Pleads with North to accept South's demands
+  - Says it's for the sake of the union
+  - Withdraws support for Wilmot Proviso
+  - Wanted to persuade enough Of his people to agree with Clay
+**** The Compromise of 1850
++ Clay leaves for sickness, Stephen Douglas replaces him
+  - Douglas tries to end the fight in his place
++ Zachary Taylor dies on July 9
+  - He wasn't interested in compromise
+  - His successor, Millard Fillmore, was
++ _Clay's compromise is passed in September_
+***** Results of 1850 compromise
++ California is admitted to the Union
+  - 16th free state
++ No federal restrictions on slavery in Utah or NM
+  - Compromises for California being admitted to the Union
++ Texas loses boundary claims with NM
+  - Compensated with $10 millon dollars
++ <<<Fugitive Slave Law>>> passed
+  - Means that Northerners who find runaway slaves have to return them to their owners
++ _Overall, North gains the most_
+  - They get the Senate and the House
+** New Slavery Notes and stuff
+:PROPERTIES:
+:ID:       6587ff3e-a915-443a-95c7-265d4ec703e7
+:END:
+*** Rebellions on and off the plantation
+**** Brief history of slave rebellions
++ It had been happening since 1663
+  - "hundreds of minor uprisings"
+    - Small, and not much of a problem for people
+  - Some were larger and scared the southerners
+**** Denmark Vesey's rebellion
+:PROPERTIES:
+:ID:       5d1283c4-096d-4aa2-9dac-137b0352e374
+:END:
+:BACKLINKS:
+[2021-01-25 Mon 19:38] <- [[id:dffbeef1-f7cb-430a-9df9-edf6f562d014][Effects]]
+:END:
+***** <<<Denmark Vesey>>>
++ He was most likely enslaved from birth
+  - Won a lottery and got his freedom
++ Educated person
+  - Spoke many languages
++ Well-respected
+  - Was an artisan in SC for many year
+***** Plan
++ Murder every white person in the South
+  - Had very wide support
+  - Many people were supposed to help with it
++ Everyone would escape by boat
++ Supposed to happen on Sunday, Jul 24, 1822
++ Wide support
+  - about 9,000 people were involved
+***** End of the rebellion and death
++ It was betrayed and he and 47 others were hanged
++ He was captured, tried, and hanged
+***** Effects
++ Scared a lot of people
+**** Nat turner's rebellion
+***** <<<Nat Turner>>>
+:PROPERTIES:
+:ID:       ce5c8810-4e1c-4903-815b-0f4bb64ab6f6
+:END:
++ A bit of a mystic
+  - Said to have religious visions
+  - Claimed to speak with God
++ Said vision from God told him to rebel
+  - Organized the rebellion
++ Died in his [[id:a7538f6d-6083-4f09-83f7-7385962bc0fd][Rebellion]]
+***** Rebellion
+:PROPERTIES:
+:ID:       a7538f6d-6083-4f09-83f7-7385962bc0fd
+:END:
+:BACKLINKS:
+[2021-01-25 Mon 19:37] <- [[id:ce5c8810-4e1c-4903-815b-0f4bb64ab6f6][<<<Nat Turner>>>]]
+:END:
++ Had about 70 slaves
++ Went plantation to plantation and killed about 75 men
+  - Men, women, and children
+  - Murder
++ Rebellion ended when their supplies ran out
+  - Turner and 18 of his supporters were hanged
+***** Effects
+:PROPERTIES:
+:ID:       dffbeef1-f7cb-430a-9df9-edf6f562d014
+:END:
++ Scared a lot of people, but even more than [[id:5d1283c4-096d-4aa2-9dac-137b0352e374][Denmark Vesey's rebellion]]
+  - It was a lot more successful
+    - Actually worked
+    - Killed people
++ South tightened slave codes and other slave laws
+  - They were scared of the slaves
+  - Added more slave patrols
+**** Other forms of rebellion
+***** Running away
++ Slaves would often run away
++ Some would try to get free
+  - Would go on the underground railroad
+  - Try to either get to the north US or to Canada
+    - Canada was the best, but also harder
++ Some would go to the Indians and join their tribes, and help them against the settlers
+***** Slowing down work
++ Some would slow down their speed of working
+  - It would make the plantation and stuff less productive
++ Others would stop working
+  - Like a strike
+*** The Southern argument for slavery
+:PROPERTIES:
+:ID:       a062232d-a0cc-4b28-a13b-d29d713e2982
+:END:
+:BACKLINKS:
+[2021-01-25 Mon 20:01] <- [[id:cc59ea3c-40a9-4782-8754-daa88890d0a1][Religion is split over what to think]]
+:END:
++ Sudden end to slavery would kill the economy
+  - Cotton production would grind to a halt
+  - Tobacco would stop being produced
+  - Rice would no longer be profitable
++ All slaved being freed would cause chaos and unemployment
+  - Said it would lead to "uprisings, bloodshed, and anarchy"
+    - *Mob's rule of terror in France*
++ Okay in the bible
+  - Abraham had slaves
+  - Ten Commandments say "Thou shalt not covet thy neighbor's house, ... nor his manservant, nor his maidservant"
+  - New Testament has Paul return a runaway slave to his master
+  - Jesus never spoke out about slavery
++ The government had ruled that slavery was fine
+  - Dred Scott Decision--all blacks had no legal standing in courts
+    - Slaves were rights, and constitution protected slave-owner's property rights
++ Compared slaves to poor of Europe
+  - Said that slaves' living conditions were better
+*** Abolitionist Sentiment Grows
+**** Colonization: first solution to slavery
++ _Idea was to raise funds and offer free transport to Liberia for any slave who wanted it_
+  - Most figured that this was a good idea
+  - The thinking was that if you wanted to go back, you could
++ Wasn't popular with most African-Americans
+  - Most of them had never been to Africa
+  - Lots thought that they had helped build the country, and that they had the right to enjoy it
+**** More radical abolitionist ideas are formed
++ Early abolitionists wanted a gradual end
+  - Supported compensation to slaveowners
+  - Would raise money to purchase slaves' freedom
++ New abolitionists saw slavery as something to be eradicated, without compensation
+  - Wanted to just straight up ban it and release all slaves
+**** Religion is split over what to think
+:PROPERTIES:
+:ID:       cc59ea3c-40a9-4782-8754-daa88890d0a1
+:END:
++ South uses Bible to [[id:a062232d-a0cc-4b28-a13b-d29d713e2982][defend it]]
++ Northern churches rally to the cause ([[id:467071a2-8cda-4f48-9f6d-7c3d17e6ee83][Second Great Awakening on slavery]])
+** Abolitionist Sentiment Grows
+*** William Lloyd Garrison and The Liberator
+Rtgts: <<<William Lloyd Garrison>>> <<<William Garrison>>>
+**** The Liberator Publication
++ It was garrison's most prominent abolitionist activity
+  - It was very anti-slavery
+  - Said that it must go
++ Pretty radical
++ Mostly black people read it
+  - 75 percent of readers were freed African-Americans
+**** New England Anti-Slavery Society
++ Formed in 1833
+  - Met with ppl from all around America
++ Decided to go global with it
+  - Went to Europe to get support from them 
+**** Views on slavery
++ Said that only way to get rid of slavery is moral persuasion
+  - Show how immoral it is, and they would join to end it
++ Didn't want a compromise
+*** African-American Abolitionists
+:PROPERTIES:
+:ID:       8d037e91-4875-4d17-801e-7dac4601a5d7
+:END:

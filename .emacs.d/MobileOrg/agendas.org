@@ -1,0 +1,621 @@
+#+READONLY
+* Day-agenda (W05):<after>KEYS=a TITLE: Agenda</after>
+** Saturday    6 February 2021
+               8:00......       ----------------
+              10:00......       ----------------
+***  Diary:      10:00-12:00       Columbia SHP meeting<before></before>
+
+              12:00......       ----------------
+              14:00......       ----------------
+              14:01......       now - - - - - - - - - - - - - - - - - - - - - - - - -
+              16:00......       ----------------
+              18:00......       ----------------
+***  ET more sketching handout math                              :school:homework:<before>todo:       19:00-19:30Scheduled:   0:30</before>
+   DEADLINE: <2021-02-04 Thu> SCHEDULED: <2021-02-06 Sat 19:00-19:30>
+   :PROPERTIES:
+   :ORIGINAL_ID: 8f68c493-6810-478e-a10b-e12e863b690d
+   :END:
+
+              20:00......       ----------------
+***  ET more sketching handout math                                         :school:homework:<before>todo:        2 d. ago:   0:30</before>
+   DEADLINE: <2021-02-04 Thu> SCHEDULED: <2021-02-06 Sat 19:00-19:30>
+   :PROPERTIES:
+   :ORIGINAL_ID: 8f68c493-6810-478e-a10b-e12e863b690d
+   :END:
+
+***  ET finish all vocab for spanish                                        :school:homework:<before>todo:        2 d. ago:   1:00</before>
+   SCHEDULED: <2021-02-03 Wed 19:30-20:00> DEADLINE: <2021-02-04 Thu> ENTERED [2021-02-03 Wed 12:25]
+   :PROPERTIES:
+   :ORIGINAL_ID: f7798821-8acf-4f0d-a6e5-81f972bdd372
+   :END:
+
+***  ET finish reading chapter 4 and discussion sheet                       :school:homework:<before>todo:        2 d. ago:   0:45</before>
+   SCHEDULED: <2021-02-04 Thu 19:50-20:35> DEADLINE: <2021-02-04 Thu>
+   - [ ] 68-76
+   - [ ] 3 min jumping jacks
+   - [ ] 77-83
+   - [ ] 3 min stretch
+   - [ ] Q's 1-3
+   - [ ] 3 min jumping jacks
+   - [ ] Q's 4-6
+   - [ ] 3 min walk
+   - [ ] Q's 7-9
+   :PROPERTIES:
+   :ORIGINAL_ID: 1d9a8d1d-6d26-4a92-ae35-567ecbabba2b
+   :END:
+
+***  TODO finish chapter 5 and discussion sheet                             :school:homework:<before>todo:        2 d. ago:   0:45</before>
+   SCHEDULED: <2021-02-04 Thu 20:35-21:20> DEADLINE: <2021-02-04 Thu> ENTERED [2021-02-03 Wed 12:00]
+   - [ ] 84-92
+   - [ ] 3 min situps
+   - [ ] 93-101
+   - [ ] 3 min stretching
+   - [ ] Q's 1-3
+   - [ ] 3 min situps
+   - [ ] Q's 4-6
+   - [ ] 3 min curls
+   - [ ] Q's 7-9
+   :PROPERTIES:
+   :ORIGINAL_ID: 042dff4e-76f5-4348-bca7-18534c9488f4
+   :END:
+
+***  TODO [#B] Udemy Course SQLi Notes + Make Cheatsheet<before>sqlInjection: 1 d. ago:</before>
+   DEADLINE: <2021-02-05 Fri>
+   :PROPERTIES:
+   :ORIGINAL_ID: f125ec4b-563f-4f01-99e9-d221a807a1ec
+   :END:
+
+***  TODO all audio for spansih                                             :school:homework:<before>todo:        1 d. ago:   0:30</before>
+   DEADLINE: <2021-02-05 Fri> ENTERED [2021-02-05 Fri 10:45]
+   :PROPERTIES:
+   :ORIGINAL_ID: 65929646-8d55-4aab-a1f4-78026fa21f05
+   :END:
+
+***  TODO finish vhls                                                       :school:homework:<before>todo:        1 d. ago:   0:30</before>
+   DEADLINE: <2021-02-05 Fri> ENTERED [2021-02-05 Fri 10:31]
+   :PROPERTIES:
+   :ORIGINAL_ID: 010d7ee7-673a-47f2-8e43-0cb9113237c1
+   :END:
+
+***  math test on sketching polynomials                                         :school:test:<before>todo:        1 d. ago:</before>
+   DEADLINE: <2021-02-05 Fri> ENTERED: [2021-02-03 Wed 15:03]
+   :PROPERTIES:
+   :ORIGINAL_ID: ba00c287-7ad1-44a8-8f8d-438631240712
+   :END:
+
+***  stoich quiz                                                                :school:quiz:<before>todo:        1 d. ago:</before>
+   DEADLINE: <2021-02-05 Fri> ENTERED: [2021-02-03 Wed 15:03]
+   :PROPERTIES:
+   :ORIGINAL_ID: fd8eb8bf-8b1a-403a-97a6-2f000e3112ae
+   :END:
+
+
+
+* ToDo: ALL<after>KEYS=t TITLE: ALL TODO</after>
+**  TODO [#A] set up national science bowl [4/6]                                    :project:nsb:clubs:<before>todo:</before>
+   ENTERED: [2020-12-01 Tue 15:27]
+   :PROPERTIES:
+   :ORIGINAL_ID: 97a66c8d-be57-4fe7-89f6-1a0778d0a70a
+   :END:
+
+**  TODO SQL Injection Practice+Notes                                       :school:homework:project::<before>sqlInjection:</before>
+   [[wechall.net/active_sites][Place to find sites]]
+   :PROPERTIES:
+   :ORIGINAL_ID: 0b7cc919-dea1-4dfe-b20c-85c3393dbfa9
+   :END:
+
+**  TODO [#B] Udemy Course SQLi Notes + Make Cheatsheet<before>sqlInjection:</before>
+   DEADLINE: <2021-02-05 Fri>
+   :PROPERTIES:
+   :ORIGINAL_ID: f125ec4b-563f-4f01-99e9-d221a807a1ec
+   :END:
+
+**  TODO all audio for spansih                                                        :school:homework:<before>todo:        0:30</before>
+   DEADLINE: <2021-02-05 Fri> ENTERED [2021-02-05 Fri 10:45]
+   :PROPERTIES:
+   :ORIGINAL_ID: 65929646-8d55-4aab-a1f4-78026fa21f05
+   :END:
+
+**  TODO finish vhls                                                                  :school:homework:<before>todo:        0:30</before>
+   DEADLINE: <2021-02-05 Fri> ENTERED [2021-02-05 Fri 10:31]
+   :PROPERTIES:
+   :ORIGINAL_ID: 010d7ee7-673a-47f2-8e43-0cb9113237c1
+   :END:
+
+**  ET more sketching handout math                                                    :school:homework:<before>todo:        0:30</before>
+   DEADLINE: <2021-02-04 Thu> SCHEDULED: <2021-02-06 Sat 19:00-19:30>
+   :PROPERTIES:
+   :ORIGINAL_ID: 8f68c493-6810-478e-a10b-e12e863b690d
+   :END:
+
+**  ET finish all vocab for spanish                                                   :school:homework:<before>todo:        1:00</before>
+   SCHEDULED: <2021-02-03 Wed 19:30-20:00> DEADLINE: <2021-02-04 Thu> ENTERED [2021-02-03 Wed 12:25]
+   :PROPERTIES:
+   :ORIGINAL_ID: f7798821-8acf-4f0d-a6e5-81f972bdd372
+   :END:
+
+**  ET finish reading chapter 4 and discussion sheet                                  :school:homework:<before>todo:        0:45</before>
+   SCHEDULED: <2021-02-04 Thu 19:50-20:35> DEADLINE: <2021-02-04 Thu>
+   - [ ] 68-76
+   - [ ] 3 min jumping jacks
+   - [ ] 77-83
+   - [ ] 3 min stretch
+   - [ ] Q's 1-3
+   - [ ] 3 min jumping jacks
+   - [ ] Q's 4-6
+   - [ ] 3 min walk
+   - [ ] Q's 7-9
+   :PROPERTIES:
+   :ORIGINAL_ID: 1d9a8d1d-6d26-4a92-ae35-567ecbabba2b
+   :END:
+
+**  TODO finish chapter 5 and discussion sheet                                        :school:homework:<before>todo:        0:45</before>
+   SCHEDULED: <2021-02-04 Thu 20:35-21:20> DEADLINE: <2021-02-04 Thu> ENTERED [2021-02-03 Wed 12:00]
+   - [ ] 84-92
+   - [ ] 3 min situps
+   - [ ] 93-101
+   - [ ] 3 min stretching
+   - [ ] Q's 1-3
+   - [ ] 3 min situps
+   - [ ] Q's 4-6
+   - [ ] 3 min curls
+   - [ ] Q's 7-9
+   :PROPERTIES:
+   :ORIGINAL_ID: 042dff4e-76f5-4348-bca7-18534c9488f4
+   :END:
+
+**  POSTPONED put together deivers ed notes from onenote (state test review pages)    :school:homework:<before>todo:</before>
+   ENTERED [2021-01-07 Thu 14:10]
+   :PROPERTIES:
+   :ORIGINAL_ID: fb0b425d-c97a-4977-9bcc-41084bc8c388
+   :END:
+
+**  POSTPONED driver's ed test                                                            :school:test:<before>todo:</before>
+
+   :PROPERTIES:
+   :ORIGINAL_ID: c37bb8a5-37d6-4d3a-8642-20eae910d27c
+   :END:
+
+**  STARTED register team                                                          :project:nsb:clubs::<before>todo:</before>
+
+   :PROPERTIES:
+   :ORIGINAL_ID: b6ccfe45-1b59-44a5-a2e5-1bfb1796c9a6
+   :END:
+
+**  TODO put together final team                                                   :project:nsb:clubs::<before>todo:</before>
+
+   :PROPERTIES:
+   :ORIGINAL_ID: aa536463-d611-4717-b1b7-01ec4929dd22
+   :END:
+
+**  TODO look up the van allen belts                                                   :clubs:quizbowl:<before>todo:</before>
+   ENTERED [2020-12-03 Thu 15:07]
+   :PROPERTIES:
+   :ORIGINAL_ID: c4e5ccd0-a61c-4bcb-bf9b-5b087be13e37
+   :END:
+
+
+
+* Agenda and Tonight's Homework<after>KEYS=g#1 TITLE: Good agenda</after>
+** Saturday    6 February 2021
+
+*  Timed items
+               8:00......       ----------------
+              10:00......       ----------------
+**  Diary:      10:00-12:00       Columbia SHP meeting<before></before>
+
+              12:00......       ----------------
+              14:00......       ----------------
+              14:01......       now - - - - - - - - - - - - - - - - - - - - - - - - -
+              16:00......       ----------------
+              18:00......       ----------------
+**  ET more sketching handout math                              :school:homework:<before>todo:       19:00-19:30Scheduled:   0:30</before>
+   DEADLINE: <2021-02-04 Thu> SCHEDULED: <2021-02-06 Sat 19:00-19:30>
+   :PROPERTIES:
+   :ORIGINAL_ID: 8f68c493-6810-478e-a10b-e12e863b690d
+   :END:
+
+              20:00......       ----------------
+
+*  OVERDUE
+**  ET more sketching handout math                                         :school:homework:<before>todo:        2 d. ago:   0:30</before>
+   DEADLINE: <2021-02-04 Thu> SCHEDULED: <2021-02-06 Sat 19:00-19:30>
+   :PROPERTIES:
+   :ORIGINAL_ID: 8f68c493-6810-478e-a10b-e12e863b690d
+   :END:
+
+**  ET finish all vocab for spanish                                        :school:homework:<before>todo:        2 d. ago:   1:00</before>
+   SCHEDULED: <2021-02-03 Wed 19:30-20:00> DEADLINE: <2021-02-04 Thu> ENTERED [2021-02-03 Wed 12:25]
+   :PROPERTIES:
+   :ORIGINAL_ID: f7798821-8acf-4f0d-a6e5-81f972bdd372
+   :END:
+
+**  ET finish reading chapter 4 and discussion sheet                       :school:homework:<before>todo:        2 d. ago:   0:45</before>
+   SCHEDULED: <2021-02-04 Thu 19:50-20:35> DEADLINE: <2021-02-04 Thu>
+   - [ ] 68-76
+   - [ ] 3 min jumping jacks
+   - [ ] 77-83
+   - [ ] 3 min stretch
+   - [ ] Q's 1-3
+   - [ ] 3 min jumping jacks
+   - [ ] Q's 4-6
+   - [ ] 3 min walk
+   - [ ] Q's 7-9
+   :PROPERTIES:
+   :ORIGINAL_ID: 1d9a8d1d-6d26-4a92-ae35-567ecbabba2b
+   :END:
+
+**  TODO finish chapter 5 and discussion sheet                             :school:homework:<before>todo:        2 d. ago:   0:45</before>
+   SCHEDULED: <2021-02-04 Thu 20:35-21:20> DEADLINE: <2021-02-04 Thu> ENTERED [2021-02-03 Wed 12:00]
+   - [ ] 84-92
+   - [ ] 3 min situps
+   - [ ] 93-101
+   - [ ] 3 min stretching
+   - [ ] Q's 1-3
+   - [ ] 3 min situps
+   - [ ] Q's 4-6
+   - [ ] 3 min curls
+   - [ ] Q's 7-9
+   :PROPERTIES:
+   :ORIGINAL_ID: 042dff4e-76f5-4348-bca7-18534c9488f4
+   :END:
+
+**  TODO [#B] Udemy Course SQLi Notes + Make Cheatsheet<before>sqlInjection: 1 d. ago:</before>
+   DEADLINE: <2021-02-05 Fri>
+   :PROPERTIES:
+   :ORIGINAL_ID: f125ec4b-563f-4f01-99e9-d221a807a1ec
+   :END:
+
+**  TODO all audio for spansih                                             :school:homework:<before>todo:        1 d. ago:   0:30</before>
+   DEADLINE: <2021-02-05 Fri> ENTERED [2021-02-05 Fri 10:45]
+   :PROPERTIES:
+   :ORIGINAL_ID: 65929646-8d55-4aab-a1f4-78026fa21f05
+   :END:
+
+**  TODO finish vhls                                                       :school:homework:<before>todo:        1 d. ago:   0:30</before>
+   DEADLINE: <2021-02-05 Fri> ENTERED [2021-02-05 Fri 10:31]
+   :PROPERTIES:
+   :ORIGINAL_ID: 010d7ee7-673a-47f2-8e43-0cb9113237c1
+   :END:
+
+**  math test on sketching polynomials                                         :school:test:<before>todo:        1 d. ago:</before>
+   DEADLINE: <2021-02-05 Fri> ENTERED: [2021-02-03 Wed 15:03]
+   :PROPERTIES:
+   :ORIGINAL_ID: ba00c287-7ad1-44a8-8f8d-438631240712
+   :END:
+
+**  stoich quiz                                                                :school:quiz:<before>todo:        1 d. ago:</before>
+   DEADLINE: <2021-02-05 Fri> ENTERED: [2021-02-03 Wed 15:03]
+   :PROPERTIES:
+   :ORIGINAL_ID: fd8eb8bf-8b1a-403a-97a6-2f000e3112ae
+   :END:
+
+
+
+* PROJECTS<after>KEYS=g#2 TITLE: Good agenda</after>
+
+*  Learn SQLi
+**  TODO SQL Injection Practice+Notes                                       :school:homework:project::<before>sqlInjection:</before>
+   [[wechall.net/active_sites][Place to find sites]]
+   :PROPERTIES:
+   :ORIGINAL_ID: 0b7cc919-dea1-4dfe-b20c-85c3393dbfa9
+   :END:
+
+
+*  [#A] set up national science bowl [4/6]
+**  STARTED register team                                                          :project:nsb:clubs::<before>todo:</before>
+
+   :PROPERTIES:
+   :ORIGINAL_ID: b6ccfe45-1b59-44a5-a2e5-1bfb1796c9a6
+   :END:
+
+**  TODO put together final team                                                   :project:nsb:clubs::<before>todo:</before>
+
+   :PROPERTIES:
+   :ORIGINAL_ID: aa536463-d611-4717-b1b7-01ec4929dd22
+   :END:
+
+
+
+* Other<after>KEYS=g#3 TITLE: Good agenda</after>
+
+*  Everything Else
+**  TODO [#A] set up national science bowl [4/6]                                    :project:nsb:clubs:<before>todo:</before>
+   ENTERED: [2020-12-01 Tue 15:27]
+   :PROPERTIES:
+   :ORIGINAL_ID: 97a66c8d-be57-4fe7-89f6-1a0778d0a70a
+   :END:
+
+**  TODO SQL Injection Practice+Notes                                       :school:homework:project::<before>sqlInjection:</before>
+   [[wechall.net/active_sites][Place to find sites]]
+   :PROPERTIES:
+   :ORIGINAL_ID: 0b7cc919-dea1-4dfe-b20c-85c3393dbfa9
+   :END:
+
+**  TODO [#B] Udemy Course SQLi Notes + Make Cheatsheet<before>sqlInjection:</before>
+   DEADLINE: <2021-02-05 Fri>
+   :PROPERTIES:
+   :ORIGINAL_ID: f125ec4b-563f-4f01-99e9-d221a807a1ec
+   :END:
+
+**  TODO all audio for spansih                                                        :school:homework:<before>todo:        0:30</before>
+   DEADLINE: <2021-02-05 Fri> ENTERED [2021-02-05 Fri 10:45]
+   :PROPERTIES:
+   :ORIGINAL_ID: 65929646-8d55-4aab-a1f4-78026fa21f05
+   :END:
+
+**  TODO finish vhls                                                                  :school:homework:<before>todo:        0:30</before>
+   DEADLINE: <2021-02-05 Fri> ENTERED [2021-02-05 Fri 10:31]
+   :PROPERTIES:
+   :ORIGINAL_ID: 010d7ee7-673a-47f2-8e43-0cb9113237c1
+   :END:
+
+**  ET more sketching handout math                                                    :school:homework:<before>todo:        0:30</before>
+   DEADLINE: <2021-02-04 Thu> SCHEDULED: <2021-02-06 Sat 19:00-19:30>
+   :PROPERTIES:
+   :ORIGINAL_ID: 8f68c493-6810-478e-a10b-e12e863b690d
+   :END:
+
+**  ET finish all vocab for spanish                                                   :school:homework:<before>todo:        1:00</before>
+   SCHEDULED: <2021-02-03 Wed 19:30-20:00> DEADLINE: <2021-02-04 Thu> ENTERED [2021-02-03 Wed 12:25]
+   :PROPERTIES:
+   :ORIGINAL_ID: f7798821-8acf-4f0d-a6e5-81f972bdd372
+   :END:
+
+**  ET finish reading chapter 4 and discussion sheet                                  :school:homework:<before>todo:        0:45</before>
+   SCHEDULED: <2021-02-04 Thu 19:50-20:35> DEADLINE: <2021-02-04 Thu>
+   - [ ] 68-76
+   - [ ] 3 min jumping jacks
+   - [ ] 77-83
+   - [ ] 3 min stretch
+   - [ ] Q's 1-3
+   - [ ] 3 min jumping jacks
+   - [ ] Q's 4-6
+   - [ ] 3 min walk
+   - [ ] Q's 7-9
+   :PROPERTIES:
+   :ORIGINAL_ID: 1d9a8d1d-6d26-4a92-ae35-567ecbabba2b
+   :END:
+
+**  TODO finish chapter 5 and discussion sheet                                        :school:homework:<before>todo:        0:45</before>
+   SCHEDULED: <2021-02-04 Thu 20:35-21:20> DEADLINE: <2021-02-04 Thu> ENTERED [2021-02-03 Wed 12:00]
+   - [ ] 84-92
+   - [ ] 3 min situps
+   - [ ] 93-101
+   - [ ] 3 min stretching
+   - [ ] Q's 1-3
+   - [ ] 3 min situps
+   - [ ] Q's 4-6
+   - [ ] 3 min curls
+   - [ ] Q's 7-9
+   :PROPERTIES:
+   :ORIGINAL_ID: 042dff4e-76f5-4348-bca7-18534c9488f4
+   :END:
+
+**  POSTPONED put together deivers ed notes from onenote (state test review pages)    :school:homework:<before>todo:</before>
+   ENTERED [2021-01-07 Thu 14:10]
+   :PROPERTIES:
+   :ORIGINAL_ID: fb0b425d-c97a-4977-9bcc-41084bc8c388
+   :END:
+
+**  POSTPONED driver's ed test                                                            :school:test:<before>todo:</before>
+
+   :PROPERTIES:
+   :ORIGINAL_ID: c37bb8a5-37d6-4d3a-8642-20eae910d27c
+   :END:
+
+**  STARTED register team                                                          :project:nsb:clubs::<before>todo:</before>
+
+   :PROPERTIES:
+   :ORIGINAL_ID: b6ccfe45-1b59-44a5-a2e5-1bfb1796c9a6
+   :END:
+
+**  TODO put together final team                                                   :project:nsb:clubs::<before>todo:</before>
+
+   :PROPERTIES:
+   :ORIGINAL_ID: aa536463-d611-4717-b1b7-01ec4929dd22
+   :END:
+
+**  TODO look up the van allen belts                                                   :clubs:quizbowl:<before>todo:</before>
+   ENTERED [2020-12-03 Thu 15:07]
+   :PROPERTIES:
+   :ORIGINAL_ID: c4e5ccd0-a61c-4bcb-bf9b-5b087be13e37
+   :END:
+
+
+
+* Day-agenda (W05):<after>KEYS=n#1 TITLE: Agenda and all TODOs</after>
+** Saturday    6 February 2021
+               8:00......       ----------------
+              10:00......       ----------------
+***  Diary:      10:00-12:00       Columbia SHP meeting<before></before>
+
+              12:00......       ----------------
+              14:00......       ----------------
+              14:01......       now - - - - - - - - - - - - - - - - - - - - - - - - -
+              16:00......       ----------------
+              18:00......       ----------------
+***  ET more sketching handout math                              :school:homework:<before>todo:       19:00-19:30Scheduled:   0:30</before>
+   DEADLINE: <2021-02-04 Thu> SCHEDULED: <2021-02-06 Sat 19:00-19:30>
+   :PROPERTIES:
+   :ORIGINAL_ID: 8f68c493-6810-478e-a10b-e12e863b690d
+   :END:
+
+              20:00......       ----------------
+***  ET more sketching handout math                                         :school:homework:<before>todo:        2 d. ago:   0:30</before>
+   DEADLINE: <2021-02-04 Thu> SCHEDULED: <2021-02-06 Sat 19:00-19:30>
+   :PROPERTIES:
+   :ORIGINAL_ID: 8f68c493-6810-478e-a10b-e12e863b690d
+   :END:
+
+***  ET finish all vocab for spanish                                        :school:homework:<before>todo:        2 d. ago:   1:00</before>
+   SCHEDULED: <2021-02-03 Wed 19:30-20:00> DEADLINE: <2021-02-04 Thu> ENTERED [2021-02-03 Wed 12:25]
+   :PROPERTIES:
+   :ORIGINAL_ID: f7798821-8acf-4f0d-a6e5-81f972bdd372
+   :END:
+
+***  ET finish reading chapter 4 and discussion sheet                       :school:homework:<before>todo:        2 d. ago:   0:45</before>
+   SCHEDULED: <2021-02-04 Thu 19:50-20:35> DEADLINE: <2021-02-04 Thu>
+   - [ ] 68-76
+   - [ ] 3 min jumping jacks
+   - [ ] 77-83
+   - [ ] 3 min stretch
+   - [ ] Q's 1-3
+   - [ ] 3 min jumping jacks
+   - [ ] Q's 4-6
+   - [ ] 3 min walk
+   - [ ] Q's 7-9
+   :PROPERTIES:
+   :ORIGINAL_ID: 1d9a8d1d-6d26-4a92-ae35-567ecbabba2b
+   :END:
+
+***  TODO finish chapter 5 and discussion sheet                             :school:homework:<before>todo:        2 d. ago:   0:45</before>
+   SCHEDULED: <2021-02-04 Thu 20:35-21:20> DEADLINE: <2021-02-04 Thu> ENTERED [2021-02-03 Wed 12:00]
+   - [ ] 84-92
+   - [ ] 3 min situps
+   - [ ] 93-101
+   - [ ] 3 min stretching
+   - [ ] Q's 1-3
+   - [ ] 3 min situps
+   - [ ] Q's 4-6
+   - [ ] 3 min curls
+   - [ ] Q's 7-9
+   :PROPERTIES:
+   :ORIGINAL_ID: 042dff4e-76f5-4348-bca7-18534c9488f4
+   :END:
+
+***  TODO [#B] Udemy Course SQLi Notes + Make Cheatsheet<before>sqlInjection: 1 d. ago:</before>
+   DEADLINE: <2021-02-05 Fri>
+   :PROPERTIES:
+   :ORIGINAL_ID: f125ec4b-563f-4f01-99e9-d221a807a1ec
+   :END:
+
+***  TODO all audio for spansih                                             :school:homework:<before>todo:        1 d. ago:   0:30</before>
+   DEADLINE: <2021-02-05 Fri> ENTERED [2021-02-05 Fri 10:45]
+   :PROPERTIES:
+   :ORIGINAL_ID: 65929646-8d55-4aab-a1f4-78026fa21f05
+   :END:
+
+***  TODO finish vhls                                                       :school:homework:<before>todo:        1 d. ago:   0:30</before>
+   DEADLINE: <2021-02-05 Fri> ENTERED [2021-02-05 Fri 10:31]
+   :PROPERTIES:
+   :ORIGINAL_ID: 010d7ee7-673a-47f2-8e43-0cb9113237c1
+   :END:
+
+***  math test on sketching polynomials                                         :school:test:<before>todo:        1 d. ago:</before>
+   DEADLINE: <2021-02-05 Fri> ENTERED: [2021-02-03 Wed 15:03]
+   :PROPERTIES:
+   :ORIGINAL_ID: ba00c287-7ad1-44a8-8f8d-438631240712
+   :END:
+
+***  stoich quiz                                                                :school:quiz:<before>todo:        1 d. ago:</before>
+   DEADLINE: <2021-02-05 Fri> ENTERED: [2021-02-03 Wed 15:03]
+   :PROPERTIES:
+   :ORIGINAL_ID: fd8eb8bf-8b1a-403a-97a6-2f000e3112ae
+   :END:
+
+
+
+* ToDo: ALL<after>KEYS=n#2 TITLE: Agenda and all TODOs</after>
+**  TODO [#A] set up national science bowl [4/6]                                    :project:nsb:clubs:<before>todo:</before>
+   ENTERED: [2020-12-01 Tue 15:27]
+   :PROPERTIES:
+   :ORIGINAL_ID: 97a66c8d-be57-4fe7-89f6-1a0778d0a70a
+   :END:
+
+**  TODO SQL Injection Practice+Notes                                       :school:homework:project::<before>sqlInjection:</before>
+   [[wechall.net/active_sites][Place to find sites]]
+   :PROPERTIES:
+   :ORIGINAL_ID: 0b7cc919-dea1-4dfe-b20c-85c3393dbfa9
+   :END:
+
+**  TODO [#B] Udemy Course SQLi Notes + Make Cheatsheet<before>sqlInjection:</before>
+   DEADLINE: <2021-02-05 Fri>
+   :PROPERTIES:
+   :ORIGINAL_ID: f125ec4b-563f-4f01-99e9-d221a807a1ec
+   :END:
+
+**  TODO all audio for spansih                                                        :school:homework:<before>todo:        0:30</before>
+   DEADLINE: <2021-02-05 Fri> ENTERED [2021-02-05 Fri 10:45]
+   :PROPERTIES:
+   :ORIGINAL_ID: 65929646-8d55-4aab-a1f4-78026fa21f05
+   :END:
+
+**  TODO finish vhls                                                                  :school:homework:<before>todo:        0:30</before>
+   DEADLINE: <2021-02-05 Fri> ENTERED [2021-02-05 Fri 10:31]
+   :PROPERTIES:
+   :ORIGINAL_ID: 010d7ee7-673a-47f2-8e43-0cb9113237c1
+   :END:
+
+**  ET more sketching handout math                                                    :school:homework:<before>todo:        0:30</before>
+   DEADLINE: <2021-02-04 Thu> SCHEDULED: <2021-02-06 Sat 19:00-19:30>
+   :PROPERTIES:
+   :ORIGINAL_ID: 8f68c493-6810-478e-a10b-e12e863b690d
+   :END:
+
+**  ET finish all vocab for spanish                                                   :school:homework:<before>todo:        1:00</before>
+   SCHEDULED: <2021-02-03 Wed 19:30-20:00> DEADLINE: <2021-02-04 Thu> ENTERED [2021-02-03 Wed 12:25]
+   :PROPERTIES:
+   :ORIGINAL_ID: f7798821-8acf-4f0d-a6e5-81f972bdd372
+   :END:
+
+**  ET finish reading chapter 4 and discussion sheet                                  :school:homework:<before>todo:        0:45</before>
+   SCHEDULED: <2021-02-04 Thu 19:50-20:35> DEADLINE: <2021-02-04 Thu>
+   - [ ] 68-76
+   - [ ] 3 min jumping jacks
+   - [ ] 77-83
+   - [ ] 3 min stretch
+   - [ ] Q's 1-3
+   - [ ] 3 min jumping jacks
+   - [ ] Q's 4-6
+   - [ ] 3 min walk
+   - [ ] Q's 7-9
+   :PROPERTIES:
+   :ORIGINAL_ID: 1d9a8d1d-6d26-4a92-ae35-567ecbabba2b
+   :END:
+
+**  TODO finish chapter 5 and discussion sheet                                        :school:homework:<before>todo:        0:45</before>
+   SCHEDULED: <2021-02-04 Thu 20:35-21:20> DEADLINE: <2021-02-04 Thu> ENTERED [2021-02-03 Wed 12:00]
+   - [ ] 84-92
+   - [ ] 3 min situps
+   - [ ] 93-101
+   - [ ] 3 min stretching
+   - [ ] Q's 1-3
+   - [ ] 3 min situps
+   - [ ] Q's 4-6
+   - [ ] 3 min curls
+   - [ ] Q's 7-9
+   :PROPERTIES:
+   :ORIGINAL_ID: 042dff4e-76f5-4348-bca7-18534c9488f4
+   :END:
+
+**  POSTPONED put together deivers ed notes from onenote (state test review pages)    :school:homework:<before>todo:</before>
+   ENTERED [2021-01-07 Thu 14:10]
+   :PROPERTIES:
+   :ORIGINAL_ID: fb0b425d-c97a-4977-9bcc-41084bc8c388
+   :END:
+
+**  POSTPONED driver's ed test                                                            :school:test:<before>todo:</before>
+
+   :PROPERTIES:
+   :ORIGINAL_ID: c37bb8a5-37d6-4d3a-8642-20eae910d27c
+   :END:
+
+**  STARTED register team                                                          :project:nsb:clubs::<before>todo:</before>
+
+   :PROPERTIES:
+   :ORIGINAL_ID: b6ccfe45-1b59-44a5-a2e5-1bfb1796c9a6
+   :END:
+
+**  TODO put together final team                                                   :project:nsb:clubs::<before>todo:</before>
+
+   :PROPERTIES:
+   :ORIGINAL_ID: aa536463-d611-4717-b1b7-01ec4929dd22
+   :END:
+
+**  TODO look up the van allen belts                                                   :clubs:quizbowl:<before>todo:</before>
+   ENTERED [2020-12-03 Thu 15:07]
+   :PROPERTIES:
+   :ORIGINAL_ID: c4e5ccd0-a61c-4bcb-bf9b-5b087be13e37
+   :END:
+

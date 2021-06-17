@@ -1,0 +1,29 @@
+* Por vs Para
+It's often grammatically correct to use either in a sentence, but the meaning changes when you use different ones. For example, "Trabajó *por* su padre" vs "Trabajó *para* su padre" mean different things. Por makes it "I worked in place of his father," but para makes it "I worked for his father's company"
+** When to use por
+:PROPERTIES:
+:ID:       5129f648-a2ce-4d60-85c1-5f348e1785fe
+:END:
+Refers to the *cause*of an action
+Acronym: ATtRACTED (only one t in the beginning)
+- Around a time/place :: Used when you go around a time or place. For example, "I went around the train station" or "Is there something around here?"
+- Through a place :: Used when you go through a place. For example, "I went through the hallway" or "I entered through the door"
+- Reason :: When you do something for a reason, like "I worked because" or whatever
+- After :: Going to get something.
+- Cost :: When something costs a certain amount
+- Thanks :: When thanking someone
+- Exchange :: When something fills in for something else
+- Duration :: When something lasts for a certain amount of time.
+*** Idiomatic expressions using por
+Por aqui, por ejemplo, etc etc
+** When to use para
+Refers to the *effect* of an action
+Acronym: PERFECT
+- Purpose :: "in order to" + infinitive, or when it's really just the purpose of doing something
+- Effect :: The effect that something has on another thing, like when you say "Voy a la universidad *para* _ser_ profesor de español"
+- Recipient :: Like when you say "this computer is _for_ joe". Joe is the recipient and you would use "para" here
+- Future :: Future dates, deadlines, or events. "Esta tarea es *para* _mañana_"
+- Employment :: When you're saying your current place of work
+- Comparison :: Like when you say "good, *for* a city kid"
+- Toward :: Going towards a specific place, like "heading *for* Sword Base"
+* 

@@ -1,0 +1,29 @@
+;; Object semanticdb-project-database-file-1562bef1f0b0
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1562bef1f0b0"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1562bef3a40c"
+      :major-mode python-mode
+      :tags 
+        '( ("customArray" variable nil nil [1 17])
+            ("validAnswer" variable nil nil [18 37])
+            ("while" code nil nil [38 421])
+            ("if" code nil nil [421 790])
+            ("arraySorted" variable nil nil [791 807])
+            ("arraySorted" code nil nil [808 1048])
+            ("for" code nil nil [1049 1267])
+            ("position" variable nil nil [1267 1279])
+            ("while" code nil nil [1280 1338])
+            ("for" code nil nil [1338 1377])
+            ("for" code nil nil [1377 1432])
+            ("array" code nil nil [1432 1444])
+            ("print" code nil nil [1445 1457]))          
+      :file "array_sorter_2.py"
+      :pointmax 1458
+      :fsize 1457
+      :lastmodtime '(24290 30613 536095 0)
+      :unmatched-syntax nil))
+  :file "!home!anansi!Documents!Python_Programs!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,29 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".google.com"
+  [url-cookie "NID" "204=xET33Y6DfbHnWfmCWyhk2CTjbwq3pqmrgQef4H7MGmsJYNbeiDvWLd_RAiZK600KxboBy2vhcg5Az7mJMG4tS35c_OOTfbN-BApRirPV2C50-DiuBpFE8q3qieEO3WtSTR3P8VFPpY6M4kEUoh87Ekr5bZYH69yi3tUyCO-0xRw" "Fri, 23-Apr-2021 15:17:36 GMT" "/" ".google.com" nil]
+  [url-cookie "CGIC" "Ik10ZXh0L2h0bWwsIHRleHQvcGxhaW4sIHRleHQvc2dtbCwgdGV4dC9jc3MsIGFwcGxpY2F0aW9uL3hodG1sK3htbCwgKi8qO3E9MC4wMQ" "Tue, 20-Apr-2021 15:17:44 GMT" "/complete/search" ".google.com" nil]
+  [url-cookie "CGIC" "Ik10ZXh0L2h0bWwsIHRleHQvcGxhaW4sIHRleHQvc2dtbCwgdGV4dC9jc3MsIGFwcGxpY2F0aW9uL3hodG1sK3htbCwgKi8qO3E9MC4wMQ" "Tue, 20-Apr-2021 15:17:44 GMT" "/search" ".google.com" nil]))
+)
+(setq url-cookie-secure-storage
+ '((".si-cdn.com"
+  [url-cookie "__cfduid" "d162006879ca7878722fec00b892b7bfb1617032682" "Wed, 28-Apr-21 15:44:42 GMT" "/" ".si-cdn.com" t])
+ (".youtube.com"
+  [url-cookie "VISITOR_INFO1_LIVE" "qDQhC4XZCKg" "Tue, 27-Apr-2021 00:18:28 GMT" "/" ".youtube.com" t])
+ ("reddit.com"
+  [url-cookie "token_v2" "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDM5MzQxMDQsInN1YiI6Ii1aMC1XQXlfTUd1N0NPSFNwVGM4YjhSUFMxM3ciLCJsb2dnZWRJbiI6ZmFsc2UsInNjb3BlcyI6WyIqIiwiZW1haWwiXX0.VwqpvtkFbb65RKRRGUTdEqDKJSywonGzWACRB9vDCBw" "Sat, 29 Oct 2022 00:17:04 GMT" "/" "reddit.com" t]
+  [url-cookie "edgebucket" "mp3gFoIA9jhz0XM7Js" "Sat Oct 29 00:16:04 2022 GMT" "/" "reddit.com" t])
+ (".google.com"
+  [url-cookie "1P_JAR" "2021-04-15-17" "Sat, 15-May-2021 17:12:25 GMT" "/" ".google.com" t])
+ (".reddit.com"
+  [url-cookie "csv" "1" "Sat Oct 29 00:16:05 2022 GMT" "/" ".reddit.com" t]
+  [url-cookie "d2_token" "3.3c94915d847cc519563cff038e53c5588a8a20e4dde10a7577113b8e12627223.eyJhY2Nlc3NUb2tlbiI6Ii02STBMa0NYQml4Ujktd2JYekRkeC01SkNFTjAiLCJleHBpcmVzIjoiMjAyMC0xMC0yOVQwMToxNjowNC4wMDBaIiwibG9nZ2VkT3V0Ijp0cnVlLCJzY29wZXMiOlsiKiIsImVtYWlsIl19" "Sat, 29 Oct 2022 00:16:04 GMT" "/" ".reddit.com" t]
+  [url-cookie "loid" "00000000008nwu75x7.2.1603930564140.Z0FBQUFBQmZtZ25FZjA2OVJmblF4YnBjaExBd2RfQzEzZ1ZGVkNLV0Jmdm80dzQtaWV1YlFOXzZCWHR4azF2bkVZUVAyR1NvY3dsX3ZTSWR2ck9vS05NSTJxVTZCY25zLW9KR25GRUNhMFVaN0o5UGlGdC05WjA3VmZvWEdjNVZsYkhLVUw4R1FEZXc" "Sat, 29 Oct 2022 00:16:04 GMT" "/" ".reddit.com" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:

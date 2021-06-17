@@ -1,0 +1,50 @@
+;; Object semanticdb-project-database-file-15744f86b1b8
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-15744f86b1b8"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-15744f86b178"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [187 205])
+            ("math.h" include (:system-flag t) nil [206 223])
+            ("stdlib.h" include (:system-flag t) nil [224 243])
+            ("curses.h" include (:system-flag t) nil [244 263])
+            ("time.h" include (:system-flag t) nil [264 281])
+            ("unistd.h" include (:system-flag t) nil [282 301])
+            ("locale.h" include (:system-flag t) nil [302 321])
+            ("omp.h" include (:system-flag t) nil [322 338])
+            ("asteroidChar" variable (:constant-flag t) nil [401 413])
+            ("blockChar" variable (:constant-flag t) nil [426 435])
+            ("projectile" variable (:constant-flag t) nil [448 458])
+            ("winner" variable
+               (:default-value "0"
+                :type "int")
+                nil [515 530])
+            ("sleepSeconds" function
+               (:arguments 
+                  ( ("seconds" variable (:type "double") (reparse-symbol arg-sub-list) [622 637])
+                    ("milliseconds" variable (:type "double") (reparse-symbol arg-sub-list) [638 658]))                  
+                :type "void")
+                nil [604 770])
+            ("gameOver" function
+               (:arguments 
+                  ( ("winningPlayer" variable (:type "int") (reparse-symbol arg-sub-list) [855 873]))                  
+                :type "void")
+                nil [841 2631])
+            ("main" function (:type "int") nil [2633 9300]))          
+      :file "gameSource.c"
+      :pointmax 9301
+      :fsize 9306
+      :lastmodtime '(24490 39474 938694 212000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("projectile" . ((string "\"•\"" 459 . 462)))
+          ("asteroidChar" . ((string "\"#\"" 414 . 417)))
+          ("blockChar" . ((string "\"▓\"" 436 . 439)))
+          )
+)
+)
+  :file "!home!anansi!Documents!C_Programs!TerminalSpaceGame!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

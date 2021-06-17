@@ -1,0 +1,631 @@
+	    #+TITLE: Science Research Cybersecurity Notes
+* Vulnerabilities
+  :PROPERTIES:
+  :ID:       c2365400-5864-467d-b99a-72f979d2ac92
+  :END:
+** Vulnerabilities in networking
+   :PROPERTIES:
+   :ID:       cae3a59e-201d-4118-a495-9b2d7d9485d3
+   :END:
+   :BACKLINKS:
+   [2020-12-06 Sun 18:14] <- [[id:80e18ae4-c8fd-4d5b-b28a-04b4d7a78194][Daily log]]
+   :END:
+    - Links:
+      - [[https://purplesec.us/common-network-vulnerabilities/][PurpleSec article]]
+*** What is are vulnerabilities?
+    :PROPERTIES:
+    :ID:       6a38095c-2a03-4e12-ab48-1b2543d11e95
+    :END:
+**** Physical network vulnerabilities
+     :PROPERTIES:
+     :ID:       030d4f0f-06d8-418d-8cf0-5cd4dae1935d
+     :END:
+     - Protecting the actual assets
+     - Examples: locks, turnstiles, key cards, security clearance
+**** Nonphysical network vulnerabilities
+     :PROPERTIES:
+     :ID:       8f0940ea-0472-4776-b876-4a2e5cb3bdc0
+     :END:
+     - Usually software or data
+     - Examples: operating systems, firewalls, etc
+*** Types of vulnerabilities
+    :PROPERTIES:
+    :ID:       aaf24819-72b4-4981-ad2e-a3498099ffd7
+    :END:
+**** Malware
+     :PROPERTIES:
+     :ID:       0c61130e-d915-44d6-b489-9c5b59147602
+     :BRAIN_FRIENDS: 24bec65c-0d10-4a87-8587-318935568cce
+     :END:
+***** Explanation
+      :PROPERTIES:
+      :ID:       c8933769-4f41-4c0f-8531-702db3b6b5c1
+      :END:
+      - Malicious software
+      - Does things you don't want it to
+      - Often unknowingly downloaded or purchased
+      - Used a lot to exploit network vulnerabilities
+***** Types
+      :PROPERTIES:
+      :ID:       0e617dcf-ccc0-41a7-9c01-b7345f417026
+      :END:
+****** Viruses
+       :PROPERTIES:
+       :ID:       038bfca0-199f-4508-b707-ae1212aa2ea4
+       :END:
+       - Very common
+       - Most are self-replicating- they can spread on their own
+       - File extensions often infected:
+	 - .doc, .docx
+	 - .exe
+	 - .html
+	 - .xls, .xlsx
+	 - .zip
+****** Keyloggers
+       :PROPERTIES:
+       :ID:       e8de4055-0f7e-4871-bb30-ac8dc6650cb1
+       :END:
+       - Log your keystrokes
+       - Sends data about keystrokes to bad actor
+       - Users often not aware
+       - Usually used to steal passwords
+       - Can be physical wire or malware
+****** Worms
+       :PROPERTIES:
+       :ID:       aeee2a67-b12a-4f66-88e3-7fcbe66ce008
+       :BRAIN_FRIENDS: 24bec65c-0d10-4a87-8587-318935568cce
+       :END:
+       - Same as virus, but doesn't need a host file- does everything itself
+       - Goes to the other computer and replicates itself
+       - Spread quickly
+       - Often used against email servers, web servers, and database servers
+****** Trojans
+       :PROPERTIES:
+       :ID:       8ae6510a-11b1-49ee-97e9-14cc6f16e57d
+       :END:
+       - Malware disguised as real software
+       - Hides in your computer until called upon
+       - Can be used to spy on you, steal data, or install other malware
+       - Often downloaded through emails, IMs, or websites
+Your mom is useful.
+- She shits the bed
+- She helps me sometimes
+****** Ransomware
+       :PROPERTIES:
+       :ID:       d2d366af-33ce-4d57-aee1-20d3e8872780
+       :END:
+       - Locks your computer and encrypts your files
+       - Doesn't decrypt them until you pay money
+       - Example: wannacrypt0r
+       - Often through emails, IMs, or websits
+       - Absolutely devastating
+****** Logic Bombs
+       :PROPERTIES:
+       :ID:       d49b75be-9f81-4923-9b04-9e4060595a51
+       :END:
+       - Malware that triggers under certain conditions
+	 - Conditions can be time, date, 25th logon to account
+       - Often used as a trigger for other malware
+       - Can be dormant on a computer for years undetected, hiding malware
+****** Botnets
+       :PROPERTIES:
+       :ID:       05c370de-b8e3-4bc4-8182-59aaaf3a4871
+       :END:
+       - Created with malware that controls computers
+       - Makes giant networks of bots
+       - Bots: computer that's been taken control of
+       - Often used to perform DDoSes
+****** Adware
+       :PROPERTIES:
+       :ID:       a179d591-bca2-49e4-a00f-04969ec54d82
+       :END:
+       - Displays ads on screens
+       - PITA
+       - Often quietly installed without permission: PUP
+       - Harmless, but a huge pita
+****** Spyware
+       :PROPERTIES:
+       :ID:       4b2661f3-620c-46f2-abf3-a457c6236701
+       :END:
+       - Malware that spies on you and takes your data
+       - Used to collect your data to sell your data to data firms, take your bank info, or steal your identity
+       - Often got from filesharing sites
+****** Rootkits
+       :PROPERTIES:
+       :ID:       914bc793-87c7-4cf0-aa47-0028082b4ca6
+       :END:
+       - Backdoor program
+       - Allows a threat actor to take control of your computer
+	 - Often ends with full control of your computer
+       - Can log files, spy, execute files, etc
+       - Can put malware on your computer
+       - Often gotten from Trojan horses
+       - Difficult to get rid of
+**** Social Engineering
+     :PROPERTIES:
+     :ID:       2df2e1b9-437a-483d-b8b4-8f65f34ad861
+     :END:
+***** Explanation
+      :PROPERTIES:
+      :ID:       105909c1-43e5-4bbd-84ff-310f57df9595
+      :END:
+      - Exploitation of the user
+      - Easily can bypass authentication and security and stuff
+      - Humans are stupid, so it's easier sometimes
+***** Types
+      :PROPERTIES:
+      :ID:       a4594440-4315-4bfa-b1cc-a860b7c28436
+      :END:
+****** Phishing email
+       :PROPERTIES:
+       :ID:       979ee12f-25d1-40c9-bb5a-cda1c85a969b
+       :END:
+       - An email that poses as legitimate, but is actually a scam
+       - *Goals:* To get credentials
+	 - Gets the user to enter credentials in phishing site/email
+	 - Uses the credentials to do whatever they want
+****** Spear Phishing
+       :PROPERTIES:
+       :ID:       e5935028-4cd8-4a6a-b780-8da3b7628e4c
+       :END:
+       - Same as phishing, but try to use information to get you to click something
+       - Link is usually infected or something
+       - Sometimes use panic as a tactic
+****** Whaling
+       :PROPERTIES:
+       :ID:       2dcb6bdd-7e8d-4fb5-a00a-b7b148023f31
+       :END:
+       - Phishing but with a bigger target
+       - Tries to steal credentials of somebody important, like a CFO
+****** Vishing
+       :PROPERTIES:
+       :ID:       f0347b41-b67b-45e5-992c-16bfc6d38f4f
+       :END:
+       - Combination of voice and phishing
+       - Takes place over the phone
+       - Usually use VoIP
+	 - Voice over Internet Protocol
+	 - Send robomessages from a spoofed VoIP address
+       - Often robocalls
+****** Smishing
+       :PROPERTIES:
+       :ID:       86502660-40cf-408a-9960-084cf2734edd
+       :END:
+       - Phishing over text messages
+       - Tries to get you to provide sensitive info to a threat actor
+****** Spam
+       :PROPERTIES:
+       :ID:       62eeb72b-a39c-43c1-ad3a-a0cb81fe8af4
+       :END:
+       - Mass emails to a lot of users
+       - Sometimes are scams--Nigerian Prince
+****** Pharming
+       :PROPERTIES:
+       :ID:       347b58b2-fbbf-47a9-a4d3-6335cfda054c
+       :BRAIN_FRIENDS: ee035b53-4a17-453f-b227-96ee7fb8fe78
+       :END:
+       - Maybe like malicious redirects? (unsure if they're the same)
+       - When the intended URL is modified by a threat actor of some sort and it goes to somewhere bad
+       - Can result in malware being installed
+****** Tailgating
+       :PROPERTIES:
+       :ID:       aea980da-8708-4978-b7d0-d31772d6e7db
+       :END:
+       - When someone physically follows you to gain access to a certain physical place
+****** Shoulder surfing
+       :PROPERTIES:
+       :ID:       b39031fa-98e6-4e64-af44-0ca8030a4acb
+       :END:
+       - direct observation
+       - Looking over someone's shoulder (This does /not/ make you a 133t haxx0r!)
+****** Dumpster diving
+       :PROPERTIES:
+       :ID:       dd2343df-dc71-4686-9340-4473f7a9aea1
+       :END:
+       - Looking for ANYTHING about the person they're trying to phish or whatever
+       - Having some information makes you more credible--mention someone's friend, you sound like you actually know what you're talking about
+**** Outdated or Unpatched software
+     :PROPERTIES:
+     :ID:       71eb4bea-994f-419d-b491-b32a11348a60
+     :END:
+***** Explanation
+      :PROPERTIES:
+      :ID:       5f0d781e-7798-4597-b626-d5d7d5d0226d
+      :END:
+      - When you don't patch/update/upgrade your software
+***** Examples
+      :PROPERTIES:
+      :ID:       129ca28f-9fdf-4a59-bd8a-97b1e74fdb12
+      :END:
+      - Using Windows 7 in 2020
+      - Using EOL applications
+      - Using vaporware/dead/undeveloped/unpatched software
+***** Defending against it
+      :PROPERTIES:
+      :ID:       4e141016-9e3d-4a0e-bc0c-652484231420
+      :END:
+      - Routine network vulnerability scans
+      - Scanning for updates
+**** Misconfigured firewalls/Operating systems
+     :PROPERTIES:
+     :ID:       c175b8c7-af98-42ab-879a-8b41c9dc4643
+     :END:
+***** Explanation
+      :PROPERTIES:
+      :ID:       0d330aae-6236-47d7-a921-6f96d25c534d
+      :END:
+      - Not doing a good job of configuring your firewall/OS securely
+***** Examples
+      :PROPERTIES:
+      :ID:       edda174a-fb75-49f2-b6f7-8548b9274c33
+      :END:
+      - Opening ports that you shouldn't/don't need
+      - Keeping ICMP traffic allowed
+*** Significance of network vulnerabilities
+    :PROPERTIES:
+    :ID:       43d251bd-a99a-4dac-8996-9ecd3a65eccc
+    :END:
+** Web vulnerabilities
+   :PROPERTIES:
+   :ID:       435f1d85-9a1c-4251-a9b7-9bb71a2cbd20
+   :END:
+*** Malicious Redirects
+    :PROPERTIES:
+    :ID:       ee035b53-4a17-453f-b227-96ee7fb8fe78
+    :BRAIN_FRIENDS: 347b58b2-fbbf-47a9-a4d3-6335cfda054c
+    :END:
+** Discussion Notes                                                 :nobrain:
+   :PROPERTIES:
+   :ID:       9262476f-e969-42d2-a32c-7f5ed0d8317d
+   :END:
+   :BACKLINKS:
+   [2020-12-06 Sun 18:39] <- [[id:80e18ae4-c8fd-4d5b-b28a-04b4d7a78194][Daily log]]
+   :END:
+*** 2020-12-02 Tony
+    :PROPERTIES:
+    :ID:       d4d503e8-9647-401e-a6ee-ed07497c44e2
+    :END:
+    - Most humans are stupid
+      - A lot of vulnerabilities come from humans being dumb
+	- Social engineering
+	- Misconfiguration
+      - Stopping people from causing problems 
+	- Hire experts?
+      - People are negligent/lazy
+	- Don't update
+	- Don't do things right
+    - Companies sometimes unpatch/unupdate software
+      - wait for proof and results to update/patch
+    - Social engineers often use almost blackmail to stop people
+      - Embarrassment factor: sexual sites
+      - Looking for a new job at a job you already have
+* Getting good at penetration testing                                :school:
+  :PROPERTIES:
+  :ID:       63bc6546-c886-4834-a8dc-6c6ee616bff1
+  :END:
+  :BACKLINKS:
+  [2020-12-06 Sun 18:38] <- [[id:80e18ae4-c8fd-4d5b-b28a-04b4d7a78194][Daily log]]
+  :END:
+** Roadmap                                                   :school:
+   CLOSED: [2020-12-14 Mon 18:49]
+   :PROPERTIES:
+   :ID:       408e8b0b-79b7-4314-9c77-2688bccd9f05
+   :Effort:   0:30
+   :END:
+*** DONE [#A] Literature review about becoming a pentester          :nobrain:
+    CLOSED: [2020-12-07 Mon 20:41]
+    :PROPERTIES:
+    :ID:       15b31993-bfaf-451f-a879-baece64763b7
+    :EXPORT_FILE_NAME: literatureReview-RedTeamSecurity-BecomingAPentester
+    :END:
+    :BACKLINKS:
+    [2020-12-06 Sun 19:24] <- [[id:80e18ae4-c8fd-4d5b-b28a-04b4d7a78194][Daily log]]
+    :END:
+    :LOGBOOK:
+    CLOCK: [2020-12-07 Mon 20:01]--[2020-12-07 Mon 20:04] =>  0:03
+    CLOCK: [2020-12-07 Mon 18:43]--[2020-12-07 Mon 19:20] =>  0:37
+    CLOCK: [2020-12-07 Mon 17:13]--[2020-12-07 Mon 17:53] =>  0:40
+    CLOCK: [2020-12-07 Mon 14:00]--[2020-12-07 Mon 14:32] =>  0:32
+    CLOCK: [2020-12-06 Sun 19:45]--[2020-12-06 Sun 20:30] =>  0:45
+    CLOCK: [2020-12-05 Sat 19:54]--[2020-12-05 Sat 20:07] =>  0:13
+    :END:
+    - Link: [[https://www.redteamsecure.com/blog/how-to-become-a-penetration-tester/][RedTeam Security Article]]
+**** Basic requirements of becoming a pentester
+     :PROPERTIES:
+     :ID:       cda879f0-3585-4c2a-9428-d62ec77336a5
+     :END:
+***** Understand computers
+      :PROPERTIES:
+      :ID:       70cc2a5c-19dd-4da1-b589-06ea03fa9903
+      :END:
+      - Duh, be able to understand how computers work
+	- Don't want to spend time on googling basic stuff on stackoverflow
+      - Understand the hardware and the software
+      - Understand how operating systems work, what a kernel is, etc
+***** Programming can be useful
+      :PROPERTIES:
+      :ID:       92aff082-2983-45a5-b25a-90f822507650
+      :END:
+      - Can be very useful
+	- Task automation
+	- Creating your own tools/exploits
+      - Helpful to know basic code
+      - No specific language for pentesting
+	- Python is good
+	- Shell/batch programming is very useful for automating stuff,
+***** DONE Understand networking and the OSI model
+      CLOSED: [2020-12-21 Mon 17:11]
+      :PROPERTIES:
+      :ID:       0b0f06eb-2dea-4941-baca-2864249a1610
+      :END:
+      - Understand the [[https://www.geeksforgeeks.org/layers-of-osi-model/][OSI model]]
+      - Know networking protocols and when they're used
+	- Necessary for network pentesting
+      - Network protocols are important because you won't always have physical access to a computer
+      - The [[id:8a4f60e7-30b2-4792-903a-92542e5c0343][notes]] are here
+***** Know the command line
+      :PROPERTIES:
+      :ID:       c31918f6-a959-4786-b5ec-557be65668c7
+      :END:
+      - You need it
+      - Linux terminal is important
+	- Many tools are made for Linux
+      - A lot of pentesting tools are only cli-based
+	- Many apps don't ship with a gui
+	- Need to understand how to use a cli/tui (like ncurses)
+      - Possible course for command line/hacking: [[https://overthewire.org/wargames/bandit/bandit0.html][bandit game]]
+**** Learning how to do actual pentesting
+     :PROPERTIES:
+     :ID:       6faaf4c8-6fc6-4106-907e-7b11b0ed0fab
+     :END:
+***** Play with vulnerable stuff
+      :PROPERTIES:
+      :ID:       ca440f6e-a8eb-41ce-83a8-afcc2c3eca5e
+      :END:
+      - Things that are purposely created with vulnerabilities
+	- Made specifically for practice
+      - Fun, hands-on way to learn hacking
+****** Vulnerable webapps
+       :PROPERTIES:
+       :ID:       caa77b5e-9dde-4791-966f-55f7b3eaec2a
+       :END:
+******* Know how the web works
+	:PROPERTIES:
+	:ID:       3c1242f3-cf68-45fb-9f80-9503dfc460b8
+	:END:
+	- You need an understanding of how the web actually works
+	  - You need to know how things 
+	- Read these articles:
+	  - [[https://www.theodinproject.com/courses/web-development-101/lessons/how-does-the-web-work][The Odin Project]] :: 101 about how the web works. <-- Probably the better one
+	  - [[https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works][Mozilla How The Web Works]] :: 101 about how the web works.
+******* Understand basics of web vulnerabilities
+	:PROPERTIES:
+	:ID:       34085e82-5873-4ba2-ae7d-fb4f268e57c9
+	:END:
+	- Know what they are and at least the top 10
+	  - [[https://owasp.org/][OWASP home page]] :: Open Web Application Security Project, NPO that works to make software more secure
+	  - [[https://owasp.org/www-project-top-ten/][OWASP top 10 webapp vulnerabilities list 2020]] :: OWASP list of the top 10 web application security risks.
+******* List of vulnerable webapps
+	:PROPERTIES:
+	:ID:       40b6dc37-e06a-45a7-86ce-2d11b225cc33
+	:END:
+	- [[http://www.dvwa.co.uk/][Damn Vulnerable Web App]] :: PHP/MySQL app that's intentionally vulnerable.
+	- [[https://github.com/adamdoupe/WackoPicko][WacoPicko]] :: Online image sharing 'site,' which looks pretty popular.
+	- [[https://hack.me/][Hack.me]] :: Fun sandbox webapps online, which I have messed around with before. I like this one.
+****** System Hacking Practice
+       :PROPERTIES:
+       :ID:       03738f68-7afd-4dd3-86a6-6628ba88519c
+       :END:
+******* Do some after webapp practice
+	:PROPERTIES:
+	:ID:       a37863d7-0485-45a5-adf2-22d7480c41b9
+	:END:
+	- Best done after webapp practice
+	- Maybe because it's easier? Unsure
+******* Description of system hacking
+	:PROPERTIES:
+	:ID:       efdc617f-9d39-4557-a129-52fe98b9a3c0
+	:END:
+	- Hacking operating systems, computers, etc
+	- The kind of crap skiddies threaten you with
+	  - oMg Im GoInG tO rAt YoUr SyStEm AnD DiSaBlE yOuR mAiNfRaMe AnD dDoS 192.168.1.1 aNd 172.0.0.1 FoR tHe LuLz GeT pWn3d 1337 HaX0R
+******* System Hacking Sites
+	:PROPERTIES:
+	:ID:       6999b467-da18-4eb3-9c1b-76726ce68a00
+	:END:
+	- [[https://vulnhub.com/][VulnHub]] :: Site with a whole bunch of VMs for hacking (kind of like Metasploitable)
+	- [[https://hackthebox.eu][HackTheBox]] :: Gives access to a VPN with a bunch of vulnerable systems to break in to. Have to hack your way in. I did, so I could make an account (yayyyy!)
+**** Improving skills afterwards
+     :PROPERTIES:
+     :ID:       4b80662c-bea5-4bc2-9e95-aaadffc8c5d8
+     :END:
+     - VulnVPN/VulnVOIP/Vulnix :: not sure what it is
+     - Metasploitable 2/3 :: vulnerable, but specifically made for the metasploit toolkit. System
+     - SANS Holiday Hack Challenge :: System
+     - Pentester Lab :: network and web appp
+     - CloudGoat :: Vulnerable AWS thing
+*** Basic Understanding Checklist
+    :PROPERTIES:
+    :ID:       18070d1e-ba01-4c27-a161-960aadb4822f
+    :END:
+    - [ ] Basic requirements
+      - [ ] Understanding of computers
+      - [ ] Basic programming
+      - [ ] Understanding networking
+      - [ ] Know the command line
+    - [ ] Networking
+#*** SOMEDAY talk to the cybersecurity teacher                       :nobrain:
+    :PROPERTIES:
+    :ID:       1ccb0c95-5408-489a-85b6-6f2c807cfeac
+    :END:
+#*** SOMEDAY [#B] find an online course                              :nobrain:
+    :PROPERTIES:
+    :ID:       86065e14-220a-4449-a820-c51680c21eac
+    :END:
+    - [ ] Investigate NJIT 
+*** Conversations
+    :PROPERTIES:
+    :ID:       14aed9a4-74e6-4bfa-8e98-32aad2fe4201
+    :END:
+**** 2020-12-07
+     :PROPERTIES:
+     :ID:       0ce67c68-093b-4f78-a9d7-a7833f433cf5
+     :END:
+     - What we could do for presentations when we start doing CTF type stuff
+       - presentation about specific vulnerability exploited
+       - explain how it works
+     - Every week we could pck a new vuln and practice exploiting it
+       - hack.me boxes
+*** Preliminary Roadmap                                             :nobrain:
+    :PROPERTIES:
+    :ID:       e1a70ea4-6cf7-4030-ba91-9044e8813004
+    :END:
+    :BACKLINKS:
+    [2020-12-13 Sun 18:37] <- [[id:80e18ae4-c8fd-4d5b-b28a-04b4d7a78194][Daily log]]
+    :END:
+**** Next week
+     :PROPERTIES:
+     :ID:       a8384234-8ab8-4b07-ba6a-cea0fa74ccad
+     :END:
+***** Understand how the web works
+      :PROPERTIES:
+      :ID:       d5379887-379d-4f17-9d31-aa147879f2f1
+      :END:
+      - [ ] Read odin project thing
+      - [ ] Read mozilla how the web works thing
+**** Next two months
+     :PROPERTIES:
+     :ID:       ed477ae3-6144-4371-844c-3db28c265aa7
+     :END:
+***** Learn webapp vulnerabilities
+      :PROPERTIES:
+      :ID:       8ab6ca54-e030-4810-aac5-48bb78cb5912
+      :END:
+      - [ ] Find courses online
+***** Play with webapp hacking to practice exploiting all types of vulnerabilities
+      :PROPERTIES:
+      :ID:       aa98be8c-dce8-4ce1-a86a-4498467f8bb9
+      :END:
+      - [ ] hack.me
+**** Next year
+     :PROPERTIES:
+     :ID:       2585681b-dabe-4c70-b50d-f118624fa659
+     :END:
+***** Learn system vulnerabilities
+      :PROPERTIES:
+      :ID:       a35ecfb7-9d9d-4d96-8db9-784d3f24b692
+      :END:
+      - [ ] Find articles and do literature reviews
+***** Play with system hacking stuff
+      :PROPERTIES:
+      :ID:       d5c06d96-0910-4a22-bfb2-38e2f107dc0f
+      :END:
+      - [ ] HackTheBox fun
+      - [ ] vulnapp stuff fun
+**** Outstanding
+     :PROPERTIES:
+     :ID:       ce92bab1-77ff-46d3-985f-f62a2717dbdb
+     :END:
+***** Do all prep necessary for network+
+      :PROPERTIES:
+      :ID:       9abc212e-690c-4658-8803-d015ef2275ea
+      :END:
+      - [ ] Professor Messer's course
+      - [ ] OSI model reading
+** Get OSCP certification                                           :nobrain:
+   :PROPERTIES:
+   :ID:       9f678d3d-4a5d-4444-aa1e-b47ad51d0794
+   :END:
+*** Find what is needed
+    :PROPERTIES:
+    :ID:       d148e8c6-ae9e-4c61-89e6-d7f2e69d996f
+    :END:
+
+** DONE [#C] OSI model notes (from CS/N ppt)                :homework:school:
+   CLOSED: [2020-12-21 Mon 19:50] DEADLINE: <2020-12-21 Mon>
+   :PROPERTIES:
+   :Effort:   0:45
+   :ID:       1637ad1f-039c-4cfc-aa57-813cc1033003
+   :END:
+   :LOGBOOK:
+   CLOCK: [2020-12-21 Mon 17:12]--[2020-12-21 Mon 17:12] =>  0:00
+   CLOCK: [2020-12-20 Sun 18:34]--[2020-12-20 Sun 19:13] =>  0:39
+   :END:
+** have fun with [[https://overthewire.org/wargames/bandit/bandit0.html][bandit game]]
+   :PROPERTIES:
+   :ID:       759d3b15-6dec-4d91-8a85-06ebee79a392
+   :END:
+** DONE Odin Project: How the web works (notes)                    :homework:
+   CLOSED: [2020-12-18 Fri 09:45] DEADLINE: <2020-12-18 Fri>
+   :PROPERTIES:
+   :ID:       58c16e19-cd37-427b-b4a6-0a3dea754875
+   :END:
+   :BACKLINKS:
+   [2020-12-19 Sat 20:15] <- [[id:80e18ae4-c8fd-4d5b-b28a-04b4d7a78194][Daily log]]
+   [2020-12-19 Sat 20:14] <- [[id:80e18ae4-c8fd-4d5b-b28a-04b4d7a78194][Daily log]]
+   :END:
+   :LOGBOOK:
+   CLOCK: [2020-12-18 Fri 09:41]--[2020-12-18 Fri 09:46] =>  0:05
+   CLOCK: [2020-12-14 Mon 14:05]--[2020-12-14 Mon 16:03] =>  1:58
+   :END:
+   - Link: [[https://www.theodinproject.com/courses/foundations/lessons/how-does-the-web-work][Odin Project]]
+*** BBC video                                                       :nobrain:
+    :PROPERTIES:
+    :ID:       10b5d292-fe31-4158-84ee-48c3159cbf8c
+    :END:
+    - Created the [[id:9d4d1c6c-5164-46ad-96c1-f179553ed796][ARPANET]] because they wanted to connect the different universities around the country
+    - The internet now consists of [[id:5d62f490-8703-425c-bc8d-119f19acf60e][fiber optic cables]] going across the oceans
+    - It uses [[id:1b5bcdec-a82e-41b4-a067-fefefb7e3275][packet switching]] to split up data and send it
+*** Mozilla Article                                                 :nobrain:
+    :PROPERTIES:
+    :ID:       6c120a78-2801-479b-8e95-064f85d12280
+    :END:
+    - [[id:0f73c055-b673-4ff5-97d2-05a6a0c2e3a6][Routers]] are used to connect computers to a network, then routers can connect other routers to an even larger network
+      - After enough interconnecting, it becomes basically the internet
+** Webapp Exploitation
+   :PROPERTIES:
+   :ID:       ff155e3e-fce9-491b-b040-97f50d68b4a5
+   :END:
+*** SQL injection
+    :PROPERTIES:
+    :ID:       ef8a3123-7906-4fa1-ab60-b85388a8ea24
+    :END:
+    :BACKLINKS:
+    [2020-12-19 Sat 20:17] <- [[id:80e18ae4-c8fd-4d5b-b28a-04b4d7a78194][Daily log]]
+    :END:
+[[file:sqlInjection.org][SQL Injection QNotes]]
+* Conferences                                                      :nobrain:
+  :PROPERTIES:
+  :ID:       47c4c22e-1104-41fd-846b-8595c7413fc0
+  :END:
+** 2020-12-04
+   :PROPERTIES:
+   :ID:       7bc7f32f-646e-402e-93f1-549b2c2e1d06
+   :END:
+   - Is white hat hacking good?
+     - Has anyone quantified it?
+     - Are they good for the economy
+   - Is white hat hacking actually beneficial?
+   - Can you actually make money from it?
+   - Advice
+     - Do a table daily log
+     - When filling out the y/n section
+     - Be more organized
+* Daily log                                                        :nobrain:
+  :PROPERTIES:
+  :ID:       80e18ae4-c8fd-4d5b-b28a-04b4d7a78194
+  :END:
+  |       Date | Amount of time (m) | What I worked on                                 | Links                                                                        | Comments                                                                                                                                                                              |
+  |------------+--------------------+--------------------------------------------------+------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+  | 2020-12-02 | 60m                | Discussed article about vulnerabilities          | [[id:cae3a59e-201d-4118-a495-9b2d7d9485d3][Literature review]]                                                            | Good conversation. Notes are [[id:9262476f-e969-42d2-a32c-7f5ed0d8317d][here]]                                                                                                                                                     |
+  | 2020-12-03 | 90m                | Project TODO outlining roadmap                   | [[id:63bc6546-c886-4834-a8dc-6c6ee616bff1][Project list]]                                                                 | A work in progress. Going to work on the article literature review.                                                                                                                   |
+  | 2020-12-05 | 15m                | Finding article for pentesting                   | [[https://www.redteamsecure.com/blog/how-to-become-a-penetration-tester/][Pentesting Article]]                                                           | I shouldn't use this site for anything they could be trying to sell, since it's a commercial site.                                                                                    |
+  | 2020-12-06 | 45m                | Lit review of redteam security article           | [[https://www.redteamsecure.com/blog/how-to-become-a-penetration-tester/][Pentesting Article]], [[id:15b31993-bfaf-451f-a879-baece64763b7][Literature review]], [[https://www.professormesser.com/network-plus/n10-007/n10-007-training-course/][Comp TIA Network+ Course]], [[https://overthewire.org/wargames/bandit/bandit0.html][Bandit game]] | Did this lit review so I can make a better roadmap. It recommended Professor Messer's course for networking, so I'll check that out. Also found bandit game, which I might play with. |
+  | 2020-12-07 | 112m               | Finished litreview, talked with Tony             | [[https://www.redteamsecure.com/blog/how-to-become-a-penetration-tester/][Pentesting Article]], [[id:15b31993-bfaf-451f-a879-baece64763b7][Literature review]]                                        | Finished literature review. Has some good links inside it. Also had a conversation with tony and laid out roadmap (so no notes except for the roadmap                                 |
+  | 2020-12-09 | 60m                | Looking at different webapp hacking sites        | [[hack.me]]                                                                      | Found Hack.Me, which looks like a fun site that I might end up working on.                                                                                                            |
+  | 2020-12-10 | 30m                | Discussed with Tony next presentation            |                                                                              | Decided we would work on learning webapp vulnerabilities for the next presentation, then play with webapp hacking.                                                                    |
+  | 2020-12-11 | 30m                | Putting together a preliminary roadmap with Tony |                                                                              | Created the [[id:e1a70ea4-6cf7-4030-ba91-9044e8813004][Preliminary Roadmap]], which we'll be following.                                                                                                                            |
+  | 2020-12-14 | 120m               | Worked on odin project                           | [[https://www.theodinproject.com/courses/web-development-101/lessons/how-does-the-web-work][The Odin Project]], [[id:58c16e19-cd37-427b-b4a6-0a3dea754875][Odin Project: How the web works (notes)]]                    | Started working on taking notes on the Odin Project, which took a while. Good stuff tho, and a good refresher.                                                                        |
+  | 2020-12-16 | 30m                | Finished odin project                            | [[https://www.theodinproject.com/courses/web-development-101/lessons/how-does-the-web-work][The Odin Project]], [[id:58c16e19-cd37-427b-b4a6-0a3dea754875][Odin Project: How the web works (notes)]]                    | Finished notes on the Odin Project. Good course-thing overall.                                                                                                                        |
+  | 2020-12-19 | 90m                | Computerphile video notes, hack.me practice      | [[https://hack.me/][hack.me]], [[https://www.youtube.com/watch?v=ciNHn38EyRc][How to run SQLi vid]], [[https://www.youtube.com/watch?v=_jKylhJtPmI&feature=emb_title][What SQLi is]], [[id:ef8a3123-7906-4fa1-ab60-b85388a8ea24][SQL injection]]                                 | Tom Scott and Dr. Pound are cool, and computerphile is definitely something I'll be watching more often.                                                                              |
+  

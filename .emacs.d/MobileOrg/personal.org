@@ -1,0 +1,299 @@
+* Quick Notes
+  :PROPERTIES:
+  :ID:       324b0fcb-7113-40d9-ba5a-3e7de6870fb4
+  :END:
+** Org tab mode                                                       :emacs:
+   ENTERED: [2021-01-04 Mon 18:50]
+   allows you to have a cleaner view, works especially well when using variable-pitch-mode in org mode
+** joemama
+thisisreallyhot
+** Collaborating on emacs document with rudel                         :emacs:
+   :PROPERTIES:
+   :ID:       cf720529-f6e0-4230-a121-34f0f03957b2
+   :END:
+   ENTERED: [2020-12-19 Sat 19:35]
+   - Rudel is used for this
+   - It's pretty awesome looking
+   - [[https://github.com/scymtym/rudel/blob/master/doc/manual.org][link]]
+** No servers configured for repository                :linux:pacman:manjaro:
+   :PROPERTIES:
+   :ID:       bbca2119-fd78-4217-9ab5-446ba6d1c58f
+   :END:
+*** Solution:
+    :PROPERTIES:
+    :ID:       30021b48-2858-4b96-8c69-1b6b973e8406
+    :END:
+    #+BEGIN_SRC bash
+    sudo pacman-mirrors -g && sudo pacman -Syy && notify-send "Done" "Mirrors and databases updated."
+    #+END_SRC
+*** Why it happens
+    :PROPERTIES:
+    :ID:       ac28c7f9-7b0b-4585-b296-8229e60a8204
+    :END:
+    - Pacman mirrors are sometimes out of date
+    - They have to be updated
+** Packages out of date when trying to install         :manjaro:pacman:linux:
+   :PROPERTIES:
+   :ID:       bbcc3cd6-b9b4-495d-a8c4-98c12607a530
+   :END:
+*** Solution:
+    :PROPERTIES:
+    :ID:       c4437e4a-c2fe-4edb-ae6e-b30d1c7dda0e
+    :END:
+    #+BEGIN_SRC bash
+    sudo pacman -Syy
+    #+END_SRC
+*** Why it happens
+    :PROPERTIES:
+    :ID:       bf94b7f8-0ddb-49f1-afcc-ce5deee0b2a1
+    :END:
+    - Pacman's package database gets out of date
+    - It has to be refreshed or it tries to install out of date packages, and gets mad when it sees that they are out of date/don't exist
+** Enter code into emacs org mode                        :emacs:code:orgmode:
+   :PROPERTIES:
+   :ID:       9038e33b-a319-412f-a1db-ae66dd1b9b93
+   :END:
+*** Solution:
+    :PROPERTIES:
+    :ID:       0e4566c1-5cf3-4a48-af37-73a06b02cf2f
+    :END:
+    #+BEGIN_SRC language
+    //CODE GOES HERE
+    #+END_SRC
+** Be nice to the goose
+   :PROPERTIES:
+   :ID:       a82b1443-e156-4b56-928c-fba126f659b1
+   :END:
+   ENTERED: [2020-12-09 Wed 10:09]
+   - Marty O'Donnell
+   - The goose lays golden eggs, don't kick it in the stomach
+     - Don't be a greedy fricker
+** Exporting one section of org mode file                     :emacs:orgmode:
+   :PROPERTIES:
+   :ID:       4b4b2276-a1f7-4c9c-9173-ce47d88e270b
+   :END:
+   ENTERED: [2020-12-06 Sun 19:44]
+   - Put pointer on heading you want exported
+   - C-c C-e C-s, then choose export type
+     - C-s
+   - Set property :EXPORT_FILE_NAME:
+** How to SSH into computer with graphical applications    :linux:ssh:remote:
+   :PROPERTIES:
+   :ID:       6c0e7355-e290-45ba-9b4b-1d2c6710e063
+   :END:
+   ENTERED: [2020-12-05 Sat 14:32]
+*** Server SSH setup
+    :PROPERTIES:
+    :ID:       bf026c81-8610-43f1-884b-4909444c6ea8
+    :END:
+    #+BEGIN_SRC bash
+    sudo systemctl start sshd.service
+    #+END_SRC
+*** Client SSH setup
+    :PROPERTIES:
+    :ID:       7b56c7cd-6f5f-4059-aa12-d1df4d9540fa
+    :END:
+    #+BEGIN_SRC bash
+    ssh -XC jadench@10.0.0.24
+    #+END_SRC
+** Dr. Luca Santoni's Email
+   :PROPERTIES:
+   :ID:       849f87de-18c1-402a-83e6-44977a29a642
+   :END:
+   ENTERED: [2020-12-05 Sat 11:54]
+   luca.santoni@columbia.edu
+** VNC                                                         :linux:server:
+   :PROPERTIES:
+   :ID:       43a8a9d7-2fec-4b9d-89bc-0db010c7ce67
+   :END:
+   ENTERED: [2020-12-05 Sat 10:50]
+*** Starting the VNC server
+    :PROPERTIES:
+    :ID:       8cd7736e-1c90-403f-aa08-16d73500dc7b
+    :END:
+    #+BEGIN_SRC bash
+    /usr/local/bin/vnc-server-starter
+    #+END_SRC
+*** Using the VNC server
+    :PROPERTIES:
+    :ID:       dc405d49-a836-40e4-a5f7-a1e8108d6c3c
+    :END:
+    - TigerVNC must be installed on the client
+      - Could be a raspi or laptop or whatever
+    - Run TigerVNC and put in IP address of the server (no need for port, it will find it automatically)
+** Regenerating the font cache
+   :PROPERTIES:
+   :ID:       62105ba9-4cda-45b2-9ca4-1f0a9597067a
+   :END:
+   ENTERED: [2020-11-30 Mon 09:03]
+   #+BEGIN_SRC bash
+   fc-cache -f -v
+   #+END_SRC
+** Pulseaudio applet tray application                                 :linux:
+   :PROPERTIES:
+   :ID:       47db25fd-71e1-40e6-b862-e792d64b7bd8
+   :END:
+   ENTERED: [2020-11-22 Sun 21:28]
+   - pasystray
+   - Great little program
+** Update nvidia drivers
+   :PROPERTIES:
+   :ID:       5596d861-5927-46da-bd09-5965a59588c5
+   :END:
+*** Solution
+    :PROPERTIES:
+    :ID:       21a7fd64-2ce7-4409-a575-f9d30af2b653
+    :END:
+    #+BEGIN_SRC zsh
+    sudo mhwd -r pci $old_driver_name
+    sudo mhwd -i pci $new_driver_name
+    #+END_SRC
+** Emacs daemon/server and emacsclient                                :emacs:
+   :PROPERTIES:
+   :ID:       d88ff2eb-75cb-4d2e-acb3-de62af2c1171
+   :END:
+   Start the daemon with:
+   #+BEGIN_SRC bash
+emacs --daemon
+   #+END_SRC
+   Start the emacs client in GUI mode:
+   #+BEGIN_SRC bash                                                                              
+emacsclient -c -a emacs
+   #+END_SRC 
+* Personal Notes
+  :PROPERTIES:
+  :ID:       46b14c95-d759-4ced-ae42-41be6a41bd51
+  :END:
+** 2020
+   :PROPERTIES:
+   :ID:       33aaeb76-ae22-4d0b-87b7-22beee71722f
+   :END:
+*** December
+    :PROPERTIES:
+    :ID:       25991a7a-7c88-4f44-b3d6-a0d163e9b2f0
+    :END:
+**** Christmas List 2020                                            :nobrain:
+     :PROPERTIES:
+     :ID:       fcd977a6-689b-4370-b1b8-1498341bf754
+     :END:
+     - New server stuff
+       - Server rack :: Could be a lack table, but I'd prefer a real rack.
+       - Server :: 
+**** What to do with a server                                       :nobrain:
+     :PROPERTIES:
+     :ID:       5bf9fbd4-e39a-4307-b2cf-a6de22fa6d77
+     :END:
+***** Virtual Desktop Infrastructure/HVD (hosted virtual desktop) :nobrain:nobrain:
+      :PROPERTIES:
+      :ID:       4ba89f8b-638f-4611-b127-e7b99f1ac4aa
+      :END:
+      - KVM-VDI :: Provides virtual desktops
+      - The thing that lets you host a bunch of VMs and use them on other computers
+      - Uses the server's resources instead of the client's
+      - Can run off KVM
+      - Use KVM-VMI
+****** Ravada-VDI
+       :PROPERTIES:
+       :ID:       16def9df-a1fa-4d8c-9146-78e4ef24afee
+       :END:
+       - looks good and easy
+       - Just needs someone to have virt-viewer on the client
+       - Looks like it could use 
+***** NAS
+      :PROPERTIES:
+      :ID:       f2dedd48-fa18-40fb-a5d8-18342ef5e9c6
+      :END:
+      - 
+**** How to turn a window manager into a desktop environment
+     :PROPERTIES:
+     :ID:       20dd9ff6-9c1b-43a4-b284-0070db4a2ae1
+     :END:
+     - [X] lxsession
+       - Polkit program
+       - authentication program--if something asks for privileges
+	 - Allows etcher to not be run from terminal as root
+	 - Allows other stuff
+     - [X] nitrogen
+       - wallpaper thingy
+       - Remembers the last one
+       - nitrogen --restore will restore the last wallpaper used
+     - [X] picom
+       - Compositor
+     - [X] volumeicon/pa-applet
+       - Applets for controlling volume from the tray
+     - [X] nm-applet
+       - Appletse for controlling networks from the tray
+     - [X] lxappearance
+       - for gtk stuff
+**** Network Gear List
+     :PROPERTIES:
+     :ID:       832492e3-5f22-4270-a467-2a95fc6b2d1c
+     :EXPORT_FILE_NAME: networkGearList 
+     :END:
+|-----------------------+-------------------+--------+------------------------------------+-----------------------------------------------------------+----------------------------------------------------------------------------|
+| Item                  | Brand             |  Price | Reason                             | Specs                                                     | Notes                                                                      |
+|-----------------------+-------------------+--------+------------------------------------+-----------------------------------------------------------+----------------------------------------------------------------------------|
+| [[https://www.monoprice.com/product?p_id=8103#QuestionsandAnswers][Ethernet Cable]]        | Monoprice         |  79.99 | Self-explanatory                   | 10Gbps for 37m, Cat6, 1000ft, CMR Riser Rated, Solid Core | 10Gbps for 37m or 120ft at least. Needs to be white because that's on sale |
+| [[https://www.monoprice.com/product?p_id=7499&gclid=CjwKCAiAxKv_BRBdEiwAyd40N_hfIdaTWqWrhB_V8cqrcUWiZfM-ajdFmxD2pjO4XBnox65hNc23VBoCSL4QAvD_BwE][18x 1ft Patch Cables]]  | Monoprice         |  18.00 | Patching between panel and switch  | Cat6, 1ft, Snagless, UTP, should support 10Gbps           | Barely will fit between 1 on the switch and 1 on the panel                 |
+| [[https://www.monoprice.com/product?p_id=7499&gclid=CjwKCAiAxKv_BRBdEiwAyd40N_hfIdaTWqWrhB_V8cqrcUWiZfM-ajdFmxD2pjO4XBnox65hNc23VBoCSL4QAvD_BwE][6x 2ft Patch Cables]]   | Monoprice         |   7.26 | Patching between panel and switch  | Same as 1ft                                               | Goes between 1 and 6 on panel and switch because 1ft isn't long enough     |
+| [[https://www.monoprice.com/product?p_id=6727][5x Wall Plate]]         | Monoprice         |   2.75 | Keystone Jack Holding              | Has room for two jacks                                    |                                                                            |
+| [[https://www.amazon.com/Netis-ST3116G-Rackmountable-Auto-Negotiation-Mounting/dp/B00JJQ0YL6][Other possible switch]] | Monoprice "netis" |  49.99 | Switch                             | 10/100/1000mbps, unmanaged, 19 inch rack mountable        | Asked Dr. Houston about it                                                 |
+| [[https://www.monoprice.com/product?p_id=7260][Blank patch panel]]     | Monoprice         |   7.99 | Cables connect to this             | 24 ports, 19" rack mountable                              |                                                                            |
+| [[https://www.monoprice.com/product?p_id=1044][24x Toolless jacks]]    | Monoprice         |  29.04 | End of the cables for patch cables | Cat 6, rj45                                               | don't need a tool                                                          |
+| [[https://www.monoprice.com/product?p_id=40879][10x 7ft Patch Cables]]  | Monoprice         |  19.99 | Connecting to nodes from jacks     | Cat 6, rj45, snagless, boots, UTP, etc etc                | nice                                                                       |
+| [[https://www.monoprice.com/product?p_id=8627][Wall mount rack]]       | Monoprice         |  27.99 | Mounting everything                | 4u, up to 40lbs                                           |                                                                            |
+|-----------------------+-------------------+--------+------------------------------------+-----------------------------------------------------------+----------------------------------------------------------------------------|
+| TOTAL PRICE           |                   | 243.01 |                                    |                                                           |                                                                            |
+|-----------------------+-------------------+--------+------------------------------------+-----------------------------------------------------------+----------------------------------------------------------------------------|
+
+
+
+[[http://discountlowvoltage.blogspot.com/2009/11/how-to-punch-down-cat5ecat6-keystone.html][How to punch down a keystone jack]]
+[[https://www.instructables.com/Terminating-an-Ethernet-CAT5eCAT6-Cable/][How to terminate Cat6 with male connector]]
+
+just get panel with holes for keystones and buy the keystones separately
+check monoprice for switch, 16 ports
+get a rack, probably wall mounted
+okay to put in closet, as long as it's a little open--not much heat
+gigabit arris surfboard modem, any router 
+put the router anywhere, just run a patch cable
+***** Checklist:
+- [X] Solid core riser rated cable, 1000ft
+- [X] Patch cables
+  - [X] Panel to switch
+  - [X] Keystone to computer
+- [X] Endpoints
+  - [X] Wall plates
+  - [X] Keystone Jacks
+- [X] Hardware
+  - [X] Switch
+  - [X] Patch panel
+    - [X] Keystone jacks
+  - [X] Router
+    - [X] Patch cable to go from router to modem
+    - [X] Patch cable to go from router to switch
+  - [X] Modem
+  - [X] Wall-mountable rack
+- [X] Tools
+  - [X] Scissors
+  - [X] Something to strip wire with
+
+** 2021
+*** January
+* Letters to myself
+** 2020-01-04 Letter to future self                          :letter_to_self:
+Dear Future Jaden,
+
+
+I hope that you've been talking to Olivia. Stop fucking procrastinating dumbass, you want another friend or maybe even a girlfriend. Yes, I know that expecting you to have been texting people more regularly is wishful thinking and/or unrealistic, but like /get on it!/ Also, you have been FaceTiming your friends, right? Yeah, definitely not. Dumbass. Seriously, get on it. Meet with your friends in person too, stop not doing that.
+
+Also, I really hope that things are going well with school and stuff. Your grades better be all in the nineties, especially Science Research and Chemistry.
+
+Still using EMACS, I presume? I hope you haven't cluttered the config up again, I literally just finished cleaning it up. It took forever and I missed two entire lessons doing that, so please don't fuck it up. I also hope you cleaned up your polybar config. You have like 300 lines of unused shit. 
+
+I'm almost willing to bet you completely forgot about this letter-writing thing. Please don't. I want to be able to read these. Don't make it like those audio log thingies you did vigorously for about a week and then completely forgot about. 
+
+
+From,
+Your Dumbass Self,
+2021-01-04 Jaden

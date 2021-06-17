@@ -1,0 +1,10 @@
+		     #+TITLE: ENGLISH CLASS NOTES
+* Othello Unit
+:PROPERTIES:
+  :ID:       6524d888-32be-4d33-bf63-7aff804cee1c
+  :END:
+[[file:othelloNotes.org][Othello Notes]]
+- [[id:0e7050a6-06b5-4044-8280-8c2e89042aba][Theme Essay]]
+- [[id:ffde94bd-e77b-4696-9e7f-797c2cde4dbd][Plot of Othello]]
+* Of Mice And Men Unit
+[[file:ofMiceAndMenNotes.org][OMM Notes]]

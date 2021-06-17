@@ -1,0 +1,205 @@
+;; Object semanticdb-project-database-file-156b908d5d64
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-156b908d5d64"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-156b908d5c04"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function (:type "int") nil [21 87]))          
+      :file "arraySorterByIndex.c"
+      :pointmax 88
+      :fsize 87
+      :lastmodtime '(24307 31629 607920 639000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-156b908d5c24"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("main" function (:type "int") nil [41 219]))          
+      :file "inputTaker.c"
+      :pointmax 220
+      :fsize 219
+      :lastmodtime '(24307 32994 187531 928000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-156b908d5c44"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("string.h" include (:system-flag t) nil [20 39])
+            ("main" function (:type "int") nil [40 191])
+            ("printf" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("a" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [173 175]))                  
+                :type "int")
+                nil [158 176]))          
+      :file "functionArgumentsByRef.c"
+      :pointmax 192
+      :fsize 191
+      :lastmodtime '(24309 24441 412603 659000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-156b908d5c64"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [198 216])
+            ("curses.h" include (:system-flag t) nil [217 236])
+            ("stdlib.h" include (:system-flag t) nil [237 256])
+            ("time.h" include (:system-flag t) nil [257 274])
+            ("esc" variable (:constant-flag t) nil [283 286])
+            ("exitOnEsc" function (:type "int") nil [291 494])
+            ("takeUserInputSlope" function (:type "int") nil [496 628])
+            ("main" function (:type "int") nil [630 846])
+            ("exitOnEsc" function
+               (:prototype-flag t
+                :type "int")
+                nil [832 844]))          
+      :file "terminalDrawTest.c"
+      :pointmax 848
+      :fsize 847
+      :lastmodtime '(24322 10105 512338 826000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("esc" . ((number "27" 287 . 289)))
+          )
+)
+    (semanticdb-table "semanticdb-table-156b908d5c84"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [198 216])
+            ("curses.h" include (:system-flag t) nil [217 236])
+            ("stdlib.h" include (:system-flag t) nil [237 256])
+            ("time.h" include (:system-flag t) nil [257 274])
+            ("math.h" include (:system-flag t) nil [275 292])
+            ("esc" variable (:constant-flag t) nil [301 304])
+            ("exitOnEsc" function (:type "void") nil [309 594])
+            ("takeUserInputNumerator" function (:type "int") nil [596 862])
+            ("takeUserInputDenominator" function (:type "int") nil [864 1072])
+            ("takeUserInputB" function (:type "int") nil [1074 1302])
+            ("main" function (:type "int") nil [1304 1948]))          
+      :file "linearGrapher.c"
+      :pointmax 1949
+      :fsize 1948
+      :lastmodtime '(24327 12723 276538 327000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("esc" . ((number "27" 305 . 307)))
+          )
+)
+    (semanticdb-table "semanticdb-table-156b908d5ca4"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [198 216])
+            ("curses.h" include (:system-flag t) nil [217 236])
+            ("stdlib.h" include (:system-flag t) nil [237 256])
+            ("time.h" include (:system-flag t) nil [257 274])
+            ("math.h" include (:system-flag t) nil [275 292])
+            ("esc" variable (:constant-flag t) nil [301 304])
+            ("exitOnEsc" function (:type "void") nil [309 594])
+            ("takeUserInputNumerator" function (:type "int") nil [596 862])
+            ("takeUserInputDenominator" function (:type "int") nil [864 1072])
+            ("takeUserInputB" function (:type "int") nil [1074 1302])
+            ("takeUserInputN" function (:type "int") nil [1304 1596])
+            ("main" function (:type "int") nil [1598 3005]))          
+      :file "multipleLineGrapher.c"
+      :pointmax 3006
+      :fsize 3005
+      :lastmodtime '(24328 55930 627931 353000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("esc" . ((number "27" 305 . 307)))
+          )
+)
+    (semanticdb-table "semanticdb-table-156b908d5cc4"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [198 216])
+            ("curses.h" include (:system-flag t) nil [217 236])
+            ("stdlib.h" include (:system-flag t) nil [237 256])
+            ("time.h" include (:system-flag t) nil [257 274])
+            ("math.h" include (:system-flag t) nil [275 292])
+            ("esc" variable (:constant-flag t) nil [301 304])
+            ("exitOnEsc" function
+               (:arguments 
+                  ( ("key" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [324 334]))                  
+                :type "void")
+                nil [309 572])
+            ("takeUserInputNumerator" function (:type "int") nil [574 840])
+            ("takeUserInputDenominator" function (:type "int") nil [842 1050])
+            ("takeUserInputB" function (:type "int") nil [1052 1280])
+            ("takeUserInputN" function (:type "int") nil [1282 1574])
+            ("main" function (:type "int") nil [1576 2988]))          
+      :file "multipleLineGrapherRefactor.c"
+      :pointmax 2989
+      :fsize 2988
+      :lastmodtime '(24333 50799 854238 380000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-156b908d5ce4"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [158 176])
+            ("math.h" include (:system-flag t) nil [177 194])
+            ("stdlib.h" include (:system-flag t) nil [195 214])
+            ("curses.h" include (:system-flag t) nil [215 234])
+            ("time.h" include (:system-flag t) nil [235 252])
+            ("unistd.h" include (:system-flag t) nil [253 272])
+            ("locale.h" include (:system-flag t) nil [273 292])
+            ("asteroidChar" variable (:constant-flag t) nil [355 367])
+            ("blockChar" variable (:constant-flag t) nil [380 389])
+            ("projectile" variable (:constant-flag t) nil [402 412])
+            ("sleepSeconds" function
+               (:arguments 
+                  ( ("seconds" variable (:type "double") (reparse-symbol arg-sub-list) [436 451])
+                    ("milliseconds" variable (:type "double") (reparse-symbol arg-sub-list) [452 472]))                  
+                :type "void")
+                nil [418 584])
+            ("main" function (:type "int") nil [586 5065]))          
+      :file "space2PlayerGame.c"
+      :pointmax 5066
+      :fsize 5071
+      :lastmodtime '(24387 46776 497886 558000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("projectile" . ((string "\"•\"" 413 . 416)))
+          ("asteroidChar" . ((string "\"#\"" 368 . 371)))
+          ("blockChar" . ((string "\"▓\"" 390 . 393)))
+          )
+)
+    (semanticdb-table "semanticdb-table-156b908d5d04"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("omp.h" include (:system-flag t) nil [20 36])
+            ("main" function (:type "int") nil [38 211]))          
+      :file "parallelProcessingTest.c"
+      :pointmax 211
+      :fsize 211
+      :lastmodtime '(24387 57323 149342 213000)
+      :unmatched-syntax '((symbol 211 . 212)))
+    (semanticdb-table "semanticdb-table-156b908d5d24"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("math.h" include (:system-flag t) nil [20 37])
+            ("main" function (:type "int") nil [39 411]))          
+      :file "complexNumberWithExponentSimplifier.c"
+      :pointmax 412
+      :fsize 411
+      :lastmodtime '(24464 29550 225679 933000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-156b908d5d44"
+      :major-mode c-mode
+      :tags nil
+      :file "binarySearch.c"
+      :pointmax 1
+      :fsize 0
+      :lastmodtime '(24463 5762 454908 908000)
+      :unmatched-syntax nil))
+  :file "!home!anansi!Documents!C_Programs!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

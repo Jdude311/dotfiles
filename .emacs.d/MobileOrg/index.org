@@ -1,0 +1,14 @@
+#+READONLY
+#+TODO: TODO NEXT STARTED ET POSTPONED DONE
+#+TAGS: clubs code emacs email homework letter_to_self linux manjaro nobrain nsb orgmode pacman personal project quiz quizbowl remote school server ssh test
+#+ALLPRIORITIES: A B C
+* [[file:agendas.org][Agenda Views]]
+* [[file:School/Apocalypse-2021_School_Year/DriversED/classNotes.org][School/Apocalypse-2021_School_Year/DriversED/classNotes.org]]
+* [[file:School/Apocalypse-2021_School_Year/English/classNotes.org][School/Apocalypse-2021_School_Year/English/classNotes.org]]
+* [[file:School/Apocalypse-2021_School_Year/English/ofMiceAndMenNotes.org][School/Apocalypse-2021_School_Year/English/ofMiceAndMenNotes.org]]
+* [[file:School/Apocalypse-2021_School_Year/Science_Research/classNotes.org][School/Apocalypse-2021_School_Year/Science_Research/classNotes.org]]
+* [[file:School/Apocalypse-2021_School_Year/Science_Research/sqlInjection.org][School/Apocalypse-2021_School_Year/Science_Research/sqlInjection.org]]
+* [[file:School/Apocalypse-2021_School_Year/Spanish/classNotes.org][School/Apocalypse-2021_School_Year/Spanish/classNotes.org]]
+* [[file:School/Apocalypse-2021_School_Year/USHistory/classNotes.org][School/Apocalypse-2021_School_Year/USHistory/classNotes.org]]
+* [[file:personal.org][personal.org]]
+* [[file:todo.org][todo.org]]

@@ -1,0 +1,104 @@
+;; Object semanticdb-project-database-file-15932cc92060
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-15932cc92060"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-15932cc92094"
+      :major-mode mhtml-mode
+      :tags 
+        '( ("&lrm;" section nil nil [395 7682])
+            ("// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add(\"code-highlighted\");
+         target.classList.add(\"code-highlighted\");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove(\"code-highlighted\");
+         target.classList.remove(\"code-highlighted\");
+       }
+     }
+    /*]]>*///-->
+// @license-end" section nil nil [7682 8380])
+            ("MathJax.Hub.Config({
+        displayAlign: \"center\",
+        displayIndent: \"0em\",
+
+        \"HTML-CSS\": { scale: 100,
+                        linebreaks: { automatic: \"false\" },
+                        webFont: \"TeX\"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: \"false\" },
+              font: \"TeX\"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: \"AMS\"},
+               MultLineWidth: \"85%\",
+               TagSide: \"right\",
+               TagIndent: \".8em\"
+             }
+});" section nil nil [8380 8987])
+            ("Table of Contents" section nil nil [8987 9134])
+            ("Table of Contents" section (:members 
+              ( ("Table of Contents" section (:members 
+                  ( ("1. Solving Radical Equations" anchor nil nil [9259 9262])
+                    ("1.1. Two variables, sometimes two roots" anchor nil nil [9323 9326])
+                    ("1.1.1. Steps to solve" anchor nil nil [9398 9401])
+                    ("1.1.2. When you can't isolate all radicals" anchor nil nil [9455 9458])
+                    ("1.1.3. No negatives under even radical" anchor nil nil [9533 9536])
+                    ("1.1.4. Answers must be plugged back in when there are positive radicals" anchor nil nil [9607 9610])
+                    ("2. Roots and shit" anchor nil nil [9738 9741])
+                    ("2.1. Square Root Equations" anchor nil nil [9791 9794])
+                    ("2.1.1. Formula of square roots" anchor nil nil [9853 9856])
+                    ("2.1.2. Graphing square roots" anchor nil nil [9919 9922])
+                    ("2.2. Cube Root equation" anchor nil nil [9995 9998])
+                    ("2.2.1. Formula for cube roots" anchor nil nil [10054 10057])
+                    ("2.2.2. Graphing cube roots" anchor nil nil [10119 10122])
+                    ("3. Glossary" anchor nil nil [10205 10208])
+                    ("3.1. Behavior" anchor nil nil [10252 10255])
+                    ("3.2. Reference point" anchor nil nil [10301 10304])
+                    ("3.3. Vertex" anchor nil nil [10357 10360]))                  ) nil [9189 10490])
+                ("1" section (:members 
+                  ( ("1.1" section (:members 
+                      ( ("1.1.1" section nil nil [10897 11220])
+                        ("1.1.2" section nil nil [11220 11542])
+                        ("1.1.3" section nil nil [11542 11760])
+                        ("1.1.4" section nil nil [11760 12594]))                      ) nil [10687 12594]))                  ) nil [10490 12594])
+                ("2" section (:members 
+                  ( ("2.1" section (:members 
+                      ( ("2.1.1" section (:members 
+                          ( ("Reference point" anchor nil nil [13165 13168])
+                            ("behavior" anchor nil nil [13265 13268]))                          ) nil [12977 14408])
+                        ("2.1.2" section (:members 
+                          ( ("formula" anchor nil nil [15354 15357])
+                            ("reference point" anchor nil nil [15735 15738])
+                            ("pattern of square roots" anchor nil nil [15824 15827])
+                            ("behavior" anchor nil nil [15916 15919]))                          ) nil [14408 16216]))                      ) nil [12780 16216])
+                    ("2.2" section (:members 
+                      ( ("2.2.1" section (:members 
+                          ( ("Reference point" anchor nil nil [16646 16649]))                          ) nil [16410 17896])
+                        ("2.2.2" section (:members 
+                          ( ("reference point" anchor nil nil [18741 18744])
+                            ("pattern of cube roots" anchor nil nil [18830 18833])
+                            ("behavior" anchor nil nil [18920 18923]))                          ) nil [17896 19220]))                      ) nil [16216 19220]))                  ) nil [12594 19220])
+                ("3" section (:members 
+                  ( ("3.1" section nil nil [19400 19684])
+                    ("3.2" section (:members 
+                      ( ("vertex" anchor nil nil [19921 19924]))                      ) nil [19684 20094])
+                    ("3.3" section (:members 
+                      ( ("Validate" anchor nil nil [20386 20389]))                      ) nil [20094 20479]))                  ) nil [19220 20479]))              ) nil [9134 20479]))          
+      :file "classNotes.html"
+      :pointmax 20479
+      :fsize 20478
+      :lastmodtime '(24521 3211 492167 284000)
+      :unmatched-syntax nil))
+  :file "!home!jadench!Documents!School!Apocalypse-2021_School_Year!Math!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

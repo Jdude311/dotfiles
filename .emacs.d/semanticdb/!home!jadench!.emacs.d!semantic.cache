@@ -1,0 +1,23 @@
+;; Object semanticdb-project-database-file-1562ae970bb0
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1562ae970bb0"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1562ae970bcc"
+      :major-mode python-mode
+      :tags 
+        '( ("os" include nil nil [1 10])
+            ("ycm_core" include nil nil [11 26])
+            ("flags" variable nil nil [28 231])
+            ("SOURCE_EXTENSIONS" variable nil nil [233 285])
+            ("FlagsForFile" function (:arguments 
+              ( ("filename" variable nil (reparse-symbol function_parameters) [305 313])
+                ("kwargs" variable nil (reparse-symbol function_parameters) [315 323]))              ) nil [287 379]))          
+      :file ".ycmd_extra_conf.py"
+      :pointmax 379
+      :fsize 378
+      :lastmodtime '(24585 43721 937969 129000)
+      :unmatched-syntax nil))
+  :file "!home!jadench!.emacs.d!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

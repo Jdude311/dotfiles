@@ -1,0 +1,562 @@
+* Vision in driving
+  :PROPERTIES:
+  :ID:       d74a818c-b581-4512-bd90-402464c955b1
+  :END:
+** How vision works
+   :PROPERTIES:
+   :ID:       9ebd6134-d025-414f-bb85-854a313c2da7
+   :END:
+*** Cones vs. Rods
+    :PROPERTIES:
+    :ID:       ab8b53f5-a422-4211-b6e8-acf4cfa6d5ab
+    :END:
+    - Rods are more light sensitive, but don't see color
+    - Cones are less light sensitive, but see color
+*** Central vision
+    :PROPERTIES:
+    :ID:       866ed66f-8573-43d0-9451-a3193b65287a
+    :END:
+    - Highest visual acuity (clearness of image)
+    - Color
+    - With cones and rods, but more cones
+*** Peripheral vision
+    :PROPERTIES:
+    :ID:       ff07cb31-7379-4ee1-bd21-47e042edb7db
+    :END:
+** How to look around
+   :PROPERTIES:
+   :ID:       fcd8d6f1-e7f6-4f68-ac41-954cf2f5a1e6
+   :END:
+*** Eye fixations
+    :PROPERTIES:
+    :ID:       181b024d-3ad9-4ee8-9842-440c0f8ac6eb
+    :END:
+    :BACKLINKS:
+    [2020-11-17 Tue 09:26] <- [[id:9ba548e4-e434-4402-92fa-4556d84627f1][Drowsiness]]
+    :END:
+    - small and short
+    - long enough to see what's going on
+    - change around a lot
+    - Short, momentary stops
+** How vision is affected by certain factors
+   :PROPERTIES:
+   :ID:       15a82f50-a2b2-4214-9ace-d8037287e911
+   :END:
+*** Drowsiness
+    :PROPERTIES:
+    :ID:       9ba548e4-e434-4402-92fa-4556d84627f1
+    :END:
+    - eye moves lower and to the right
+    - depth perception is bad
+    - you start to ignore things
+    - [[id:181b024d-3ad9-4ee8-9842-440c0f8ac6eb][Eye fixations]] are longer
+*** Drunkness
+    :PROPERTIES:
+    :ID:       84e28d6d-c7a1-49c1-89c5-2849d1040423
+    :END:
+    - Eyes stare ahead
+    - Eyes don't move
+    - Eye take longer to focus
+*** Glare recovery from bright lights
+    :PROPERTIES:
+    :ID:       b7538abb-2008-4ee1-b8be-834ddf0b65d1
+    :END:
+    - about 
+* Defensive driving
+  :PROPERTIES:
+  :ID:       d8def3a1-deec-498e-a16e-6eaf5d5d6a29
+  :END:
+** How to drive defensively
+   :PROPERTIES:
+   :ID:       be13322e-f1e3-4443-bf53-bcc723969189
+   :END:
+*** Be alert
+    :PROPERTIES:
+    :ID:       86c86781-bbc3-4fde-bd09-36c8cf9d6c8d
+    :END:
+**** Don't be high or whatever
+     :PROPERTIES:
+     :ID:       7341028d-2cdb-4d92-a364-cceef45efd82
+     :END:
+     - You shouldn't be high
+     - it'll make you less alert
+*** Be prepared
+    :PROPERTIES:
+    :ID:       90cae3b8-3110-4440-846a-b4cb0fa47c64
+    :END:
+*** Act in time
+    :PROPERTIES:
+    :ID:       c2dd5bc9-456b-4de8-8c0c-bd34f7bcd472
+    :END:
+**** Judge distance
+     :PROPERTIES:
+     :ID:       46deee3f-c578-4a76-9886-5d02096f746c
+     :END:
+     - Know how much distance is in between you and other stuff
+     - It takes the length of a *football field* to stop at *60mph*
+**** Reaction time- mine is abt 170ms
+     :PROPERTIES:
+     :ID:       947df699-2464-45a8-93b3-47e4526f86e5
+     :END:
+     - driving at 60mph, then you'll take more time
+**** Three second rule
+     :PROPERTIES:
+     :ID:       a87cc5b4-9dee-44ea-bfa3-cb114c1d585e
+     :END:
+     - car in front of you
+*** Be defensive and polite
+    :PROPERTIES:
+    :ID:       40839da9-1e84-4bbe-b758-cf0bd6cb0805
+    :END:
+**** Brake when you should and protect yourself
+     :PROPERTIES:
+     :ID:       870de027-b887-4e8a-a617-5fcc891ac131
+     :END:
+**** Be polite, be nice to other drivers
+     :PROPERTIES:
+     :ID:       21877bb5-bb9d-453d-bb2c-cca19eafc210
+     :END:
+     - be good people
+*** Use high beams during the right times
+    :PROPERTIES:
+    :ID:       da0b11cf-fdaf-4e51-ab0f-07f3437a8299
+    :END:
+**** long country driving
+     :PROPERTIES:
+     :ID:       859760c9-b991-4b02-9e68-8b9f6da41e4c
+     :END:
+     - make sure to turn them off when going over a hill to not blind people 
+**** Inclement weather
+     :PROPERTIES:
+     :ID:       0f0becea-dc11-4cdb-b22a-60a8193206ce
+     :END:
+     - if the weather is too bad, turn them on
+*** Driving in bad weather
+    :PROPERTIES:
+    :ID:       4e04a1af-0ce8-4d58-a14d-4ba2e745df77
+    :END:
+**** Rain
+     :PROPERTIES:
+     :ID:       1fc397c3-b4ad-4080-b179-c0e179a6a8a9
+     :END:
+     :BACKLINKS:
+     [2020-11-17 Tue 09:49] <- [[id:7ac16b0b-50d0-4d4a-a8a5-48a6586be6e8][Factors that influence line of sight]]
+     :END:
+     - Drive slower
+     - Lights on
+     - Increase following distance
+**** Fog
+     :PROPERTIES:
+     :ID:       41677041-5456-4929-bc02-16b84164bed1
+     :END:
+     :BACKLINKS:
+     [2020-11-17 Tue 09:49] <- [[id:7ac16b0b-50d0-4d4a-a8a5-48a6586be6e8][Factors that influence line of sight]]
+     :END:
+     - Turn on low beams
+     - Increase following distance
+     - *DO NOT* turn on the high beams, they'll make it worse
+**** Frost on windows
+     :PROPERTIES:
+     :ID:       9e8d6e33-af2c-47e0-ac9f-db1e67e1a41f
+     :END:
+     :BACKLINKS:
+     [2020-11-17 Tue 09:49] <- [[id:7ac16b0b-50d0-4d4a-a8a5-48a6586be6e8][Factors that influence line of sight]]
+     :END:
+     - Make sure to clear it first
+*** Use low beams in fog
+    :PROPERTIES:
+    :ID:       8572b46a-3442-4ee7-8fda-dc7acad9b0c7
+    :END:
+    - if the fog is bad, use low beams
+** Defensive Driving Smith System: S. I. P. D. E
+   :PROPERTIES:
+   :ID:       d5721fd4-029f-4fab-bb26-3b741069c6a3
+   :END:
+   - S :: [[id:3b480a05-0d3a-4ddc-b7a2-720e1cafccbe][Search]]
+   - I :: Identify
+   - P :: Predict
+   - D :: Decide. Make sure they see you
+   - E :: Execute. Make sure to leave yourself an out when you do, though.
+*** Search
+    :PROPERTIES:
+    :ID:       3b480a05-0d3a-4ddc-b7a2-720e1cafccbe
+    :END:
+    :BACKLINKS:
+    [2020-11-17 Tue 09:40] <- [[id:d5721fd4-029f-4fab-bb26-3b741069c6a3][Defensive Driving Smith System: S. I. P. D. E]]
+    :END:
+**** What to search for
+     :PROPERTIES:
+     :ID:       25d94c1b-b99f-4587-b17a-a87284583972
+     :END:
+     - other vehicles
+     - pedestrians
+     - animals
+     - road things
+     - signs
+     - bad drivers
+**** Factors that influence line of sight
+     :PROPERTIES:
+     :ID:       7ac16b0b-50d0-4d4a-a8a5-48a6586be6e8
+     :END:
+     - time of day
+       - Night: headlights are on
+       - Day: sun glare
+	 - have sunglasses
+     - Road features
+       - Urban
+	 - Buildings, pedestrians, crosswalks
+       - Suburban
+	 - School zones, stupid kids, people stopping
+     - Weather
+       - [[id:1fc397c3-b4ad-4080-b179-c0e179a6a8a9][Rain]]
+       - [[id:41677041-5456-4929-bc02-16b84164bed1][Fog]]
+       - [[id:9e8d6e33-af2c-47e0-ac9f-db1e67e1a41f][Frost on windows]]
+	 - must be cleared!
+**** Look forward 12 seconds
+     :PROPERTIES:
+     :ID:       dc7e5dd3-cdb9-4369-ad3b-ea46f6626284
+     :END:
+     - See forward 12 seconds
+     - Highway would be looking really far ahead
+     - Urban zone would be closer
+     - Adjust for speed (*duh*)
+*** Identify
+    :PROPERTIES:
+    :ID:       7e6246ac-dc9e-419a-9370-3f8337e69cab
+    :END:
+    - identify important things:
+      - road signs
+      - people
+      - things on the road
+      - etc
+*** Predict
+    :PROPERTIES:
+    :ID:       5a9c7ab3-c68f-468d-8834-6c1b81c7ea87
+    :END:
+    - Get the big picture
+    - Figure out what might happen next
+    - Examples:
+      - Red light :: know that the car in front of you might stop
+      - Bad driver :: might crash or something
+*** Decide
+    :PROPERTIES:
+    :ID:       be5102ce-bf7c-472f-8e49-e92d9b0e499d
+    :END:
+    - Decide what to do
+    - Base it off of what you predict will happen
+    - Examples:
+      - Red light :: increase following distance
+      - Bad driver :: increase following distance, try to get away
+      - Fog :: eye beams
+* Bad drivers
+  :PROPERTIES:
+  :ID:       520636ff-6048-43af-94b9-dfb8fe321a64
+  :END:
+** Are assholes
+   :PROPERTIES:
+   :ID:       2b02dd1a-8167-4723-96e2-f310bf4c722e
+   :END:
+*** Are impolite/selfish
+    :PROPERTIES:
+    :ID:       06fb853b-d104-463d-a510-0b72f921d954
+    :END:
+    - cut you off
+** Aren't safe
+   :PROPERTIES:
+   :ID:       81d213a4-fa3d-4217-9b59-cf192b869999
+   :END:
+*** They speed
+    :PROPERTIES:
+    :ID:       a72f4525-6424-4f73-ad08-9825da777bd3
+    :END:
+    - bad people 
+* Risk managements
+  :PROPERTIES:
+  :ID:       b9d17acb-4b25-4dd0-a391-3d52234b4400
+  :END:
+** What is risk
+   :PROPERTIES:
+   :ID:       34052bc8-0a70-4db0-ad3b-3720b5188fc8
+   :END:
+   - Possibility of loss or injury
+     - Can lose your life
+     - Can hurt yourself
+     - Can get lost and hurt your ego
+     - Can lot a lot of money
+   - A dangerous factor or element
+   - A person or thing that is a specified hazard to an insurer
+     - Sadly, pitbulls--your insurance goes up when you have one 
+* DONE Sharing the road project                              :school:project:
+  CLOSED: [2020-12-14 Mon 18:48]
+  :PROPERTIES:
+  :ID:       efc09a31-8556-48c5-a331-15f17dc22eb5
+  :END:
+** DONE make outline etc
+   CLOSED: [2020-12-14 Mon 18:48]
+   :PROPERTIES:
+   :ID:       876cb620-2714-42dd-84bc-eeb38e5658a5
+   :END:
+*** DONE Definition of road sharing
+    CLOSED: [2020-12-14 Mon 18:48]
+    :PROPERTIES:
+    :Effort:   0:30
+    :ID:       6b007e32-113f-4bc0-8dad-eb77d997bdef
+    :END:
+    - Driving safely to let others remain save while on the road
+    - Allows people to be on the road safely
+    - Examples:
+      - Allowing others to pass/stopping for other cars
+      - Stopping for pedestrians
+      - Looking out for children
+*** DONE why road sharing is important
+    CLOSED: [2020-12-14 Mon 18:48]
+    :PROPERTIES:
+    :ID:       daa3fe8b-ad8c-4352-a638-22e06550eee9
+    :END:
+    - It saves lives
+      - 166 pedestrians died from crashes in 2016
+    - Not sharing the road is dangerous for people
+*** DONE When to share the road
+    CLOSED: [2020-12-14 Mon 18:48]
+    :PROPERTIES:
+    :ID:       ff0da5c1-6dcf-46a3-b2e2-8d5af1e9ad46
+    :END:
+    - When there are other people
+      - If you're not the only person on the road, share it
+      - You can't hog the whole road
+*** DONE How to share the road
+    CLOSED: [2020-12-14 Mon 18:48]
+    :PROPERTIES:
+    :ID:       76bcfbcc-44a4-43ae-b652-9506c173ff67
+    :END:
+    - Be considerate
+      - Allow others to pass
+    - Be careful
+      - If in a place with pedestrians, go slow
+      - If someone has to cross the road, then let them cross
+    - Don't hog the road!
+*** DONE When you get in a car crash
+    CLOSED: [2020-12-14 Mon 18:48]
+    :PROPERTIES:
+    :ID:       2d3f64e9-cf29-4fb0-ab94-5b19f0633232
+    :END:
+    1) Immediately stop the vehicle
+       - Don't try to run
+       - If you run, it's a hit and run
+	 - Hit and run is a bigger issue than a regular crash
+    2) *Remain calm*
+       - Don't panic!
+    3) Call 911
+    4) Perform first aid, stop the danger
+       - If the car is on fire, it could explode
+       - Move people away from car
+    5) Warn other motorists
+       - Put hazard lights on
+       - Put flare out, if necessary
+    6) Try to attract attention from other motorists
+** DONE put together powerpoint
+   CLOSED: [2020-12-14 Mon 18:48]
+   :PROPERTIES:
+   :ID:       80cf84fd-5138-4fb0-90b5-b22a07a659de
+   :END:
+* DUI and Point System (driving)
+  :PROPERTIES:
+  :ID:       2b9541ce-0ef7-4b75-85e1-e03dd232efc2
+  :END:
+** DUI (driving)
+   :PROPERTIES:
+   :ID:       76183e91-bf1d-4b8d-8c3d-936cda3743ff
+   :END:
+   :BACKLINKS:
+   [2020-12-14 Mon 21:41] <- [[id:c6ae8802-6483-4733-8bfa-8592c30b83f8][Point values for different violations (driving)]]
+   [2020-12-14 Mon 21:16] <- [[id:683d7d77-7eea-42e9-950b-70377b105807][Implied Consent Law (driving)]]
+   [2020-12-14 Mon 21:14] <- [[id:af55f7d5-6415-461c-a16d-11889b6b17ea][Four ways to lose your driving privilege (driving)]]
+   :END:
+*** Implied Consent Law (driving)
+    :PROPERTIES:
+    :ID:       683d7d77-7eea-42e9-950b-70377b105807
+    :END:
+    - Any person suspected of [[id:76183e91-bf1d-4b8d-8c3d-936cda3743ff][DUI]] must submit to a breath test
+**** Refusing the breath test (driving)
+     :PROPERTIES:
+     :ID:       cc192f62-1641-462c-8ad6-329fbbd8a905
+     :END:
+     - The equivalent of driving with a BAC of 0.10% (which is very high)
+     - *DOES NOT* automatically count as a DUI, but can be found guilty of one
+       - You can be perfectly sober and still get a penalty for refusal
+     - Penalties:
+       - Suspension from 7mo to 1yr
+       - Fine from $300-500
+       - Jail for 30 days
+       - Can still be found guilty of DUI
+*** BAC for being under the influence (driving)
+    :PROPERTIES:
+    :ID:       17151e0e-d0e0-47ff-bb90-0055dd678dda
+    :END:
+    - 0.08% BAC is always under the influence
+    - Goes for any person
+    - You're always legally impaired
+*** Underage Drinking (driving)
+    :PROPERTIES:
+    :ID:       f406d466-8d2d-4cf4-b6f0-428edbe8a0e3
+    :END:
+**** Zero Tolerance Law (driving)
+     :PROPERTIES:
+     :ID:       4184b875-760d-43a0-a82b-c1df7864bbe1
+     :END:
+     - Any amount of alcohol in the blood (>0.01%) for person under 21 counts as a DUI if driving
+***** First Offense DUI for person under 21 penalties (driving)
+      :PROPERTIES:
+      :ID:       00c4a54a-efc1-4ae3-88fc-7a3f9e9be16e
+      :END:
+      - Suspension of 30-90d
+      - Community service of 15-30d
+      - Mandatory participation in the IDRC (intoxicated driver resource center) before you can get your license back
+      - On probation for 1 year after restoration
+      - Conviction remains active on record for 10 years
+**** DUI for under 21 of 0.08 to 0.10% penalties
+     :PROPERTIES:
+     :ID:       a2f2d3f7-eebf-4b13-bff6-36e7d292f314
+     :END:
+**** DUI for under 21 of 0.10% up
+     :PROPERTIES:
+     :ID:       92ee8a4c-1159-415e-9380-fabcbea47e2a
+     :END:
+**** What counts as underage drinking (driving)
+     :PROPERTIES:
+     :ID:       3226b62d-841d-440e-861b-360b047099c8
+     :END:
+     - If you show up at all on the brethalyzer, you are considered to have been underage drinking
+     - At least 0.01%
+*** DUI BAC range (driving)
+    :PROPERTIES:
+    :ID:       e951c73b-38f2-46ef-af41-3c57cb7de0cd
+    :END:
+    - 0.05%-0.08%
+*** Host liability law (driving)
+    :PROPERTIES:
+    :ID:       bd198c3d-e381-420d-8332-9c30900d9c7f
+    :END:
+    - If a person drinks too much in your home and has an accident, you can be involved in a lawsuit
+    - My idea: collect everyone's keys in the beginning (so they don't get stolen off their drunk ass or go driving while drunk) and give them back if they pass the brethalyzer (you'll have to buy one)
+      - This way nobody can go drunk driving lolololololol
+*** Misc Alcohol Offenses/rules (driving)
+    :PROPERTIES:
+    :ID:       7fcc0298-fd77-4030-823b-31b72c7a61ea
+    :END:
+    - Open container :: $200 fine first offense, $250 second offense
+    - Driver is responsible for everyone below 21 :: The driver takes full responsibility for everyone under 21, so if someone is drinking, it's on them.
+    - Driving while suspended for DUI :: Added 1-2yr suspension, $500 fine, 10-90d jail
+*** Identifying a drunk driver (driving)
+    :PROPERTIES:
+    :ID:       734056ce-a276-42da-84a4-de404b205ba8
+    :END:
+    - Weave in their lane
+    - Wander the lanes
+    - Run off the pavement
+    - Stop too quick or slow
+    - Drive too fast or slow
+    - Run through signals
+    - Drive on the wrong side
+*** Preventing drunk driving accidents (driving)
+    :PROPERTIES:
+    :ID:       ef99e8af-4a0d-45fd-9623-0f754a7c0438
+    :END:
+    - Drink responsibly
+    - Have a designated driver
+    - Don't go drive with someone who is under the influence
+    - Be aware of your surroundings
+    - *DON'T DRIVE WHILE DRUNK DUMBASS!*
+*** Teen drinking statistics (driving)
+    :PROPERTIES:
+    :ID:       9468d362-dba3-4eb7-ac4b-83873da897fc
+    :END:
+    - 40% of people who starting drinking at 14 became alcoholic, but only 10% of people who started after they were 20
+    - Alcohol is the most used drug among young people (possibly outdated, juul and vapes tho)
+    - Traffic crashes are the greatest single cause of death for all people from 6-33
+      - 45 percent of traffic fatalities are alcohol-related
+    - 8 young people die every day in alcohol-related crashes
+** Point System (driving)
+   :PROPERTIES:
+   :ID:       84839126-3adc-473a-9758-2549feb5d8a5
+   :END:
+*** Four ways to lose your driving privilege (driving)
+    :PROPERTIES:
+    :ID:       af55f7d5-6415-461c-a16d-11889b6b17ea
+    :END:
+    - Accumulation of points :: Getting too many points on your record.
+    - [[id:76183e91-bf1d-4b8d-8c3d-936cda3743ff][DUI]] :: Getting a DUI means that you are suspended for a certain amount of time
+    - At fault in a fatal accident :: Being at fault in an accident that causes death is always going to result in losing your driving privilege.
+    - Not paying fines/surcharges :: You lose your license if you don't pay surcharges or fines
+*** Losing your driver's license through points (driving)
+    :PROPERTIES:
+    :ID:       4b364ec5-0615-49d6-b16a-0fe55a3fc5d9
+    :END:
+    - Accumulation of 12 points over 2 years
+    - You can fix this by getting [[id:42710269-7d02-418f-b461-2d87876c82fd][point reductions]] 
+*** Point reductions (driving)
+    :PROPERTIES:
+    :ID:       42710269-7d02-418f-b461-2d87876c82fd
+    :END:
+    :BACKLINKS:
+    [2020-12-14 Mon 21:14] <- [[id:4b364ec5-0615-49d6-b16a-0fe55a3fc5d9][Losing your driver's license through points (driving)]]
+    :END:
+    - Driving violation free for one year takes three points off your total
+    - Attending driving school gets you a reduction
+*** Insurance and point system (driving)
+    :PROPERTIES:
+    :ID:       246bb616-31bd-4cbb-b58e-f7673fcf213c
+    :END:
+    - Insurance gets more expensive the more points you have
+    - The more the points, the more they see you as a liability
+*** Violations in a construction/safe corridor zone (driving)
+    :PROPERTIES:
+    :ID:       bde33aed-b147-4992-a4db-5a2a75de2fb3
+    :END:
+    :BACKLINKS:
+    [2020-12-14 Mon 21:39] <- [[id:c6ae8802-6483-4733-8bfa-8592c30b83f8][Point values for different violations (driving)]]
+    :END:
+    - Double the points or fines for violations
+    - DON'T DO IT!
+*** Habitual Offender (driving)
+    :PROPERTIES:
+    :ID:       16af1f8b-d30c-4ea7-b84d-d8b2aac3ffb0
+    :END:
+    - Someone who has had three suspensions in three years
+*** Accident while driving with suspended license penalties (driving)
+    :PROPERTIES:
+    :ID:       918db0d2-bcb5-4c9d-acb9-518dad88e589
+    :END:
+    - More suspension
+    - Fine
+    - Possible jail
+*** After a suspension (driving)
+    :PROPERTIES:
+    :ID:       df8b52bc-4c6b-4fda-9ce4-605e7ff62295
+    :END:
+    - Probationary period of one year
+*** Hardships in NJ (driving)
+    :PROPERTIES:
+    :ID:       574fa87a-36a2-43b6-b8bd-f9e5eb13a84f
+    :END:
+    - They are not granted
+    - Even if you need to drive to go to work, you can't
+    - If your license is suspended, you cannot drive for any reason whatsoever.
+*** Point values for different violations (driving)
+    :PROPERTIES:
+    :ID:       c6ae8802-6483-4733-8bfa-8592c30b83f8
+    :END:
+    - Moving violation :: 2-8pts
+      - Speeding (up to 10mph) :: 2pts
+      - Running a stop sign :: 2pts
+      - Passing a stopped school bus :: 5pts
+      - Driving on public property to avoid traffic control signals/sign penalties :: 2pts
+    - [[id:76183e91-bf1d-4b8d-8c3d-936cda3743ff][DUI (driving)]]
+    - [[id:bde33aed-b147-4992-a4db-5a2a75de2fb3][Values are doubled in safe corridors/construction zones!]]
+*** Misc Fines
+    :PROPERTIES:
+    :ID:       669af5d6-2bc8-4908-bb6c-7a05075fb037
+    :END:
+    - Failure to remove snow and ice
+    - Idling for more than 3 minutes
+    - Violating move over law

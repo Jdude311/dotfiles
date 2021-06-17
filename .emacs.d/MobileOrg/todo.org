@@ -1,0 +1,473 @@
+			#+TITLE: My TODO file
+* TODO all audio for spansih    :school:homework:
+  DEADLINE: <2021-02-05 Fri> ENTERED [2021-02-05 Fri 10:45]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :ID:       65929646-8d55-4aab-a1f4-78026fa21f05
+  :END:
+* TODO finish vhls    :school:homework:
+  DEADLINE: <2021-02-05 Fri> ENTERED [2021-02-05 Fri 10:31]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :ID:       010d7ee7-673a-47f2-8e43-0cb9113237c1
+  :END:
+* math test on sketching polynomials :school:test:
+  DEADLINE: <2021-02-05 Fri> ENTERED: [2021-02-03 Wed 15:03]
+:PROPERTIES:
+:ID:       ba00c287-7ad1-44a8-8f8d-438631240712
+:END:
+* stoich quiz :school:quiz:
+  DEADLINE: <2021-02-05 Fri> ENTERED: [2021-02-03 Wed 15:03]
+:PROPERTIES:
+:ID:       fd8eb8bf-8b1a-403a-97a6-2f000e3112ae
+:END:
+* DONE work on stoich problems for chem                     :school:homework:
+  SCHEDULED: <2021-02-03 Wed 18:30-19:00> DEADLINE: <2021-02-03 Wed> ENTERED [2021-02-03 Wed 15:03]
+  :PROPERTIES:
+  :EFFORT: 0:45
+  :END:
+* ET more sketching handout math                            :school:homework:
+  DEADLINE: <2021-02-04 Thu> SCHEDULED: <2021-02-06 Sat 19:00-19:30>
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :ID:       8f68c493-6810-478e-a10b-e12e863b690d
+  :END:
+* ET finish all vocab for spanish                           :school:homework:
+  SCHEDULED: <2021-02-03 Wed 19:30-20:00> DEADLINE: <2021-02-04 Thu> ENTERED [2021-02-03 Wed 12:25]
+  :PROPERTIES:
+  :Effort:   1:00
+  :ID:       f7798821-8acf-4f0d-a6e5-81f972bdd372
+  :END:
+* ET finish reading chapter 4 and discussion sheet          :school:homework:
+  SCHEDULED: <2021-02-04 Thu 19:50-20:35> DEADLINE: <2021-02-04 Thu>
+  :PROPERTIES:
+  :EFFORT: 0:45
+  :ID:       1d9a8d1d-6d26-4a92-ae35-567ecbabba2b
+  :END:
+  - [ ] 68-76
+  - [ ] 3 min jumping jacks
+  - [ ] 77-83
+  - [ ] 3 min stretch
+  - [ ] Q's 1-3
+  - [ ] 3 min jumping jacks
+  - [ ] Q's 4-6
+  - [ ] 3 min walk
+  - [ ] Q's 7-9
+  - [ ] dog walk
+* TODO finish chapter 5 and discussion sheet                :school:homework:
+  SCHEDULED: <2021-02-04 Thu 20:35-21:20> DEADLINE: <2021-02-04 Thu> ENTERED [2021-02-03 Wed 12:00]
+  :PROPERTIES:
+  :EFFORT: 0:45
+  :ID:       042dff4e-76f5-4348-bca7-18534c9488f4
+  :END:
+  - [ ] 84-92
+  - [ ] 3 min situps
+  - [ ] 93-101
+  - [ ] 3 min stretching
+  - [ ] Q's 1-3
+  - [ ] 3 min situps
+  - [ ] Q's 4-6
+  - [ ] 3 min curls
+  - [ ] Q's 7-9
+  - [ ] poo
+* DONE finish math handout 9-15                             :school:homework:
+  DEADLINE: <2021-02-01 Mon> ENTERED [2021-01-29 Fri 10:38]
+  :PROPERTIES:
+  :EFFORT: 0:45
+  :END:
+* DONE spanish vhls                                        :school:homework:
+  SCHEDULED: <2021-01-28 Thu 21:15-21:45> DEADLINE: <2021-01-28 Thu> ENTERED [2021-01-28 Thu 20:26]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :END:
+* DONE chemistry stoich extra practice until im good at it :school:homework:
+  DEADLINE: <2021-01-28 Thu> ENTERED [2021-01-28 Thu 11:52]
+  :PROPERTIES:
+  :EFFORT: 0:45
+  :END:
+* DONE 1-8 math homework handout                           :school:homework:
+  SCHEDULED: <2021-01-28 Thu 20:30-21:15> DEADLINE: <2021-01-28 Thu> ENTERED [2021-01-28 Thu 10:55]
+  :PROPERTIES:
+  :EFFORT: 0:45
+  :END:
+:LOGBOOK:
+CLOCK: [2021-01-28 Thu 20:56]--[2021-01-28 Thu 21:27] =>  0:31
+:END:
+* DONE vhl homework in vhl                                 :school:homework:
+  DEADLINE: <2021-01-27 Wed> ENTERED [2021-01-27 Wed 12:26]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :ID:       012ffacc-b8b1-4760-ae97-d560dec5cfd6
+  :END:
+:LOGBOOK:
+CLOCK: [2021-01-27 Wed 20:44]--[2021-01-27 Wed 21:14] =>  0:30
+CLOCK: [2021-01-27 Wed 19:33]--[2021-01-27 Wed 19:43] =>  0:10
+:END:
+* DONE stoichiomieieitrie chemistry edpuzzle               :school:homework:
+  SCHEDULED: <2021-01-26 Tue 18:45-19:15> DEADLINE: <2021-01-26 Tue> ENTERED [2021-01-26 Tue 14:15]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :END:
+* DONE primary source document for history                 :school:homework:
+  SCHEDULED: <2021-01-26 Tue 20:15-20:45> DEADLINE: <2021-01-26 Tue> ENTERED [2021-01-26 Tue 11:55]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :END:
+:LOGBOOK:
+CLOCK: [2021-01-27 Wed 19:17]--[2021-01-27 Wed 19:33] =>  0:16
+:END:
+* DONE finish reading OMM chp 3 and do discussion prep sheet :school:homework:
+  SCHEDULED: <2021-01-26 Tue 19:15-20:15> DEADLINE: <2021-01-26 Tue> ENTERED [2021-01-26 Tue 11:38]
+  :PROPERTIES:
+  :EFFORT: 1:00
+  :END:
+:LOGBOOK:
+CLOCK: [2021-01-26 Tue 20:26]--[2021-01-26 Tue 21:26] =>  1:00
+:END:
+* DONE finish cs/n vocabulary worksheet                    :school:homework:
+  DEADLINE: <2021-01-27 Wed> ENTERED [2021-01-26 Tue 08:58]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :END:
+* DONE [#A] finish spanish vhls from today in class listening comprehension :school:homework:
+  DEADLINE: <2021-01-25 Mon> ENTERED [2021-01-25 Mon 13:47]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :END:
+* DONE [#A] finish spanish homework from todays page in onenote :school:homework:
+  DEADLINE: <2021-01-25 Mon> ENTERED [2021-01-25 Mon 13:45]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :END:
+:LOGBOOK:
+CLOCK: [2021-01-25 Mon 20:20]--[2021-01-25 Mon 20:30] =>  0:10
+:END:
+* DONE [#B] history homework in onenote                    :school:homework:
+  DEADLINE: <2021-01-25 Mon> ENTERED [2021-01-25 Mon 11:54]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :END:
+:LOGBOOK:
+CLOCK: [2021-01-25 Mon 18:19]--[2021-01-25 Mon 20:15] =>  1:56
+:END:
+* DONE study for cs/n quiz                                 :school:homework:
+  DEADLINE: <2021-01-24 Sun> ENTERED [2021-01-24 Sun 19:09]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :END:
+* DONE study for chem test                                 :school:homework:
+  DEADLINE: <2021-01-24 Sun> ENTERED [2021-01-24 Sun 19:09]
+  :PROPERTIES:
+  :EFFORT: 0:45
+  :END:
+* DONE finish homework in history hwk fldr                 :school:homework:
+  DEADLINE: <2021-01-24 Sun> ENTERED [2021-01-22 Fri 14:14]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :END:
+* DONE math homework 2021-01-21: finish problem that you wrote "no" for :school:homework:
+  DEADLINE: <2021-01-22 Fri> ENTERED [2021-01-22 Fri 11:04]
+  :PROPERTIES:
+  :EFFORT: 0:05
+  :END:
+* DONE math homework 2021-01-05: txtbk pg 356              :school:homework:
+  DEADLINE: <2021-01-22 Fri> ENTERED [2021-01-22 Fri 11:03]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :END:
+* DONE math homework 2021-01-06: txtbk pg 357              :school:homework:
+  DEADLINE: <2021-01-22 Fri> ENTERED [2021-01-22 Fri 11:01]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :END:
+* DONE math homework 2021-01-08: remainder+factor theorems :school:homework:
+  DEADLINE: <2021-01-22 Fri> ENTERED [2021-01-22 Fri 11:00]
+  :PROPERTIES:
+  :EFFORT: 0:15
+  :END:
+* DONE Math quiz on p's and q's and synth div                  :school:quiz:
+  DEADLINE: <2021-01-26 Tue> ENTERED: [2021-01-22 Fri 10:30]
+* DONE math homework in onenote                            :school:homework:
+  DEADLINE: <2021-01-21 Thu> ENTERED [2021-01-21 Thu 17:34]
+  :PROPERTIES:
+  :EFFORT: 0:45
+  :END:
+:LOGBOOK:
+CLOCK: [2021-01-21 Thu 19:44]--[2021-01-21 Thu 21:00] =>  1:16
+:END:
+* DONE study percent composition                           :school:homework:
+  DEADLINE: <2021-01-21 Thu> ENTERED [2021-01-21 Thu 17:34]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :END:
+:LOGBOOK:
+CLOCK: [2021-01-21 Thu 21:00]--[2021-01-21 Thu 21:30] =>  0:30
+:END:
+* DONE study empirical formulas                            :school:homework:
+  DEADLINE: <2021-01-21 Thu> ENTERED [2021-01-21 Thu 17:33]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :END:
+* DONE finish math homework                                :school:homework:
+  DEADLINE: <2021-01-21 Thu> ENTERED [2021-01-21 Thu 10:59]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :END:
+* DONE finish civ homework from Friday                     :school:homework:
+  DEADLINE: <2021-01-20 Wed> ENTERED [2021-01-19 Tue 17:06]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :END:
+* DONE finish the math homework                            :school:homework:
+  DEADLINE: <2021-01-21 Thu> ENTERED [2021-01-19 Tue 17:03]
+  :PROPERTIES:
+  :EFFORT: 0:45
+  :END:
+* DONE finish cs/n workshet                                :school:homework:
+  DEADLINE: <2021-01-19 Tue> ENTERED [2021-01-19 Tue 10:12]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :END:
+:LOGBOOK:
+CLOCK: [2021-01-19 Tue 17:14]--[2021-01-19 Tue 17:37] =>  0:23
+:END:
+* DONE cs/n homework sheet                                 :school:homework:
+  DEADLINE: <2021-01-14 Thu> ENTERED [2021-01-14 Thu 17:30]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :ID:       c1336674-f1b5-4804-8728-a45566493dea
+  :END:
+* DONE spanish vhls                                        :school:homework:
+  DEADLINE: <2021-01-14 Thu> ENTERED [2021-01-14 Thu 09:10]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :ID:       2d309e94-8585-4675-85b1-49246974f919
+  :END:
+* DONE cs/n worksheets in onenote                          :school:homework:
+  DEADLINE: <2021-01-13 Wed> ENTERED [2021-01-13 Wed 17:58]
+  :PROPERTIES:
+  :EFFORT: 0:45
+  :END:
+:LOGBOOK:
+CLOCK: [2021-01-13 Wed 19:31]--[2021-01-13 Wed 20:31] =>  1:00
+:END:
+* DONE spanish vhl links                                   :school:homework:
+  DEADLINE: <2021-01-13 Wed> ENTERED [2021-01-13 Wed 17:57]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :END:
+:LOGBOOK:
+CLOCK: [2021-01-13 Wed 18:08]--[2021-01-13 Wed 19:23] =>  1:15
+:END:
+* DONE study for math test tmrw                            :school:homework:
+  DEADLINE: <2021-01-13 Wed> ENTERED [2021-01-13 Wed 17:56]
+  :PROPERTIES:
+  :EFFORT: 0:45
+  :END:
+* DONE chemistry percents worksheet                        :school:homework:
+  DEADLINE: <2021-01-14 Thu> ENTERED [2021-01-13 Wed 17:55]
+  :PROPERTIES:
+  :EFFORT: 0:45
+  :END:
+* DONE percent comp chem practice                          :school:homework:
+  DEADLINE: <2021-01-14 Thu> ENTERED [2021-01-13 Wed 14:16]
+  :PROPERTIES:
+  :EFFORT: 0:45
+  :END:
+* DONE finish the edpuzzle for chemistry                   :school:homework:
+  DEADLINE: <2021-01-13 Wed> ENTERED [2021-01-13 Wed 14:16]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :ID:       0e7ff2a6-d29e-4b25-b561-3f256c670b9f
+  :END:
+* DONE finish omm chapter 1 reading, notes, and questions to turnitin :school:homework:
+  DEADLINE: <2021-01-12 Tue> ENTERED [2021-01-12 Tue 10:42]
+  :PROPERTIES:
+  :EFFORT: 1:00
+  :END:
+* DONE math homework                                       :school:homework:
+  DEADLINE: <2021-01-10 Sun> ENTERED [2021-01-09 Sat 19:28]
+  :PROPERTIES:
+  :EFFORT: 0:45
+  :END:
+* POSTPONED put together deivers ed notes from onenote (state test review pages) :school:homework:
+:PROPERTIES:
+:ID:       fb0b425d-c97a-4977-9bcc-41084bc8c388
+:END:
+  ENTERED [2021-01-07 Thu 14:10]
+  :PROPERTIES:
+  :EFFORT: 0:45
+  :END:
+* DONE tonight's VHLs                                      :school:homework:
+  DEADLINE: <2021-01-07 Thu> ENTERED [2021-01-07 Thu 09:08]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :END:
+* DONE yesterday's VHLs                                    :school:homework:
+  DEADLINE: <2021-01-07 Thu> ENTERED [2021-01-07 Thu 09:08]
+  :PROPERTIES:
+  :EFFORT: 0:20
+  :END:
+* DONE Math homework page 356 txtbook                      :school:homework:
+  SCHEDULED: <2021-01-06 Wed 19:30-20:15> DEADLINE: <2021-01-06 Wed> ENTERED [2021-01-06 Wed 13:53]
+  :PROPERTIES:
+  :EFFORT: 0:45
+  :END:
+  :LOGBOOK:
+  CLOCK: [2021-01-06 Wed 19:48]--[2021-01-06 Wed 20:26] =>  0:38
+  :END:
+  Problem numbers 17 20 22 23 25 26 30 35-37
+* DONE English nearpod assignment                          :school:homework:
+  DEADLINE: <2021-01-08 Fri> ENTERED [2021-01-06 Wed 08:09]
+  :PROPERTIES:
+  :Effort:   1:00
+  :END:
+  :LOGBOOK:
+  CLOCK: [2021-01-06 Wed 18:34]--[2021-01-06 Wed 19:02] =>  0:28
+  CLOCK: [2021-01-06 Wed 08:10]--[2021-01-06 Wed 08:41] =>  0:31
+  CLOCK: [2021-01-06 Wed 08:10]--[2021-01-06 Wed 08:10] =>  0:00
+  CLOCK: [2021-01-06 Wed 08:10]--[2021-01-06 Wed 08:10] =>  0:00
+  :END:
+[[https://share.nearpod.com/YXLQDszaMcb][Link]]
+* DONE email dr. chu about other credit things                :email:school:
+  DEADLINE: <2021-01-05 Tue>  ENTERED: [2021-01-05 Tue 15:02]
+  :LOGBOOK:
+  CLOCK: [2021-01-06 Wed 08:10]--[2021-01-06 Wed 08:10] =>  0:00
+  :END:
+* POSTPONED driver's ed test                                   :school:test:
+:PROPERTIES:
+:ID:       c37bb8a5-37d6-4d3a-8642-20eae910d27c
+:END:
+* DONE cs/n ip address shit worksheet                      :school:homework:
+  DEADLINE: <2021-01-06 Wed> ENTERED [2021-01-05 Tue 09:10]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :END:
+  :LOGBOOK:
+  CLOCK: [2021-01-06 Wed 08:10]--[2021-01-06 Wed 08:10] =>  0:00
+  CLOCK: [2021-01-06 Wed 08:10]--[2021-01-06 Wed 08:10] =>  0:00
+  :END:
+* DONE finish the omm discussion sheet                      :school:homework:
+  SCHEDULED: <2021-01-04 Mon 18:00-18:30> DEADLINE: <2021-01-04 Mon> ENTERED [2021-01-04 Mon 10:30]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :END:
+  :LOGBOOK:
+  CLOCK: [2021-01-04 Mon 18:01]--[2021-01-04 Mon 18:37] =>  0:36
+  CLOCK: [2021-01-04 Mon 10:37]--[2021-01-04 Mon 10:37] =>  0:00
+  CLOCK: [2021-01-04 Mon 10:36]--[2021-01-04 Mon 10:37] =>  0:01
+  :END:
+  - Link: [[file:~/Documents/School/Apocalypse-2021_School_Year/English/Of Mice and Men Pre.odt][Document]]
+* DONE peepeepoopoo check                                       :school:quiz:
+  DEADLINE: <2021-01-04 Mon> ENTERED: [2021-01-04 Mon 09:57]
+* DONE osi layers and stuff                                     :school:quiz:
+  CLOSED: [2020-12-22 Tue 18:15] DEADLINE: <2020-12-22 Tue> ENTERED: [2020-12-20 Sun 17:58]
+* DONE study osi layers and stuff for csn                   :school:homework:
+  CLOSED: [2020-12-21 Mon 19:49] DEADLINE: <2020-12-21 Mon> ENTERED [2020-12-20 Sun 17:56]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :END:
+  :LOGBOOK:
+  CLOCK: [2020-12-21 Mon 19:09]--[2020-12-21 Mon 19:11] =>  0:02
+  :END:
+* DONE study for history quiz                               :school:homework:
+  CLOSED: [2020-12-21 Mon 21:21] DEADLINE: <2020-12-21 Mon> ENTERED [2020-12-19 Sat 17:14]
+  :PROPERTIES:
+  :EFFORT: 0:35
+  :END:
+  :LOGBOOK:
+  CLOCK: [2020-12-21 Mon 19:11]--[2020-12-21 Mon 19:49] =>  0:38
+  :END:
+* DONE history quiz                                             :school:quiz:
+  CLOSED: [2021-01-03 Sun 18:59] DEADLINE: <2020-12-22 Tue> ENTERED: [2020-12-19 Sat 17:14]
+* DONE english flipgrid                                     :school:homework:
+  CLOSED: [2020-12-21 Mon 17:42] DEADLINE: <2020-12-21 Mon> ENTERED [2020-12-16 Wed 17:07]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :END:
+  - Doesn't need to have direct quotes, just has to reference things from the texts
+  - Script:
+    - Quote: =A successful man is one who can lay a firm foundation with the bricks that others throw at him.= -David Brinkley
+    - Main idea: Each text supports this quote by showing how adversity can lead to success.
+    - Chosen texts: Whatever It Takes and Shark Attack
+    - Whatever it takes notes
+      - The song is about how sacrificing led to being more successful
+      - The bricks don't have to come from other people, they can come from yourself as well
+      - "Whip, whip" and "break me down and build me up" 
+    - Shark Attack
+      - This is about a girl who lost her arm in a shark attack and experienced post traumatic growth
+      - The brick was thrown by the shark in this instance
+      - It showed how she became happier after the attack
+      - The text talks about how the traumatic experience leads to her becoming a happier, more successful person overall
+* DONE polynomials quiz                                         :school:quiz:
+  CLOSED: [2021-01-03 Sun 18:59] DEADLINE: <2020-12-23 Wed>
+* TODO [#A] set up national science bowl [4/6]           :project:nsb:clubs:
+:PROPERTIES:
+:ID:       97a66c8d-be57-4fe7-89f6-1a0778d0a70a
+:END:
+  ENTERED: [2020-12-01 Tue 15:27]
+** DONE schedule meeting with Drywa to discuss setup and stuff
+   CLOSED: [2020-12-12 Sat 22:49] DEADLINE: <2020-12-10 Thu>
+** DONE talk to drywa to figure out times to practice
+   DEADLINE: <2021-01-04 Mon>
+** STARTED register team
+:PROPERTIES:
+:ID:       b6ccfe45-1b59-44a5-a2e5-1bfb1796c9a6
+:END:
+** DONE find interested people, get their strengths
+   CLOSED: [2020-12-17 Thu 16:19]
+   - People so far:
+     | Person | Strength                      | Interest level (out of 10) | Strength level (out of 10) | Possible Role |
+     |--------+-------------------------------+----------------------------+----------------------------+---------------|
+     | Me     | Tech, general science         | 10                         |                          8 | Sci triv      |
+     | Vinnie | Tech, electronics, HS science | ?                          |                          5 | Tech          |
+     | Louis  | Maybe HS Science              | 5                          |                          2 | Mentor/Coach? |
+     | Joel   | Science?                      | 7                          |                          8 | ?             |
+     | Ori    | Math                          | 7                          |                         10 | Math, Captain |
+     | Drew   | Math                          | ?                          |                          7 | Math Backup   |
+     | Saule  | Marine Biology                | n/a                        |                          ? | Biology?      |
+     | Audrey | Math? Med?                    | n/a                        |                          ? | ?             |
+** DONE ask drywa to find someone in earth science who's interested
+   CLOSED: [2020-12-01 Tue 16:24]
+** TODO put together final team
+:PROPERTIES:
+:ID:       aa536463-d611-4717-b1b7-01ec4929dd22
+:END:
+
+* TODO look up the van allen belts                          :clubs:quizbowl:
+:PROPERTIES:
+:ID:       c4e5ccd0-a61c-4bcb-bf9b-5b087be13e37
+:END:
+  ENTERED [2020-12-03 Thu 15:07]
+
+* DONE take notes on network media stuff cs/n               :school:homework:
+  CLOSED: [2021-01-03 Sun 18:46] DEADLINE: <2020-12-03 Thu> ENTERED [2020-12-03 Thu 13:42]
+  :PROPERTIES:
+  :EFFORT: 0:30
+  :END:
+* SOMEDAY write out spanish vocab d2l2                      :school:homework:
+  ENTERED [2020-11-19 Thu 08:56]
+  :PROPERTIES:
+  :EFFORT: 0:45
+  :END:
+* SOMEDAY study the states                                  :school:homework:
+  :PROPERTIES:
+  :Effort:   0:30
+  :END:
+* SOMEDAY finish arch linux server                                 :personal:
+  :PROPERTIES:
+  :ID:       019e7c50-b767-4393-8b94-67ebcd3c3e15
+  :END:
+  :BACKLINKS:
+  [2020-12-06 Sun 18:13] <- [[id:80e18ae4-c8fd-4d5b-b28a-04b4d7a78194][Daily log]]
+  [2020-12-06 Sun 18:13] <- [[id:80e18ae4-c8fd-4d5b-b28a-04b4d7a78194][Daily log]]
+  :END:
+  - [X] Boot to arch linux
+  - [ ] Install grub
+  - [ ] configure SSH
+  - [ ] install minecraft server bits
+    - [ ] make a launch script
+    - [ ] start launch script on startup with cron
+  - [ ] setup port forwarding
+    - [ ] whitelist IPs
+    - [ ] use router setup page [[http://10.0.0.1]], U: admin, P: Fishb1er
